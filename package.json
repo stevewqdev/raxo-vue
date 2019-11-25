@@ -1,0 +1,71 @@
+{
+  "name": "Raxo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "gsap": "^2.1.3",
+    "jquery": "^3.4.1",
+    "jquery-scrollify": "^1.0.20",
+    "lazysizes": "^5.1.2",
+    "popmotion": "^8.7.0",
+    "register-service-worker": "^1.6.2",
+    "smooth-scrollbar": "^8.4.1",
+    "three": "^0.108.0",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-router": "^3.0.3",
+    "vue-smooth-scrollbar": "^0.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "compression-webpack-plugin": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "glob-all": "^3.1.0",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "imagemin-webp-webpack-plugin": "^3.2.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "preload-webpack-plugin": "^3.0.0-beta.4",
+    "prettier": "^1.18.2",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

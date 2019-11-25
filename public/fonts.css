@@ -1,0 +1,81 @@
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'DMarkPro';
+    src: url('fonts/DSLCLUMarkPro.eot')
+    src: url('fonts/DSLCLUMarkPro.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DSLCLUMarkPro.woff') format('woff'),
+        url('fonts/DSLCLUMarkPro.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro-Black.eot');
+    src: url('fonts/MarkPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro-Black.woff') format('woff'),
+        url('fonts/MarkPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro.eot');
+    src: url('fonts/MarkPro.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro.woff2') format('woff2'),
+        url('fonts/MarkPro.woff') format('woff'),
+        url('fonts/MarkPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro-Bold.eot');
+    src: url('fonts/MarkPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro-Bold.woff') format('woff'),
+        url('fonts/MarkPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro-Book';
+    src: url('fonts/MarkPro-Book.eot');
+    src: url('fonts/MarkPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro-Book.woff') format('woff'),
+        url('fonts/MarkPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro_1';
+    src: url('fonts/MarkPro_1.eot');
+    src: url('fonts/MarkPro_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro_1.woff') format('woff'),
+        url('fonts/MarkPro_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro-BoldItalic.eot');
+    src: url('fonts/MarkPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro-BoldItalic.woff') format('woff'),
+        url('fonts/MarkPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-display: swap; /* or block, swap, fallback, optional */
+    font-family: 'MarkPro';
+    src: url('fonts/MarkPro-BlackItalic.eot');
+    src: url('fonts/MarkPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MarkPro-BlackItalic.woff') format('woff'),
+        url('fonts/MarkPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
