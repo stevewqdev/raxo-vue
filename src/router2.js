@@ -1,20 +1,12 @@
 import Vue from "vue";
 import Router from "vue-router";
-//import Gallery from "./views/Gallery.vue";
-//import OldWork from "./views/OldWork.vue";
-//import Contact from "./views/Contact.vue";
-//import Home from "./views/Home.vue";
-//import Team from "./views/Team.vue";
-//import About from "./views/About.vue";
-//import NotFound from "./views/NotFound.vue";
-
-const Home = () => import(/* webpackChunkName: "home" */ './views/Home.vue');
-const Gallery = () => import(/* webpackChunkName: "gallery" */ './views/Gallery.vue');
-const OldWork = () => import(/* webpackChunkName: "oldwork" */ './views/OldWork.vue');
-const Team = () => import(/* webpackChunkName: "team" */ './views/Team.vue');
-const About = () => import(/* webpackChunkName: "about" */ './views/About.vue');
-const NotFound = () => import(/* webpackChunkName: "notfound" */ './views/NotFound.vue');
-const Contact = () => import(/* webpackChunkName: "contact" */ './views/Contact.vue');
+import Gallery from "./views/Gallery.vue";
+import OldWork from "./views/OldWork.vue";
+import Contact from "./views/Contact.vue";
+import Home from "./views/Home.vue";
+import Team from "./views/Team.vue";
+import About from "./views/About.vue";
+import NotFound from "./views/NotFound.vue";
 
 //Import Projects
 import CreativeWork from "./views/Projects.vue";
@@ -31,38 +23,38 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: lazyLoad('Home')
     },
     {
       path: "/work",
       name: "old-work",
-      component: OldWork,
+      component: lazyLoad('OldWork'),
       meta: {
-        title: "Raxo | Our Projects"
+        title: "Raxo | Our Projects",
       }
     },
     {
       path: "/work2",
       name: "work",
-      component: Gallery,
+      component: lazyLoad('Gallery') ,
       meta: {
-        title: "Raxo | Our Projects"
+        title: "Raxo | Our Projects",
       }
     },
     {
       path: "/contact",
       name: "contact",
-      component: Contact
+      component: lazyLoad('Contact') 
     },
     {
       path: "/team",
       name: "team",
-      component: Team
+      component: lazyLoad('Team')  
     },
     {
       path: "/about",
       name: "about",
-      component: About
+      component: lazyLoad('About')  
     },
     // ================= Projects Routes =============== //
     {

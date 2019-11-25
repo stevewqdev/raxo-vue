@@ -19,7 +19,8 @@ import Header from "@/components/header.vue";
 // THIS LOADER BELOW ITS NOT BEING USED //
 import Loader from "@/components/loader/loader";
 // THIS LOADER ABOVE ITS NOT BEING USED //
-import NewLoader from "@/components/loader/newLoader";
+//import NewLoader from "@/components/loader/newLoader";
+const NewLoader = () => import("@/components/loader/newLoader");
 //import SweepCourtain from "@/components/loader/sweepCourtain";
 const SweepCourtain = () => import("@/components/loader/sweepCourtain");
 

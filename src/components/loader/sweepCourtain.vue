@@ -36,7 +36,7 @@ export default {
             setTimeout(function(){
                 document.querySelector('.menu__icon').style.opacity = '1';
             }, 1500);
-        }, 1);
+        }, 0.1);
 
     },
   },
