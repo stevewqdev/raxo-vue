@@ -1,21 +1,28 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Gallery from "./views/Gallery.vue";
-import OldWork from "./views/OldWork.vue";
-import Contact from "./views/Contact.vue";
-import Home from "./views/Home.vue";
-import Team from "./views/Team.vue";
-import About from "./views/About.vue";
-import NotFound from "./views/NotFound.vue";
-
+// import Gallery from "./views/Gallery.vue";
+// import OldWork from "./views/OldWork.vue";
+// import Contact from "./views/Contact.vue";
+// import Home from "./views/Home.vue";
+// import Team from "./views/Team.vue";
+// import About from "./views/About.vue";
+// import NotFound from "./views/NotFound.vue";
 //Import Projects
-import CreativeWork from "./views/Projects.vue";
+//import CreativeWork from "./views/Projects.vue";
+
+const Home = () => import(/* webpackChunkName: "home" */ "./views/Home.vue");
+const Gallery = () => import( /* webpackChunkName: "gallery" */ "./views/Gallery.vue");
+//const OldWork = () => import( /* webpackChunkName: "oldwork" */ "./views/OldWork.vue");
+const Team = () => import( /* webpackChunkName: "team" */ "./views/Team.vue");
+const About = () => import( /* webpackChunkName: "about" */ "./views/About.vue");
+const NotFound = () => import( /* webpackChunkName: "notfound" */ "./views/NotFound.vue");
+const Contact = () => import( /* webpackChunkName: "contact" */ "./views/Contact.vue");
+const CreativeWork = () => import( /* webpackChunkName: "creative" */ "./views/Projects.vue");
+
 Vue.use(Router);
-
-function lazyLoad(view){
-  return() => import(`@/views/${view}.vue`)
+function lazyLoad(view) {
+  return () => import(`@/views/${view}.vue`);
 }
-
 export default new Router({
   base: process.env.BASE_URL,
   routes: [
@@ -23,38 +30,38 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: lazyLoad('Home')
+      component: lazyLoad("Home")
     },
+    // {
+    //   path: "/work-old",
+    //   name: "old-work",
+    //   component: lazyLoad("OldWork"),
+    //   meta: {
+    //     title: "Raxo | Our Projects"
+    //   }
+    // },
     {
       path: "/work",
-      name: "old-work",
-      component: lazyLoad('OldWork'),
-      meta: {
-        title: "Raxo | Our Projects",
-      }
-    },
-    {
-      path: "/work2",
       name: "work",
-      component: lazyLoad('Gallery') ,
+      component: lazyLoad("Gallery"),
       meta: {
-        title: "Raxo | Our Projects",
+        title: "Raxo | Our Projects"
       }
     },
     {
       path: "/contact",
       name: "contact",
-      component: lazyLoad('Contact') 
+      component: lazyLoad("Contact")
     },
     {
       path: "/team",
       name: "team",
-      component: lazyLoad('Team')  
+      component: lazyLoad("Team")
     },
     {
       path: "/about",
       name: "about",
-      component: lazyLoad('About')  
+      component: lazyLoad("About")
     },
     // ================= Projects Routes =============== //
     {

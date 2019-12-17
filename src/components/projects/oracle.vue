@@ -8,14 +8,14 @@
     <div class="center-block">
       <h1 class="home-page-8-title light">
         <center>
-          <img :data-src="require('@/assets/projects/img/ora-logo.png')" style="max-width:500px; width:60%;')" class="img-responsive lazyload" alt="">
+          <img :src="require('@/assets/projects/img/ora-logo.png')" style="max-width:500px; width:60%;')" class="img-responsive lazyload" alt="">
         </center>
       </h1>
       <p class="banner-slogon-text">Design. Strategy. Web Development.</p>
     </div>
   </div>
 </div>
-<section class="parallax-window oracle-fondo1 lazyload" data-parallax="scroll" data-position="center center" data-image-:data-src="require('@/assets/projects/img/8-page-1.png" >
+<section class="parallax-window oracle-fondo1 lazyload" data-parallax="scroll" data-position="center center" data-image-:src="require('@/assets/projects/img/8-page-1.png" >
   <div class="center-container">
     <div class="center-block">
       <h1 class="paralax-2">Tech</h1>
@@ -63,7 +63,7 @@
       <div class="col-md-1">
         <div class="circle-red hidden-xs hidden-sm"></div>
       </div>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10" style = "margin-bottom:100px;"> <img :data-src="require('@/assets/projects/img/8-page-lcd.png')"  class = "lazyload img-responsive " style = "margin:auto;display:block"> </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10" style = "margin-bottom:100px;"> <img :src="require('@/assets/projects/img/8-page-lcd.png')"  class = "lazyload img-responsive " style = "margin:auto;display:block"> </div>
       <div class="col-md-1">
         <div class="circle-red-1 circle-red hidden-xs hidden-sm"></div>
       </div>
@@ -73,7 +73,7 @@
 <section class = "new-section-8-2 oracle-discover">
   <div class="new-cont-8-1 container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/8-page-3.png')" class = "img-responsive lazyload" width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/8-page-3.png')" class = "img-responsive lazyload" width="100%" /> </div>
       <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-left" data-aos-duration="2000">
         <h4 class = "head-8">Discover the cloud hero inSIDE you</h4>
         <h5 class = "paragraph-8">RAXO created a website for Oracle that<br>
@@ -85,7 +85,7 @@
   </div>
   <div class="new-section-8-3 container-fluid">
     <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/8-page-4.png')"
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/8-page-4.png')"
  class = "img-responsive lazyload" width="100%" /> </div>
       <div class="col-md-2" data-aos="fade-left" data-aos-duration="2000">
         <div class="circle-red-3 hidden-xs hidden-sm"></div>
@@ -103,18 +103,18 @@
       <div class="col-md-2" data-aos="fade-right" data-aos-duration="2000">
         <div class="circle-red-3 hidden-xs hidden-sm"></div>
       </div>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/8-page-5.png')" class ="img-responsive lazyload" width="100%" /> </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/8-page-5.png')" class ="img-responsive lazyload" width="100%" /> </div>
     </div>
   </div>
   <div class="new-section-8-3 container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/8-page-lcd-2.png')"
+      <div class="col-xs-12 col-sm-12 col-md-12" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/8-page-lcd-2.png')"
  class = "img-responsive lazyload" width="100%" style = "margin-bottom:100px;"/> </div>
     </div>
   </div>
 </section>
-<section class= "new-section-8-4 parallax-window"   data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/8-page-6.png"> </section>
-<section class= "new-section-8-5 parallax-window hidden-sm hidden-xs" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/8-page-7.png" style="display:none"> </section>
+<section class= "new-section-8-4 parallax-window"   data-parallax="scroll" data-image-:src="require('@/assets/projects/img/8-page-6.png"> </section>
+<section class= "new-section-8-5 parallax-window hidden-sm hidden-xs" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/8-page-7.png" style="display:none"> </section>
 <section class= "new-section-8-6 oracle-cloud">
   <div class="container" style="padding-top: 90px;">
     <div class="row">
@@ -122,7 +122,7 @@
         <h1 class = "head-8-1">Cloud Hero <br>
           <p style="text-align:left;" class = "text-red">CAMPAIGN MAILER</p>
         </h1>
-        <img :data-src="require('@/assets/projects/img/8-page-8.png')"
+        <img :src="require('@/assets/projects/img/8-page-8.png')"
          class = "img-responsive lazyload" width="100%"/> </div>
     </div>
   </div>
@@ -131,16 +131,16 @@
   <div class="row">
     <div class="col">
       <ul class="custom-imgs-list">
-        <li><img :data-src="require('@/assets/projects/img/8-page-box-1.png')" class="img-responsive lazyload" width="100%"/></li>
-        <li><img :data-src="require('@/assets/projects/img/8-page-box-2.png')" class="img-responsive lazyload" width="100%"/></li>
-        <li><img :data-src="require('@/assets/projects/img/8-page-box-3.png')" class="img-responsive lazyload" width="100%"/></li>
+        <li><img :src="require('@/assets/projects/img/8-page-box-1.png')" class="img-responsive lazyload" width="100%"/></li>
+        <li><img :src="require('@/assets/projects/img/8-page-box-2.png')" class="img-responsive lazyload" width="100%"/></li>
+        <li><img :src="require('@/assets/projects/img/8-page-box-3.png')" class="img-responsive lazyload" width="100%"/></li>
       </ul>
     </div>
   </div>
 </section>
-<section class= "new-section-8-8"> <img :data-src="require('@/assets/projects/img/8-page-9.jpg')"
+<section class= "new-section-8-8"> <img :src="require('@/assets/projects/img/8-page-9.jpg')"
  class = "img-responsive lazyload" width="100%"/> </section>
-<Footer next="bbc-entertainment-design-animation-tv" ></Footer>	
+<Footer prev="base-develops-and-manages" next="the-department-design-web-development" ></Footer>	
 	</div>
 </template>
 

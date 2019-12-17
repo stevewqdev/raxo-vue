@@ -46,7 +46,7 @@
     <div class = "row">
       <div class = "col-xs-12" data-aos="fade-up" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/14-page-3.png')"  class="lazyload img-responsive" />
+          <img :src="require('@/assets/projects/img/14-page-3.png')"  class="lazyload img-responsive" />
         </center>
       </div>
     </div>
@@ -58,7 +58,7 @@
     <div class ="row">
       <div class = "col-xs-12 " data-aos="fade-up" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/global1.png')"  class="lazyload img-responsive" />
+          <img :src="require('@/assets/projects/img/global1.png')"  class="lazyload img-responsive" />
         </center>
       </div>
     </div>
@@ -67,7 +67,7 @@
 <section class = "new-section-14-4 global-print" style="padding:150px 0;">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 hidden-xs hidden-sm"  data-aos="fade-out"> <img :data-src="require('@/assets/projects/img/line-bar1.png')" class="lazyload" /> </div>
+      <div class="col-md-3 hidden-xs hidden-sm"  data-aos="fade-out"> <img :src="require('@/assets/projects/img/line-bar1.png')" class="lazyload" /> </div>
         <div class="new-col-14-1 col-xs-12 col-sm-6 hidden-md hidden-lg">
         <h1>Print<br> News</h1>
       </div>
@@ -92,7 +92,7 @@
     <br>
     <br>
     <div class="row">
-      <div class="col-xs-12" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/14-page-15.png')" class = "lazyload img-responsive" /> </div>
+      <div class="col-xs-12" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/14-page-15.png')" class = "lazyload img-responsive" /> </div>
     </div>
     <br>
     <br>
@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3" data-aos="fade-out"> <img :data-src="require('@/assets/projects/img/line-bar1.png')" class = "lazyload line"/> </div>
+      <div class="col-md-3" data-aos="fade-out"> <img :src="require('@/assets/projects/img/line-bar1.png')" class = "lazyload line"/> </div>
       <div class="new-col-1 col-md-3" data-aos="fade-out"> </div>
     </div>
   </div>
@@ -130,7 +130,7 @@
 <div class= "col-xs-12">
       <h1>Annual Report</h1>
     </div>
-    <div class="col-xs-12" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/global2.png')"  class="lazyload img-responsive" width="100%" /> </div>
+    <div class="col-xs-12" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/global2.png')"  class="lazyload img-responsive" width="100%" /> </div>
   </div>
   </div>
 </section>   
@@ -143,8 +143,8 @@
     <p class = "para">RAXO put together data from local female<br> journalists and created a clean design to show<br> all of the data and information in the report.</p>
     <div class = "new-14-circle-1 hidden-xs hidden-sm" data-aos="slide-right" data-aos-duration="2000"></div>
   </div>
-  <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :data-src="require('@/assets/projects/img/14-page-8.png')"  class = "lazyload head-bar img-responsive " /> </div>
-  <div class="col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%;" :data-src="require('@/assets/projects/img/14-page-9.png')" class = "lazyload head-bar img-responsive  "  /> </div>
+  <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :src="require('@/assets/projects/img/14-page-8.png')"  class = "lazyload head-bar img-responsive " /> </div>
+  <div class="col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%;" :src="require('@/assets/projects/img/14-page-9.png')" class = "lazyload head-bar img-responsive  "  /> </div>
   <div class="big-circle col-md-3 hidden-xs hidden-sm">
     <div class = "new-14-circle-2" data-aos="slide-left" data-aos-duration="2000"></div>
   </div>
@@ -153,15 +153,15 @@
     <p class = "para">RAXO’s design for Global Press won the<br> 2016/2017 Vision Award from LACP for<br> design and impact. </p>
     <div class = "new-14-circle-1 hidden-xs hidden-sm"  data-aos="slide-right" data-aos-duration="2000"></div>
   </div>
-  <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;margin-bottom: 55px;" :data-src="require('@/assets/projects/img/14-page-10.png')" class = "lazyload head-bar img-responsive  " /> </div>
+  <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;margin-bottom: 55px;" :src="require('@/assets/projects/img/14-page-10.png')" class = "lazyload head-bar img-responsive  " /> </div>
 </div>
 </section>
 <div class="clearfix" style="background: #000;"></div>
-<section class="parallax-window global-fondo1" data-parallax="scroll" style="width: 100%;" data-image-:data-src="require('@/assets/projects/img/14-page-11.jpg"> </section>
+<section class="parallax-window global-fondo1" data-parallax="scroll" style="width: 100%;" data-image-:src="require('@/assets/projects/img/14-page-11.jpg"> </section>
 <section class="new-section-14-6">
   <div class="container">
     <div class="row">
-      <div class="col-12"> <img data-aos="flip-up" style="width: 100%;" :data-src="require('@/assets/projects/img/14-page-13.png')" class = " lazyload img-responsive"/> </div>
+      <div class="col-12"> <img data-aos="flip-up" style="width: 100%;" :src="require('@/assets/projects/img/14-page-13.png')" class = " lazyload img-responsive"/> </div>
     </div>
   </div>
 </section>

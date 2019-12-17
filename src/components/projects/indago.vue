@@ -7,7 +7,7 @@
 	<div class="center-container">
 		<div class="center-block">
 			<h1 class="home-page-title light">
-			<img data-aos="fade-in" data-aos-duration="2000" style="max-width:278px; width:60%;" class="lazyload" :data-src="require('@/assets/projects/img/22-page-logo.png')">
+			<img data-aos="fade-in" data-aos-duration="2000" style="max-width:278px; width:60%;" class="lazyload" :src="require('@/assets/projects/img/22-page-logo.png')">
 			</h1>
 			<p class="banner-slogon-text" style = "color:#000 !important">Design. Animation.</p>
 		</div>
@@ -15,7 +15,7 @@
 </div>
 
 <section>
-    <img :data-src="require('@/assets/projects/img/22-page-1.png')" width = "100%" class = "img-responsive lazyload"/>
+    <img :src="require('@/assets/projects/img/22-page-1.png')" width = "100%" class = "img-responsive lazyload"/>
 </section>
 
 
@@ -55,7 +55,7 @@
    <div class="container">
       <h1>InformativePup</h1>
    </div>
-    <img class="img-responsive center-block lazyload" :data-src="require('@/assets/projects/img/puppies-bg.png')"/> 
+    <img class="img-responsive center-block lazyload" :src="require('@/assets/projects/img/puppies-bg.png')"/> 
 </section>
 <section class = "new-section-22-2">
 <div class="center-container">
@@ -84,31 +84,31 @@
     <div class="container-fluid">
       <div class="row">
         <div class="new-col-12-1 img-col col-md-6">
-          <img :data-src="require('@/assets/projects/img/22-page-4.jpg')" width = "100%" class = "img-responsive lazyload"/>
+          <img :src="require('@/assets/projects/img/22-page-4.jpg')" width = "100%" class = "img-responsive lazyload"/>
         </div>
         <div class="new-col-12-1-1 img-col col-md-6">
-          <img :data-src="require('@/assets/projects/img/22-page-5.jpg')" width = "100%" class = "img-responsive lazyload"/>
+          <img :src="require('@/assets/projects/img/22-page-5.jpg')" width = "100%" class = "img-responsive lazyload"/>
         </div>
       </div>
       <div class="row" style = "margin-top:10px;">
-        <img :data-src="require('@/assets/projects/img/indago.gif')" width = "100%" height = "100%" class = "img-responsive lazyload"/>
+        <img :src="require('@/assets/projects/img/indago.gif')" width = "100%" height = "100%" class = "img-responsive lazyload"/>
       </div>
       <div class="row" style = "margin-top:10px;">
         <div class="new-col-12-1 img-col col-md-8">
-          <img :data-src="require('@/assets/projects/img/22-page-7.jpg')" width = "100%" class = "img-responsive lazyload"/>
+          <img :src="require('@/assets/projects/img/22-page-7.jpg')" width = "100%" class = "img-responsive lazyload"/>
         </div>
         <div class="new-col-12-1-1 img-col col-md-4">
-          <img :data-src="require('@/assets/projects/img/22-page-8.jpg')" width = "100%" class = "img-responsive lazyload"/>
+          <img :src="require('@/assets/projects/img/22-page-8.jpg')" width = "100%" class = "img-responsive lazyload"/>
         </div>
       </div>
       <div class="row" style = "margin-top:10px;">
-        <img :data-src="require('@/assets/projects/img/22-page-9.jpg')" width = "100%" height = "100%" class = "img-responsive lazyload" style = "margin-bottom:10px;"/>
+        <img :src="require('@/assets/projects/img/22-page-9.jpg')" width = "100%" height = "100%" class = "img-responsive lazyload" style = "margin-bottom:10px;"/>
       </div>
     </div>
 
 	</div>
 </section>
-<Footer next="first-key-homes-strategy-design-web" ></Footer>	
+<Footer prev="simply-ira-iralogix-branding-design-web" next="global-press-design" ></Footer>	
 	</div>
 </template>
 

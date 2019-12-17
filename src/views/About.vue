@@ -1,5 +1,7 @@
 <template>
     <div class="about__page page__component section__wrapper" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <title>About Raxo - Web & Digital Design Agency NYC, Motion Graphics Company</title>
     <meta name="description" content="Raxo is a prominent web & digital design agency in New York with a huge clientele that spreads includes Nationally & Internationally. Call motion graphics creator Call Raxo and get your motion graphics created today at 646-838-4583.">
     <meta name="keyword" content=" web design agency, creative web design, digital design agency, digital advertising agency, creative digital agency, motion graphics company">
@@ -86,7 +88,7 @@
                 <div class="col-md-6">
                     <div class="row">
                     <div class="col-md-1">
-                        <img :data-src="require('@/assets/team/img/darrow.png')" alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
+                        <img :src="require('@/assets/team/img/darrow.png')" alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
                     </div>
                     <div class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1">
                         <h3 data-aos="fade-up" data-aos-delay="300">
@@ -104,7 +106,7 @@
                 <div class="col-md-6">
                     <div class="row">
                     <div class="col-md-1">
-                        <img :data-src="require('@/assets/team/img/darrow.png')"  alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom"  data-aos="fade-up" data-aos-delay="100" />
+                        <img :src="require('@/assets/team/img/darrow.png')"  alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom"  data-aos="fade-up" data-aos-delay="100" />
                     </div>
                     <div class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1">
                         <h3 data-aos="fade-up" data-aos-delay="200">Awwwards
@@ -123,7 +125,7 @@
                 <div class="col-md-6">
                     <div class="row">
                     <div class="col-md-1 ">
-                        <img :data-src="require('@/assets/team/img/darrow.png')" alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
+                        <img :src="require('@/assets/team/img/darrow.png')" alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
                     </div>
                     <div class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1">
                         <h3 data-aos="fade-up" data-aos-delay="400">
@@ -141,7 +143,7 @@
                 <div class="col-md-6">
                     <div class="row">
                     <div class="col-md-1">
-                        <img :data-src="require('@/assets/team/img/darrow.png')"  alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
+                        <img :src="require('@/assets/team/img/darrow.png')"  alt="logo" class="lazyload img-responsive" data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="100" />
                     </div>
                     <div class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1">
                         <h3 data-aos="fade-up" data-aos-delay="200">Promax<br>
@@ -166,27 +168,27 @@
                 <div class="col-xs-6 col-md-2">
                 <a href = "#" >
                     <picture>
-                        <source :data-src="require('@/assets/team/img/bbc.webp')" type="image/webp"> 
-                        <source :data-src="require('@/assets/team/img/bbc.png')" type="image/jpeg"> 
-                        <img data-aos="fade-up" data-aos-delay="100" :data-src="require('@/assets/team/img/bbc.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                        <source :src="require('@/assets/team/img/bbc.webp')" type="image/webp"> 
+                        <source :src="require('@/assets/team/img/bbc.png')" type="image/jpeg"> 
+                        <img data-aos="fade-up" data-aos-delay="100" :src="require('@/assets/team/img/bbc.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                     </picture>
                 </a>
                 </div>
                 <div class="col-xs-6 col-md-2">
                 <a href = "#" >
                     <picture>
-                        <source :data-src="require('@/assets/team/img/hbo.webp')" type="image/webp"> 
-                        <source :data-src="require('@/assets/team/img/hbo.png')" type="image/jpeg"> 
-                        <img data-aos="fade-up" data-aos-delay="200" :data-src="require('@/assets/team/img/hbo.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                        <source :src="require('@/assets/team/img/hbo.webp')" type="image/webp"> 
+                        <source :src="require('@/assets/team/img/hbo.png')" type="image/jpeg"> 
+                        <img data-aos="fade-up" data-aos-delay="200" :src="require('@/assets/team/img/hbo.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                     </picture>
                 </a>
                 </div>
                 <div class="col-xs-6 col-md-2">
                 <a href = "#" >
                     <picture>
-                        <source :data-src="require('@/assets/team/img/coloredge.webp')" type="image/webp"> 
-                        <source :data-src="require('@/assets/team/img/coloredge.png')" type="image/jpeg"> 
-                        <img data-aos="fade-up" data-aos-delay="300" :data-src="require('@/assets/team/img/coloredge.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                        <source :src="require('@/assets/team/img/coloredge.webp')" type="image/webp"> 
+                        <source :src="require('@/assets/team/img/coloredge.png')" type="image/jpeg"> 
+                        <img data-aos="fade-up" data-aos-delay="300" :src="require('@/assets/team/img/coloredge.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                     </picture>
 
                 </a>
@@ -194,9 +196,9 @@
                 <div class="col-xs-6 col-md-2">
                 <a href = "#">
                     <picture>
-                        <source :data-src="require('@/assets/team/img/ultramusic.webp')" type="image/webp"> 
-                        <source :data-src="require('@/assets/team/img/ultramusic.png')" type="image/jpeg"> 
-                        <img  data-aos="fade-up" data-aos-delay="400" :data-src="require('@/assets/team/img/ultramusic.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                        <source :src="require('@/assets/team/img/ultramusic.webp')" type="image/webp"> 
+                        <source :src="require('@/assets/team/img/ultramusic.png')" type="image/jpeg"> 
+                        <img  data-aos="fade-up" data-aos-delay="400" :src="require('@/assets/team/img/ultramusic.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                     </picture>
 
                 </a>
@@ -204,18 +206,18 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/hilton.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/hilton.png')" type="image/jpeg"> 
-                            <img  data-aos="fade-up" data-aos-delay="500" :data-src="require('@/assets/team/img/hilton.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/hilton.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/hilton.png')" type="image/jpeg"> 
+                            <img  data-aos="fade-up" data-aos-delay="500" :src="require('@/assets/team/img/hilton.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
                     </a>
                 </div>
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/starwood.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/starwood.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="600" :data-src="require('@/assets/team/img/starwood.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/starwood.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/starwood.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="600" :src="require('@/assets/team/img/starwood.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
 
                     </a>
@@ -225,9 +227,9 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/cole-haan.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/cole-haan.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="100" :data-src="require('@/assets/team/img/cole-haan.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" style = "margin-top:20px;"/>
+                            <source :src="require('@/assets/team/img/cole-haan.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/cole-haan.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="100" :src="require('@/assets/team/img/cole-haan.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" style = "margin-top:20px;"/>
                         </picture>
 
                     </a>
@@ -235,9 +237,9 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/oracle.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/oracle.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="200" :data-src="require('@/assets/team/img/oracle.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" style = "margin-top:15px;"/>
+                            <source :src="require('@/assets/team/img/oracle.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/oracle.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="200" :src="require('@/assets/team/img/oracle.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" style = "margin-top:15px;"/>
                         </picture>
 
                     </a>
@@ -245,9 +247,9 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/sales-force.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/sales-force.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="300" :data-src="require('@/assets/team/img/sales-force.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/sales-force.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/sales-force.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="300" :src="require('@/assets/team/img/sales-force.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
 
                     </a>
@@ -255,9 +257,9 @@
                     <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/smartcities.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/smartcities.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="400" :data-src="require('@/assets/team/img/smartcities.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/smartcities.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/smartcities.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="400" :src="require('@/assets/team/img/smartcities.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
 
                     </a>
@@ -265,9 +267,9 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/showtime.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/showtime.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="500" :data-src="require('@/assets/team/img/showtime.png')"       alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/showtime.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/showtime.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="500" :src="require('@/assets/team/img/showtime.png')"       alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
 
                     </a>
@@ -275,9 +277,9 @@
                 <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/lecordonbleu.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/lecordonbleu.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="600" :data-src="require('@/assets/team/img/lecordonbleu.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                            <source :src="require('@/assets/team/img/lecordonbleu.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/lecordonbleu.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="600" :src="require('@/assets/team/img/lecordonbleu.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                         </picture>
 
                     </a>
@@ -287,9 +289,9 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/discovery-channel.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/discovery-channel.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="100" :data-src="require('@/assets/team/img/discovery-channel.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/discovery-channel.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/discovery-channel.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="100" :src="require('@/assets/team/img/discovery-channel.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
 
                         </a>
@@ -297,18 +299,18 @@
                         <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/univision.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/univision.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="200" :data-src="require('@/assets/team/img/univision.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                                <source :src="require('@/assets/team/img/univision.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/univision.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="200" :src="require('@/assets/team/img/univision.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                             </picture>
                         </a>
                         </div>
                         <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/epson.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/epson.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="300" :data-src="require('@/assets/team/img/epson.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/epson.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/epson.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="300" :src="require('@/assets/team/img/epson.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
 
                         </a>
@@ -316,18 +318,18 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/benq.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/benq.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="400" :data-src="require('@/assets/team/img/benq.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                                <source :src="require('@/assets/team/img/benq.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/benq.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="400" :src="require('@/assets/team/img/benq.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                             </picture>
                         </a>
                         </div>
                         <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/benq.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/benq.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="500" :data-src="require('@/assets/team/img/adata.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/benq.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/benq.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="500" :src="require('@/assets/team/img/adata.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
 
                         </a>
@@ -335,9 +337,9 @@
                     <div class="col-xs-6 col-md-2">
                     <a href = "#" >
                         <picture>
-                            <source :data-src="require('@/assets/team/img/cebeebies.webp')" type="image/webp"> 
-                            <source :data-src="require('@/assets/team/img/cebeebies.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="600" :data-src="require('@/assets/team/img/cebeebies.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                            <source :src="require('@/assets/team/img/cebeebies.webp')" type="image/webp"> 
+                            <source :src="require('@/assets/team/img/cebeebies.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="600" :src="require('@/assets/team/img/cebeebies.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                         </picture>
 
                     </a>
@@ -347,18 +349,18 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/the-hal-guys.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/the-hal-guys.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="100" :data-src="require('@/assets/team/img/the-hal-guys.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/the-hal-guys.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/the-hal-guys.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="100" :src="require('@/assets/team/img/the-hal-guys.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/bbdo.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/bbdo.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="200" :data-src="require('@/assets/team/img/bbdo.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                                <source :src="require('@/assets/team/img/bbdo.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/bbdo.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="200" :src="require('@/assets/team/img/bbdo.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                             </picture>
 
                         </a>
@@ -366,9 +368,9 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/ogi.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/ogi.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="300" :data-src="require('@/assets/team/img/ogi.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/ogi.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/ogi.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="300" :src="require('@/assets/team/img/ogi.png')" alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
 
                         </a>
@@ -376,9 +378,9 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/lufthansa.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/lufthansa.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="400" :data-src="require('@/assets/team/img/lufthansa.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                                <source :src="require('@/assets/team/img/lufthansa.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/lufthansa.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="400" :src="require('@/assets/team/img/lufthansa.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                             </picture>
 
                         </a>
@@ -386,9 +388,9 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/humanified.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/humanified.png')" type="image/jpeg"> 
-                            <img data-aos="fade-up" data-aos-delay="500" :data-src="require('@/assets/team/img/humanified.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
+                                <source :src="require('@/assets/team/img/humanified.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/humanified.png')" type="image/jpeg"> 
+                            <img data-aos="fade-up" data-aos-delay="500" :src="require('@/assets/team/img/humanified.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;"/>
                             </picture>
 
                         </a>
@@ -396,9 +398,9 @@
                     <div class="col-xs-6 col-md-2">
                         <a href = "#" >
                             <picture>
-                                <source :data-src="require('@/assets/team/img/new-york.webp')" type="image/webp"> 
-                                <source :data-src="require('@/assets/team/img/new-york.png')" type="image/jpeg"> 
-                                <img data-aos="fade-up" data-aos-delay="600" :data-src="require('@/assets/team/img/new-york.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
+                                <source :src="require('@/assets/team/img/new-york.webp')" type="image/webp"> 
+                                <source :src="require('@/assets/team/img/new-york.png')" type="image/jpeg"> 
+                                <img data-aos="fade-up" data-aos-delay="600" :src="require('@/assets/team/img/new-york.png')"  alt="logo" class = "lazyload about-logo img-responsive" width = "100px;" />
                             </picture> 
                         </a>
                     </div>
@@ -443,6 +445,9 @@
     }
     #teampage img{
     width:100%;
+}
+#teampage::before , #teampage::after, #teampage .row::before , #teampage .row::after{
+    display: none;
 }
 .cols{
 	margin: 0 !important;
@@ -1957,7 +1962,7 @@ export default {
             // Second Animation Batch
             document.querySelector('.loader__screen').classList.remove('start__animation');
             document.querySelector('.loader__screen').classList.add('end__loader');
-AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});        },
+      },
         formSubmit(e) {
             e.preventDefault();
             var submitButton = document.querySelector('.btn');
@@ -2010,7 +2015,6 @@ AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});        },
                     })
                     .catch(function (error) {
                         currentObj.output = error;
-                        console.log('We cannot connect to the database :( try again later');
                     });
                 }
             }else if(currentStep === '3'){
@@ -2070,14 +2074,6 @@ AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});        },
         [...document.querySelectorAll('.logo__black')][0].classList.remove('show__logo');
         [...document.querySelectorAll('.logo__white')][0].classList.add('show__logo');
 
-        // Close navbar clicking outside
-        document.querySelector('.section__wrapper').addEventListener('click', function(){
-            if(document.querySelector('.openedDesktop')){
-                document.querySelector('.sidenav').classList.remove('openedDesktop');
-                document.querySelector('.section__wrapper').classList.remove('active');
-                document.body.style.overflow = 'auto';
-            }
-        })
     },
 
 };

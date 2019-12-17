@@ -47,7 +47,7 @@
     <h1>Desktop</h1>
     <h5>CONFIGURATION</h5>
     <br>
-    <img :data-src="require('@/assets/projects/img/lcd-2.png')" class = "lazyload img-responsive" width= "100%" /> </div>
+    <img :src="require('@/assets/projects/img/lcd-2.png')" class = "lazyload img-responsive" width= "100%" /> </div>
 </section>
 <section class 	= "new-sec-4-4 section-7">
   <div class="container-fluid">
@@ -57,16 +57,16 @@
         <h4 class="pro-1 pro">FIND YOUR HOME </h4>
         <span class="box"></span>
         <p class = "paragraph-1">RAXO  designed a website that makes it easy for the user to instantly search for homes, apply, and fill out any documents needed, all the the tip of their fingertips.</p>
-        <img :data-src="require('@/assets/projects/img/line-bar1.png')" data-aos="slide-right" data-aos-duration="2000" style = "margin-top:50px;" class="lazyload hidden-sm hidden-xs"> </div>
-      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/4-page-3.png')" class = "lazyload head-bar img-responsive " /> </div>
+        <img :src="require('@/assets/projects/img/line-bar1.png')" data-aos="slide-right" data-aos-duration="2000" style = "margin-top:50px;" class="lazyload hidden-sm hidden-xs"> </div>
+      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/4-page-3.png')" class = "lazyload head-bar img-responsive " /> </div>
     </div>
     <div class="row">
-      <div class="col-md-8 col-md-8 col-md-offset-1" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/4-page-4.png')" class = "lazyload head-bar img-responsive "  /> </div>
+      <div class="col-md-8 col-md-8 col-md-offset-1" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/4-page-4.png')" class = "lazyload head-bar img-responsive "  /> </div>
       <div class="big-circle col-md-2 col-md-offset-1 hidden-xs hidden-sm"> <img src ="assets/img/4-page-5.png" data-aos="slide-left" data-aos-duration="2000"> </div>
     </div>
     <div class="row">
-      <div class="sec-head col-md-3" data-aos="slide-up" data-aos-duration="100"> <img :data-src="require('@/assets/projects/img/4-page-6.png')"   data-aos="slide-right" data-aos-duration="2000" class = "lazyload img-slid"> </div>
-      <div class="col-md-8 col-md-offset-1" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/4-page-7.png')" class = "lazyload head-bar img-responsive " /> </div>
+      <div class="sec-head col-md-3" data-aos="slide-up" data-aos-duration="100"> <img :src="require('@/assets/projects/img/4-page-6.png')"   data-aos="slide-right" data-aos-duration="2000" class = "lazyload img-slid"> </div>
+      <div class="col-md-8 col-md-offset-1" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/4-page-7.png')" class = "lazyload head-bar img-responsive " /> </div>
     </div>
     <br>
     <br>
@@ -90,7 +90,7 @@
   <div class="row">
     <div class="cols col-xs-12 col-sm-6 col-md-4">
       <div class="icon-content-boxes">
-        <icon> <img data-aos="zoom-in-down" :data-src="require('@/assets/projects/img/icon-1.png')" class="lazyload image img-responsive"/> </icon>
+        <icon> <img data-aos="zoom-in-down" :src="require('@/assets/projects/img/icon-1.png')" class="lazyload image img-responsive"/> </icon>
       </div>
     </div>
     <div class="new-cols-new col-xs-12 col-sm-6  col-md-4">
@@ -98,22 +98,22 @@
     </div>
     <div class="cols col-xs-12 col-sm-6  col-md-4">
       <div class="icon-content-boxes">
-        <icon> <img data-aos="zoom-in-down" :data-src="require('@/assets/projects/img/icon-3.png')" class="lazyload image img-responsive" /> </icon>
+        <icon> <img data-aos="zoom-in-down" :src="require('@/assets/projects/img/icon-3.png')" class="lazyload image img-responsive" /> </icon>
       </div>
     </div>
     <div class="cols col-xs-12 col-sm-6 col-md-4">
       <div class="icon-content-boxes icon-content-boxes-light">
-        <icon> <img data-aos="zoom-in-down" :data-src="require('@/assets/projects/img/icon-4.png')" class="image img-responsive" /> </icon>
+        <icon> <img data-aos="zoom-in-down" :src="require('@/assets/projects/img/icon-4.png')" class="image img-responsive" /> </icon>
       </div>
     </div>
     <div class="cols col-xs-12 col-sm-6 col-md-4">
       <div class="icon-content-boxes">
-        <icon> <img data-aos="zoom-in-down" :data-src="require('@/assets/projects/img/icon-5.png')" class="lazyload image img-responsive" /> </icon>
+        <icon> <img data-aos="zoom-in-down" :src="require('@/assets/projects/img/icon-5.png')" class="lazyload image img-responsive" /> </icon>
       </div>
     </div>
     <div class="cols col-xs-12 col-sm-6 col-md-4">
       <div class="icon-content-boxes icon-content-boxes-light">
-        <icon> <img data-aos="zoom-in-down" :data-src="require('@/assets/projects/img/icon666.png')" class="lazyload image img-responsive" /> </icon>
+        <icon> <img data-aos="zoom-in-down" :src="require('@/assets/projects/img/icon666.png')" class="lazyload image img-responsive" /> </icon>
       </div>
     </div>
   </div>
@@ -129,7 +129,7 @@
             <h1 class ="mobile-design">Mobile<br>
               Design</h1>
           </div>
-          <div class="col-md-6"><img :data-src="require('@/assets/projects/img/line-bar1.png')" class="lazyload hidden-xs hidden-sm" /> </div>
+          <div class="col-md-6"><img :src="require('@/assets/projects/img/line-bar1.png')" class="lazyload hidden-xs hidden-sm" /> </div>
         </div>
         <p class="paragraph"><b>SCREEN</b></p>
       </div>
@@ -138,7 +138,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2500">
         <div class="mobile-new-box">
           <center>
-            <img :data-src="require('@/assets/projects/img/mobile-1.png')" class="lazyload" alt="">
+            <img :src="require('@/assets/projects/img/mobile-1.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-right">
             <h2>SEARCH</h2>
@@ -149,21 +149,21 @@
       <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1500">
         <div class="mobile-new-box">
           <center>
-            <img class="show-on-mobile lazyload" :data-src="require('@/assets/projects/img/mobile-2.png')" alt="">
+            <img class="show-on-mobile lazyload" :src="require('@/assets/projects/img/mobile-2.png')" alt="">
           </center>
           <div class="mobile-box-content content-box-top">
             <h2>HOME</h2>
             <p>The homepage of the website RAXO created immediately allows the user to search for a home in any area, instantly.</p>
           </div>
           <center>
-            <img class="hide-on-mobile lazyload" :data-src="require('@/assets/projects/img/mobile-2.png')" alt="">
+            <img class="hide-on-mobile lazyload" :src="require('@/assets/projects/img/mobile-2.png')" alt="">
           </center>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="3000">
         <div class="mobile-new-box">
           <center>
-            <img :data-src="require('@/assets/projects/img/mobile-3.png')" class="lazyload" alt="">
+            <img :src="require('@/assets/projects/img/mobile-3.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-left">
             <h2>RESULTS</h2>
@@ -174,7 +174,7 @@
     </div>
   </div>
 </section>
-<Footer next="the-department-design-web-development" ></Footer>	
+<Footer prev="le-cordon-bleu-creative-design-web-development" next="city-cancer-challenge" ></Footer>	
 	</div>
 </template>
 

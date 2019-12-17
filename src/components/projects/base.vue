@@ -48,22 +48,22 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-lg-4 the_square">
-        <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-1.jpg')" alt="">
+        <img class="lazyload" :src="require('@/assets/projects/img/32-s-1.jpg')" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-        <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-2.jpg')" alt="">
+        <img class="lazyload" :src="require('@/assets/projects/img/32-s-2.jpg')" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-        <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-3.jpg')" alt="">
+        <img class="lazyload" :src="require('@/assets/projects/img/32-s-3.jpg')" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-          <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-4.jpg')" alt="">
+          <img class="lazyload" :src="require('@/assets/projects/img/32-s-4.jpg')" alt="">
         </div>
         <div class="col-sm-12 col-lg-4 the_square">
-          <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-5.jpg')" alt="">
+          <img class="lazyload" :src="require('@/assets/projects/img/32-s-5.jpg')" alt="">
         </div>
         <div class="col-sm-12 col-lg-4 the_square">
-          <img class="lazyload" :data-src="require('@/assets/projects/img/32-s-6.jpg')" alt="">
+          <img class="lazyload" :src="require('@/assets/projects/img/32-s-6.jpg')" alt="">
         </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
       </div>
     </div>
   </div>
-  <img  :data-src="require('@/assets/projects/img/32-bg-2.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
+  <img  :src="require('@/assets/projects/img/32-bg-2.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
 </section>
 <section class="section-6-page-29 page-32 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     <div class="container">
@@ -91,7 +91,7 @@
     </div>
   </section>
 <section class="section-slider-page-32 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-    <img :data-src="require('@/assets/projects/img/32-love.png')" alt="" class="lazyload background-letters">
+    <img :src="require('@/assets/projects/img/32-love.png')" alt="" class="lazyload background-letters">
     <div class="slider">
 
         <input class="slider__nav" type="radio" name="slider" title="slide1" checked="checked">
@@ -103,7 +103,7 @@
               <div class="row">
                 <div class="col-lg-12">
                   <div class="slider-img">
-                    <img class="lazyload" :data-src="require('@/assets/projects/img/32-book-1.png')" alt="">
+                    <img class="lazyload" :src="require('@/assets/projects/img/32-book-1.png')" alt="">
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="slider-img">
-                        <img class="lazyload" :data-src="require('@/assets/projects/img/32-book-2.png')" alt="">
+                        <img class="lazyload" :src="require('@/assets/projects/img/32-book-2.png')" alt="">
                       </div>
                     </div>
                   </div>
@@ -152,9 +152,9 @@
       </div>
 </section>
 <section class="section-8-page-32 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-  <img  :data-src="require('@/assets/projects/img/32-bottom-text.png')" alt="" class="lazyload img-responsive">
+  <img  :src="require('@/assets/projects/img/32-bottom-text.png')" alt="" class="lazyload img-responsive">
 </section>
-<Footer next="oracle-cloud-hero-marketing-design-web-development"></Footer>
+<Footer prev="quantgene-is-a-cell-free-platform" next="oracle-cloud-hero-marketing-design-web-development"></Footer>
 
 	</div>
 </template>

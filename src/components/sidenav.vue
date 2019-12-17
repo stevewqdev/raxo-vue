@@ -53,16 +53,16 @@ export default {
   },
   mounted() {
     window.document.addEventListener('click', this.onClickApp);
-    if(this.$route.path === '/'){
-        document.querySelector('#mySidenav').addEventListener('mouseenter', function(){
-            document.querySelector('.cursor').classList.remove('its__home');
-            document.querySelector('.cursor').classList.add('nav__open__cursor');
-        });
-        document.querySelector('#mySidenav').addEventListener('mouseleave', function(){
-            document.querySelector('.cursor').classList.add('its__home');
-            document.querySelector('.cursor').classList.remove('nav__open__cursor');
-        });
-    }
+    // if(this.$route.path === '/'){
+    //     document.querySelector('#mySidenav').addEventListener('mouseenter', function(){
+    //         document.querySelector('.cursor').classList.remove('its__home');
+    //         document.querySelector('.cursor').classList.add('nav__open__cursor');
+    //     });
+    //     document.querySelector('#mySidenav').addEventListener('mouseleave', function(){
+    //         document.querySelector('.cursor').classList.add('its__home');
+    //         document.querySelector('.cursor').classList.remove('nav__open__cursor');
+    //     });
+    // }
     var listElements = [...document.querySelectorAll('.nav__links a')]; 
     var bottomLinks = [...document.querySelectorAll('.bottom__links a')]; 
     var allElements = listElements.concat(bottomLinks);

@@ -45,13 +45,13 @@
   <div class="center-container">
     <div class="center-block">
       <h1 class="buty-section1-m" data-aos="slide-up" data-aos-duration="2000">
-	     <img style="max-width:100%;" class="lazyload"  :data-src="require('@/assets/projects/img/26-page-2.png')" />
+	     <img style="max-width:100%;" class="lazyload"  :src="require('@/assets/projects/img/26-page-2.png')" />
 	  </h1>
     </div>
   </div>
 </section>
 <section>
-	<img  :data-src="require('@/assets/projects/img/26-page-3.png')" class="image img-responsive lazyload ">
+	<img  :src="require('@/assets/projects/img/26-page-3.png')" class="image img-responsive lazyload ">
 </section>
 <section class = "new-section-26-1 ultra-animation">
    <div class="container">
@@ -62,10 +62,10 @@
 			<p>RAXO chose design preferences such as large text and color to clearly display information yet still keep it graphically interesting.</p>
 		 </div>
 	     <div class="col-xs-12 col-sm-9 col-md-6">
-		    <img  :data-src="require('@/assets/projects/img/26-page-4.png')" class="image img-responsive lazyload " width = "1005">
+		    <img  :src="require('@/assets/projects/img/26-page-4.png')" class="image img-responsive lazyload " width = "1005">
 		 </div>
 		 <div class="col-xs-6 col-sm-3 col-md-3 animation1">
-		    <img  :data-src="require('@/assets/projects/img/allnight.gif')" class="image img-responsive lazyload ">
+		    <img  :src="require('@/assets/projects/img/allnight.gif')" class="image img-responsive lazyload ">
 		 </div>
 	  </div>
 	  <div class="row" style = "margin-top:10%" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -74,10 +74,10 @@
 			<p>RAXO chose design preferences such as large text and color to clearly display information yet still keep it graphically interesting.</p>
 		 </div>
          <div class="col-sm-9 col-md-6">
-		    <img  :data-src="require('@/assets/projects/img/26-page-5.png')" class="image img-responsive lazyload " width = "1005">
+		    <img  :src="require('@/assets/projects/img/26-page-5.png')" class="image img-responsive lazyload " width = "1005">
 		 </div>
 		 <div class="col-sm-6 col-md-6 animation1">
-		    <img  :data-src="require('@/assets/projects/img/heart.gif')" class="image img-responsive lazyload ">
+		    <img  :src="require('@/assets/projects/img/heart.gif')" class="image img-responsive lazyload ">
 		 </div>
 	     <div class="col-md-3 hidden-xs hidden-sm">
 		    <h4 class = "new-text-25-1">Blood of my Blood by DVBBS </h4>
@@ -90,10 +90,10 @@
 			<p>RAXO chose design preferences such as large text and color to clearly display information yet still keep it graphically interesting.</p>
 		 </div>
 	     <div class="col-sm-9 col-md-6">
-		    <img  :data-src="require('@/assets/projects/img/26-page-6.png')" class="image img-responsive lazyload " width = "1005">
+		    <img  :src="require('@/assets/projects/img/26-page-6.png')" class="image img-responsive lazyload " width = "1005">
 		 </div>
 		 <div class="col-sm-3 col-md-3 animation1">
-		    <img  :data-src="require('@/assets/projects/img/idwk.gif')"  class="image img-responsive lazyload ">
+		    <img  :src="require('@/assets/projects/img/idwk.gif')"  class="image img-responsive lazyload ">
 		 </div>
 	  </div>
 	  <div class="row" style = "margin-top:10%" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -102,10 +102,10 @@
 			<p>RAXO chose design preferences such as large text and color to clearly display information yet still keep it graphically interesting.</p>
 		 </div>    
 	     <div class="col-sm-9 col-md-6">
-		    <img  :data-src="require('@/assets/projects/img/26-page-7.png')"  class="image img-responsive lazyload " width = "1005">
+		    <img  :src="require('@/assets/projects/img/26-page-7.png')"  class="image img-responsive lazyload " width = "1005">
 		 </div>
 		 <div class="col-sm-3 col-md-3 animation1">
-		    <img  :data-src="require('@/assets/projects/img/mvp.gif')" class="image img-responsive lazyload ">
+		    <img  :src="require('@/assets/projects/img/mvp.gif')" class="image img-responsive lazyload ">
 		 </div>
 	     <div class="col-md-3 hidden-xs hidden-sm">
 		    <h4 class = "new-text-25-1">MVP by flosstradamus ft.SMOKEpurpp </h4>
@@ -118,10 +118,10 @@
 			<p>RAXO animated Shaun Frank’s Gold Wings album art, taking pieces of it apart and putting them together to present that angelic vibe.</p>
 		 </div>
 	     <div class="col-sm-9 col-md-6">
-		    <img  :data-src="require('@/assets/projects/img/26-page-8.png')" class="image img-responsive lazyload " width = "100%">
+		    <img  :src="require('@/assets/projects/img/26-page-8.png')" class="image img-responsive lazyload " width = "100%">
 		 </div>
 		 <div class="col-sm-3 col-md-3 animation1">
-		    <img  :data-src="require('@/assets/projects/img/gold.gif')" class="image img-responsive lazyload ">
+		    <img  :src="require('@/assets/projects/img/gold.gif')" class="image img-responsive lazyload ">
 		 </div>
 	  </div>
 
@@ -145,7 +145,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="2000">
           <center>
-            <img  :data-src="require('@/assets/projects/img/26-page-9.png')" class="lazyload"  alt="">
+            <img  :src="require('@/assets/projects/img/26-page-9.png')" class="lazyload"  alt="">
           </center>
           <div class="mobile-box-content bottom-content-right-2 light-text red-crcl back-curl-icon">
             <h2>CARNAGE</h2>
@@ -155,7 +155,7 @@
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <center class="show-on-mobile">
-          <img style="max-width:100%;margin-top: 36px;" :data-src="require('@/assets/projects/img/26-page-10.png')" class="lazyload" alt="" >
+          <img style="max-width:100%;margin-top: 36px;" :src="require('@/assets/projects/img/26-page-10.png')" class="lazyload" alt="" >
         </center>
         <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="3000">
           <div class="mobile-box-content content-box-top light-text red-crcl">
@@ -163,14 +163,14 @@
             <p>Sofi Tukker released a new album and RAXO created these vibrant illustrations to promote “Treehouse” on Snapchat for everyone to use.</p>
           </div>
           <center class="hide-on-mobile">
-            <img  :data-src="require('@/assets/projects/img/26-page-10.png')" class="lazyload" alt="" style="margin-top: 36px;">
+            <img  :src="require('@/assets/projects/img/26-page-10.png')" class="lazyload" alt="" style="margin-top: 36px;">
           </center>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 ">
         <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="2000">
           <center>
-            <img  :data-src="require('@/assets/projects/img/26-page-11.png')" class="lazyload" alt="">
+            <img  :src="require('@/assets/projects/img/26-page-11.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-left light-text red-crcl back-curl-icon back-curl-icon-slash">
             <h2>IN USE</h2>
@@ -204,18 +204,18 @@
 		<h1>Website</h1>
 		<p>PAYDAY RECORDS</p>
 		<div class="col-md-10 col-md-offset-1" data-aos="fade-up" data-aos-duration="2000">
-		  <img  :data-src="require('@/assets/projects/img/26-page-13.png')" class="image img-responsive lazyload " width = "100%" style = "margin-bottom:10%"/>
+		  <img  :src="require('@/assets/projects/img/26-page-13.png')" class="image img-responsive lazyload " width = "100%" style = "margin-bottom:10%"/>
 		</div>
 		<div class="row">
 		<div class="border-circle hidden-xs hidden-sm"></div></div>
 		<h1 class="hidden-xs hidden-sm">Website</h1>
 		<p>ULTRA MUSIC PUBLISHING</p>
 		<div class="col-md-10 col-md-offset-1" data-aos="fade-up" data-aos-duration="2000">
-		  <img  :data-src="require('@/assets/projects/img/26-page-14.png')"  class="image img-responsive lazyload " width = "100%" style = "margin-bottom:10%"/>
+		  <img  :src="require('@/assets/projects/img/26-page-14.png')"  class="image img-responsive lazyload " width = "100%" style = "margin-bottom:10%"/>
 		</div>
 	</div>
 </section>
-<Footer next="bbc-entertainment-london-calling-design-animation-tv.html"></Footer>
+<Footer prev="smart-cities" next="bbc-entertainment-mina-jack-animation-design-tv"></Footer>
 	</div>
 </template>
 

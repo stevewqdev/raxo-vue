@@ -26,16 +26,15 @@
 </template>
 
 <script>
-import Vue from 'vue';
 import Sidenav from './sidenav';
 export default {
   name: "Header",
   components: {
-      Sidenav,
+    Sidenav
   },
   data() {
     return {
-      componentKey: 0,
+      componentKey: 0
     };
   },
   props: {
@@ -47,7 +46,6 @@ export default {
         document.getElementById("mySidenav").classList.remove('openedMobile');
         setTimeout(function(){ 
             this.forceRerender();
-            console.log('Side Render');
         }.bind(this), 1000);
         
     }
@@ -242,6 +240,8 @@ export default {
         padding-top: 7vh;
         padding-left: 5vw;
         font-family: "MarkPro-Book";
+        flex-direction: column;
+        display: flex;
     }
     #mySidenav{
         overflow: hidden;

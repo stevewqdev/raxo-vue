@@ -48,7 +48,7 @@
       <div class="col-md-3">
         <h1 style = "color:#25346b;" class="web section-side-heading">Video</h1>
       </div>
-      <div class="new-6-col col-md-8"> <a href = "#"><img :data-src="require('@/assets/projects/img/play-btn.png" class = "play-btn img-responsive"/></a> </div>
+      <div class="new-6-col col-md-8"> <a href = "#"><img :src="require('@/assets/projects/img/play-btn.png" class = "play-btn img-responsive"/></a> </div>
       <div class="col-md-1"></div>
     </div>
   </div>
@@ -56,7 +56,7 @@
 <section class = "new-section-6-3">
   <div class="container">
     <div class="row">
-      <div class="col-12"> <img :data-src="require('@/assets/projects/img/lcd-3.png')" style="max-width:600px; width:95%;" class = "lcd-3 img-responsive lazyload"/> </div>
+      <div class="col-12"> <img :src="require('@/assets/projects/img/lcd-3.png')" style="max-width:600px; width:95%;" class = "lcd-3 img-responsive lazyload"/> </div>
     </div>
   </div>
 </section>
@@ -76,10 +76,10 @@
         <h4 class="pro brown">HOME  </h4>
         <div class = "circle-6" data-aos="slide-right" data-aos-duration="2000"></div>
       </div>
-      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :data-src="require('@/assets/projects/img/6-page-4.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :src="require('@/assets/projects/img/6-page-4.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
     <div class="row">
-      <div class="col-md-8 col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img style="width:100%" :data-src="require('@/assets/projects/img/6-page-5.png')" class = "head-bar img-responsive lazyload"  /> </div>
+      <div class="col-md-8 col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img style="width:100%" :src="require('@/assets/projects/img/6-page-5.png')" class = "head-bar img-responsive lazyload"  /> </div>
       <div class="big-circle col-md-4 hidden-xs hidden-sm">
         <div class = "circle-7" data-aos="slide-left" data-aos-duration="2000"></div>
       </div>
@@ -96,10 +96,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :data-src="require('@/assets/projects/img/6-page-9.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :src="require('@/assets/projects/img/6-page-9.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
     <div class="row">
-      <div class="col-md-8" data-aos="fade-right" data-aos-duration="3000"> <img style="width:100%" :data-src="require('@/assets/projects/img/6-page-6.png')" class = "head-bar img-responsive lazyload"  /> </div>
+      <div class="col-md-8" data-aos="fade-right" data-aos-duration="3000"> <img style="width:100%" :src="require('@/assets/projects/img/6-page-6.png')" class = "head-bar img-responsive lazyload"  /> </div>
       <div class="col-md-4" data-aos="slide-left" data-aos-duration="2000">
         <div class = "circle-10"></div>
       </div>
@@ -116,19 +116,19 @@
           </div>
         </div>
       </div>
-      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :data-src="require('@/assets/projects/img/6-page-7.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%" :src="require('@/assets/projects/img/6-page-7.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
   </div>
 </section>
 <div class="clearfix" style="background: #223265;"></div>
-<section class = "new-section-6-5 parallax-window lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/6-page-8.png"> </section>
+<section class = "new-section-6-5 parallax-window lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/6-page-8.png"> </section>
 <section class = "new-section-6-6 lcb-prints">
   <div class="new-cont-3 container">
     <div class="header">
       <h1 class="web section-side-heading">Print Ads</h1>
       <p> MAGAZINE</p>
     </div>
-    <img :data-src="require('@/assets/projects/img/6-page-11.png')" width="100%" class = "lazyload img-responsive" /> </div>
+    <img :src="require('@/assets/projects/img/6-page-11.png')" width="100%" class = "lazyload img-responsive" /> </div>
 </section>
 <section class = "new-section-6-7 lcb-smedia">
   <div class="new-cont-4 container">
@@ -142,11 +142,11 @@
     <div class="row">
       <div class="col-sm-12">
         <ul class="apps-group-group">
-          <li data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate"><img :data-src="require('@/assets/projects/img/side-1.png')"  width="100%" class="lazyload img-responsive"></li>
-          <li data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate"><img :data-src="require('@/assets/projects/img/side-2.png')" width="100%" class="lazyload img-responsive"></li>
-          <li class="center-img-section aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000"><img :data-src="require('@/assets/projects/img/phone-1.png')"></li>
-          <li data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate"><img :data-src="require('@/assets/projects/img/side-3.png')" width="100%" class="lazyload img-responsive"></li>
-          <li data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate"><img :data-src="require('@/assets/projects/img/side-4.png')" width="100%" class="lazyload img-responsive"></li>
+          <li data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate"><img :src="require('@/assets/projects/img/side-1.png')"  width="100%" class="lazyload img-responsive"></li>
+          <li data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate"><img :src="require('@/assets/projects/img/side-2.png')" width="100%" class="lazyload img-responsive"></li>
+          <li class="center-img-section aos-init aos-animate" data-aos="fade-up" data-aos-duration="2000"><img :src="require('@/assets/projects/img/phone-1.png')"></li>
+          <li data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate"><img :src="require('@/assets/projects/img/side-3.png')" width="100%" class="lazyload img-responsive"></li>
+          <li data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate"><img :src="require('@/assets/projects/img/side-4.png')" width="100%" class="lazyload img-responsive"></li>
         </ul>
       </div>
     </div>
@@ -154,28 +154,28 @@
 </section>
 <section class = "new-section-6-8" style="padding:100px 0 70px 0;">
   <div class="row">
-    <div class="col-xs-12"> <img :data-src="require('@/assets/projects/img/6-page-18.png')" style="width:100%;" class = " img-responsive"/> </div>
+    <div class="col-xs-12"> <img :src="require('@/assets/projects/img/6-page-18.png')" style="width:100%;" class = " img-responsive"/> </div>
   </div>
 </section>
 <section class = "new-section-6-9"  style="padding:100px 0 70px 0;">
   <div class="new-cont-5 container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_1.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_2.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_3.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_4.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_1.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_2.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_3.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_4.png')" class = "img-responsive lazyload " width="100%" /> </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_5.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_6.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_7.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_8.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_5.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_6.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_7.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_8.png')" class = "img-responsive lazyload " width="100%" /> </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_9.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_10.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img_11.png')" class = "img-responsive lazyload " width="100%" /> </div>
-      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/img-12.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_9.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_10.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img_11.png')" class = "img-responsive lazyload " width="100%" /> </div>
+      <div class="col-xs-12 col-sm-6 col-md-3" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/img-12.png')" class = "img-responsive lazyload " width="100%" /> </div>
     </div>
   </div>
 </section>
@@ -187,16 +187,16 @@
     </div>
     <div class="clearfix"></div>
     <div class="row">
-      <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/6-page-13.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
-      <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/6-page-14.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
+      <div class="col-md-6" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/6-page-13.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
+      <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/6-page-14.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-md-offset-3" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/6-page-15.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
+      <div class="col-md-6 col-md-offset-3" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/6-page-15.png')" class = "lazyload img-responsive end-imgs" width="100%" /> </div>
     </div>
   </div>
 </section>
-<section class="section-8 parallax-window lcb-fondofinal"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/6-page-16.jpg"> </section>
-<Footer next="onboard-informatics-design-web-development" ></Footer>	
+<section class="section-8 parallax-window lcb-fondofinal"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/6-page-16.jpg"> </section>
+<Footer prev="bbc-entertainment-mina-jack-animation-design-tv" next="first-key-homes-strategy-design-web-development" ></Footer>	
 	</div>
 </template>
 

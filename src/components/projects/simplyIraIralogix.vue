@@ -45,7 +45,7 @@
   <div class ="container">
     <div class = "col-sm-12">
       <center>
-        <img :data-src="require('@/assets/projects/img/18-page-lcd.png')" class = "img-responsive lazyload" width ="100%" style = "margin-top:7vw;"/>
+        <img :src="require('@/assets/projects/img/18-page-lcd.png')" class = "img-responsive lazyload" width ="100%" style = "margin-top:7vw;"/>
       </center>
     </div>
   </div>
@@ -57,15 +57,15 @@
         <h1 style="color: #EE9011;" class="web">Website</h1>
         
       </div>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%;" :data-src="require('@/assets/projects/img/18-page-3.png')" class="head-bar img-responsive lazyload" /> </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%;" :src="require('@/assets/projects/img/18-page-3.png')" class="head-bar img-responsive lazyload" /> </div>
     </div>
     <div class ="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img style="width:100%;" :data-src="require('@/assets/projects/img/18-page-4.png')" class = "head-bar img-responsive lazyload"  /> </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img style="width:100%;" :src="require('@/assets/projects/img/18-page-4.png')" class = "head-bar img-responsive lazyload"  /> </div>
       <div class="big-circle col-md-3 col-md-offset-1 hidden-xs hidden-sm"> <img src ="assets/img/18-page-clouds.png" class = "img-responsive" width = "100%" data-aos="slide-up" data-aos-duration="2000"/> </div>
     </div>
     <div class = "row">
       <div class="sec-head col-md-3 col-md-offset-1 hidden-xs hidden-sm" data-aos="slide-up" data-aos-duration="2000"> <img  src ="assets/img/18-page-clouds.png" class = "clouds img-responsive" width = "100%"/> </div>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%;" :data-src="require('@/assets/projects/img/18-page-5.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width:100%;" :src="require('@/assets/projects/img/18-page-5.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
   </div>
 </section>
@@ -80,8 +80,8 @@
     
 <section>
   <div class = "row">
-    <div class = "new-col-18-1 col-md-6"> <img :data-src="require('@/assets/projects/img/18-page-7.png')" class = "lazyload img-responsive" width = "100%"/> </div>
-    <div class = "new-col-18-1 col-md-6"> <img :data-src="require('@/assets/projects/img/18-page-8.svg')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "new-col-18-1 col-md-6"> <img :src="require('@/assets/projects/img/18-page-7.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "new-col-18-1 col-md-6"> <img :src="require('@/assets/projects/img/18-page-8.svg')" class = "lazyload img-responsive" width = "100%"/> </div>
   </div>
 </section>
 <section class = "new-section-18-3">
@@ -108,22 +108,22 @@
 </section>
 <section>
   <div class = "row">
-    <div class = "custom-col-img col-md-6"> <img :data-src="require('@/assets/projects/img/18-page-10.png')" class = "lazyload img-responsive" width = "100%"/> </div>
-    <div class = "custom-col-img col-md-6"> <img :data-src="require('@/assets/projects/img/18-page-11.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-6"> <img :src="require('@/assets/projects/img/18-page-10.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-6"> <img :src="require('@/assets/projects/img/18-page-11.png')" class = "lazyload img-responsive" width = "100%"/> </div>
   </div>
   <div class ="new-18-row-1 row">
-    <div class = "custom-col-img col-md-4"> <img :data-src="require('@/assets/projects/img/18-page-12.png')" class = "lazyload img-responsive" width = "100%"/> </div>
-    <div class = "custom-col-img col-md-8"> <img :data-src="require('@/assets/projects/img/18-page-16.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-4"> <img :src="require('@/assets/projects/img/18-page-12.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-8"> <img :src="require('@/assets/projects/img/18-page-16.png')" class = "lazyload img-responsive" width = "100%"/> </div>
   </div>
   <div class = "new-18-row-1 row">
-    <div class = "custom-col-img col-md-8"> <img :data-src="require('@/assets/projects/img/18-page-13.png')" class = "lazyload img-responsive" width = "100%"/> </div>
-    <div class = "custom-col-img col-md-4"> <img :data-src="require('@/assets/projects/img/18-page-14.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-8"> <img :src="require('@/assets/projects/img/18-page-13.png')" class = "lazyload img-responsive" width = "100%"/> </div>
+    <div class = "custom-col-img col-md-4"> <img :src="require('@/assets/projects/img/18-page-14.png')" class = "lazyload img-responsive" width = "100%"/> </div>
   </div>
   <div class = "new-18-row-1 row"> 
-    <img :data-src="require('@/assets/projects/img/18-page-15.png')" class = "img-responsive lazyload" width = "100%"/>
+    <img :src="require('@/assets/projects/img/18-page-15.png')" class = "img-responsive lazyload" width = "100%"/>
   </div>
 </section>
-<Footer next="oracle-cloud-hero-marketing-design-web-development"></Footer>	
+<Footer prev="sambazon-design-animation" next="indago-design-animation"></Footer>	
 
 	</div>
   

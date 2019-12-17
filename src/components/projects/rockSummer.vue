@@ -7,7 +7,7 @@
   <div class="center-container">
     <div class="center-block">
       <h1 class="home-page-26-title light" >
-        <img :data-src="require('@/assets/projects/img/31-logo.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up" >
+        <img :src="require('@/assets/projects/img/31-logo.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up" >
       </h1>
       <p class="banner-slogon-text">Design</p>
     </div>
@@ -16,9 +16,9 @@
 </div>
 <section class="section-2-page-29 page-30">
   <div class="background">
-    <img :data-src="require('@/assets/projects/img/31-bg-2.jpg')" class="lazyload" alt="">
+    <img :src="require('@/assets/projects/img/31-bg-2.jpg')" class="lazyload" alt="">
   </div>
-  <img :data-src="require('@/assets/projects/img/31-summer.png')" alt="" class="lazyload image-text img-responsive" data-aos-duration="2000" data-aos="fade-up">
+  <img :src="require('@/assets/projects/img/31-summer.png')" alt="" class="lazyload image-text img-responsive" data-aos-duration="2000" data-aos="fade-up">
 </section>
 <section class = "section-3">
   <div class="cont-1 container">
@@ -52,44 +52,44 @@
 </section>
 <section class="section-2-page-29 page-30" data-aos="fade-up" data-aos-duration="2000">
   <div class="background">
-    <img :data-src="require('@/assets/projects/img/31-bg-3.jpg')" class="lazyload" alt="">
+    <img :src="require('@/assets/projects/img/31-bg-3.jpg')" class="lazyload" alt="">
   </div>
 </section>
-<section class="section-5-page-31 " data-aos="fade-up" data-aos-duration="2000">
+<section class="section-5-page-31 rocksummer" data-aos="fade-up" data-aos-duration="2000">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-lg-4 the_square">
-        <img :data-src="require('@/assets/projects/img/31-s-1.jpg')" class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/31-s-1.jpg')" class="lazyload" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-        <img :data-src="require('@/assets/projects/img/31-s-2.jpg')" class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/31-s-2.jpg')" class="lazyload" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-        <img :data-src="require('@/assets/projects/img/31-s-3.jpg')" class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/31-s-3.jpg')" class="lazyload" alt="">
       </div>
       <div class="col-sm-12 col-lg-4 the_square">
-          <img :data-src="require('@/assets/projects/img/31-s-4.jpg')" class="lazyload" alt="">
+          <img :src="require('@/assets/projects/img/31-s-4.jpg')" class="lazyload" alt="">
         </div>
         <div class="col-sm-12 col-lg-4 the_square">
-          <img :data-src="require('@/assets/projects/img/31-s-5.jpg')" class="lazyload" alt="">
+          <img :src="require('@/assets/projects/img/31-s-5.jpg')" class="lazyload" alt="">
         </div>
         <div class="col-sm-12 col-lg-4 the_square">
-          <img :data-src="require('@/assets/projects/img/31-s-6.jpg')" class="lazyload" alt="">
+          <img :src="require('@/assets/projects/img/31-s-6.jpg')" class="lazyload" alt="">
         </div>
     </div>
   </div>
 </section>
 <section class="section-2-page-29 page-30" data-aos="fade-up" data-aos-duration="2000">
     <div class="background">
-      <img :data-src="require('@/assets/projects/img/31-bg-5.jpg')" class="lazyload" alt="">
+      <img :src="require('@/assets/projects/img/31-bg-5.jpg')" class="lazyload" alt="">
     </div>
   </section>
 <section class ="section-8-page-29 page-30"  data-aos-duration="2000" data-aos="fade-up">
-  <img :data-src="require('@/assets/projects/img/31-bg-6.jpg')" alt="" class="lazyload background">
+  <img :src="require('@/assets/projects/img/31-bg-6.jpg')" alt="" class="lazyload background">
 </section>
 <div class="clearfix"></div>
-<Footer next="smart-cities-we-design-development" prev="quantgene-is-a-cell-free-platform" ></Footer>	
-	</div>
+<Footer next="hugo-boss-design-animation" prev="univision-election-design-animation-tv" ></Footer>	
+	</div> 
 </template>
 
 <style>
@@ -149,6 +149,20 @@
 .new-cols-25-2 h1 {
     color: #99c5c1;
     margin-top: 0px !important;
+}
+.section-5-page-31.rocksummer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-5-page-31.rocksummer .row.col-sm-12 {
+    width: 100%;
+    max-width: 33.333333333%;
+}
+@media(max-width: 500px){
+  .section-5-page-31.rocksummer .row.col-sm-12 {
+      width: 100%;
+      max-width: 100%;
+  }
 }
 </style>
 

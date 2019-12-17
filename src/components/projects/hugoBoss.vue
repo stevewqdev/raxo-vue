@@ -9,14 +9,14 @@
       <h1 class="home-page-5-title light" data-aos="fade-in" data-aos-duration="2000"> 
         <span><span class = "hugo-boss"></span>
         <center>
-          <img class="img-responsive lazyload " style="max-width:450px; width:60%;" :data-src="require('@/assets/projects/img/boss-logo.png')" alt="">
+          <img class="img-responsive lazyload " style="max-width:450px; width:60%;" :src="require('@/assets/projects/img/boss-logo.png')" alt="">
         </center>
         </span> </h1>
       <p class="banner-slogon-text">Design. Animation.</p>
     </div>
   </div>
 </div>
-<section class="parallax-window hugo-fondo1 lazyload" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/5-page-1.jpg" >
+<section class="parallax-window hugo-fondo1 lazyload" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/5-page-1.jpg" >
   <div class="center-container">
     <div class="center-block">
       <h1 class="paralax">PerfectSuit</h1>
@@ -53,7 +53,7 @@
     </div>
   </div>
 </section>  
-<section class = "new-section-5-1 parallax-window hugo-fondo2 lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/5-page-2.jpg"> </section>
+<section class = "new-section-5-1 parallax-window hugo-fondo2 lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/5-page-2.jpg"> </section>
 <section class = "new-section-5-2">
   <div class="container">
     <div class="col-md-12" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -61,7 +61,7 @@
     </div>
   </div>
 </section>
-<section class = "new-section-5-3 parallax-window hugo-fondo3 lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/5-page-3.jpg"> </section>
+<section class = "new-section-5-3 parallax-window hugo-fondo3 lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/5-page-3.jpg"> </section>
 <section class 	= "new-section-5-4 w-no-bg hugo-responsive">
   <div class="row" >
     <div class="col-xs-12 col-sm-12 col-md-6">
@@ -80,7 +80,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1000">
         <div class="mobile-new-box">
           <center>
-            <img :data-src="require('@/assets/projects/img/mobile_1.png')" class="lazyload"  alt="">
+            <img :src="require('@/assets/projects/img/mobile_1.png')" class="lazyload"  alt="">
           </center>
           <div class="mobile-box-content bottom-content-right-2 blue-crcl">
             <h2>find the perfect fit for your body</h2>
@@ -91,7 +91,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="1500">
         <div class="mobile-new-box">
           <center>
-            <img :data-src="require('@/assets/projects/img/mobil_2.png')" alt="" class="lazyload" style = "margin-top:5vw;">
+            <img :src="require('@/assets/projects/img/mobil_2.png')" alt="" class="lazyload" style = "margin-top:5vw;">
           </center>
           <div class="mobile-box-content bottom-content-right-2 blue-crcl">
             <h2>Tailored to fit closely to the body</h2>
@@ -102,7 +102,7 @@
       <div class="col-xs-12 col-sm-12 col-md-4" data-aos="fade-up" data-aos-duration="2000">
         <div class="mobile-new-box mobile-centrado">
           <center>
-            <img :data-src="require('@/assets/projects/img/mobile_3.png')" class="lazyload" alt="">
+            <img :src="require('@/assets/projects/img/mobile_3.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-right-2 blue-crcl">
             <h2>Choose your sport coat & Dress pant</h2>
@@ -114,11 +114,11 @@
     <div class="circle-5"></div>
   </div>
 </section>
-<section class ="parallax-window hugo-fondo4"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/5-page-4.jpg"> </section>
+<section class ="parallax-window hugo-fondo4"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/5-page-4.jpg"> </section>
 <section class = "parallax-window hugo-fondo5"  style="background:url(assets/img/5-page-5.jpg);    background-size: cover;"></section>
 <div class="clearfix"></div>
 
-<Footer next="first-key-homes-strategy-design-web" ></Footer>	
+<Footer prev="rock-summer-is-an-initiative-started" next="engine-shop-branding-design-web-development" ></Footer>	
 	</div>
 </template>
 

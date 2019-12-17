@@ -6,7 +6,7 @@
   <div class="home-page-25-overlay light"></div>
   <div class="center-container">
       <div class="center-block">
-        <h1 class="home-page-25-title light"> <img style="width: 270px;" data-aos="fade-in" class="lazyload" data-aos-duration="2000" :data-src="require('@/assets/projects/img/25-page-1.png')"> </h1>
+        <h1 class="home-page-25-title light"> <img style="width: 270px;" data-aos="fade-in" class="lazyload" data-aos-duration="2000" :src="require('@/assets/projects/img/25-page-1.png')"> </h1>
         <p class="banner-slogon-text">Design. Web Development.</p>
       </div>
     </div>
@@ -52,7 +52,7 @@
     <div class="center-container">
       <div class="center-block">
         <h1 class="buty-section1-m" data-aos="slide-up" data-aos-duration="2000">
-        <img :data-src="require('@/assets/projects/img/25-page-center-logo.png')" class="lazyload" />
+        <img :src="require('@/assets/projects/img/25-page-center-logo.png')" class="lazyload" />
       </h1>
       </div>
     </div>
@@ -82,7 +82,7 @@
   <section class="section-5 smart-boxes">
     <div class="cols col-xs-12 col-sm-6   col-md-4">
     <div class="icon-content-boxes light-pink product-img">
-           <img data-aos="zoom-in" :data-src="require('@/assets/projects/img/25-page-4.png')" class="image img-responsive lazyload"> 
+           <img data-aos="zoom-in" :src="require('@/assets/projects/img/25-page-4.png')" class="image img-responsive lazyload"> 
         </div>
       </div>
 
@@ -91,34 +91,34 @@
         </div>
         <div class="cols col-xs-12 col-sm-6 col-md-4">
         <div class="icon-content-boxes light-pink product-img">
-               <img data-aos="zoom-in" :data-src="require('@/assets/projects/img/25-page-6.png')"  class="image img-responsive lazyload "> 
+               <img data-aos="zoom-in" :src="require('@/assets/projects/img/25-page-6.png')"  class="image img-responsive lazyload "> 
             </div>
           </div>
           <div class="cols col-xs-12 col-sm-6 col-md-4">
           <div class="icon-content-boxes dark-pink product-img">
-                 <img data-aos="zoom-in" :data-src="require('@/assets/projects/img/25-page-7.png')" class="image img-responsive lazyload "> 
+                 <img data-aos="zoom-in" :src="require('@/assets/projects/img/25-page-7.png')" class="image img-responsive lazyload "> 
               </div>
             </div>
             <div class="cols col-xs-12 col-sm-6 col-md-4">
             <div class="icon-content-boxes light-pink product-img">
-                   <img data-aos="zoom-in" :data-src="require('@/assets/projects/img/25-page-8.png')"  class="image img-responsive lazyload"> 
+                   <img data-aos="zoom-in" :src="require('@/assets/projects/img/25-page-8.png')"  class="image img-responsive lazyload"> 
                 </div>
               </div>
               <div class="cols col-xs-12 col-sm-6 col-md-4">
               <div class="icon-content-boxes dark-pink product-img">
-                     <img data-aos="zoom-in" :data-src="require('@/assets/projects/img/25-page-9.png')" class="image img-responsive lazyload"> 
+                     <img data-aos="zoom-in" :src="require('@/assets/projects/img/25-page-9.png')" class="image img-responsive lazyload"> 
                   </div>
                 </div>
 
   </section>
   <section style="background:#000;">
-    <div class="container"><img :data-src="require('@/assets/projects/img/smartcities.gif')"  class="image img-responsive lazyload"></div>
+    <div class="container"><img :src="require('@/assets/projects/img/smartcities.gif')"  class="image img-responsive lazyload"></div>
   </section>
   <section class = "new-section-25-2">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img style="padding: 15% 0;" :data-src="require('@/assets/projects/img/smartcities2.gif')"  class="image img-responsive lazyload" width = "100%">
+          <img style="padding: 15% 0;" :src="require('@/assets/projects/img/smartcities2.gif')"  class="image img-responsive lazyload" width = "100%">
         </div>
       </div>
     </div>
@@ -137,7 +137,7 @@
   <section class = "new-section-25-4 smart-responsive">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 hidden-xs hidden-sm"> <img :data-src="require('@/assets/projects/img/25-page-line-bar.png')" class="lazyload"> </div>
+        <div class="col-md-8 hidden-xs hidden-sm"> <img :src="require('@/assets/projects/img/25-page-line-bar.png')" class="lazyload"> </div>
         <div class="new-cols-25-2 col-md-4">
           <div class="pull-left back-curl-icon back-curl-icon-top">
             <h1>Mobile<br>
@@ -150,7 +150,7 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="2000">
             <center>
-              <img :data-src="require('@/assets/projects/img/25-page-13.png')" class="lazyload"  alt="">
+              <img :src="require('@/assets/projects/img/25-page-13.png')" class="lazyload"  alt="">
             </center>
             <div class="mobile-box-content bottom-content-right-2 light-text red-crcl back-curl-icon">
               <h2>ABOUT</h2>
@@ -161,21 +161,21 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="3000">
             <center class="show-on-mobile">
-              <img :data-src="require('@/assets/projects/img/25-page-14.png')" alt="" class="lazyload" style="margin-top: 36px;">
+              <img :src="require('@/assets/projects/img/25-page-14.png')" alt="" class="lazyload" style="margin-top: 36px;">
             </center>
             <div class="mobile-box-content content-box-top light-text red-crcl">
               <h2>BUY TICKETS</h2>
               <p>RAXO designed the website for Smart Cities thinking of user flow and how they will be compelled to getting involved with the conference and buying tickets.</p>
             </div>
             <center class="hide-on-mobile">
-              <img :data-src="require('@/assets/projects/img/25-page-14.png')" class="lazyload"  alt="" style="margin-top: 36px;">
+              <img :src="require('@/assets/projects/img/25-page-14.png')" class="lazyload"  alt="" style="margin-top: 36px;">
             </center>
           </div>
         </div>
         <div class="col-md-4">
           <div class="mobile-new-box" data-aos="fade-up" data-aos-duration="2000">
             <center>
-              <img :data-src="require('@/assets/projects/img/25-page15.png')" class="lazyload" alt="">
+              <img :src="require('@/assets/projects/img/25-page15.png')" class="lazyload" alt="">
             </center>
             <div class="mobile-box-content bottom-content-left light-text red-crcl back-curl-icon back-curl-icon-slash">
               <h2>PROGRAM</h2>
@@ -195,13 +195,13 @@
         <h1>Desktop</h1>
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-offset="300">
-          <img :data-src="require('@/assets/projects/img/25-page-16.png')"  class="img-responsive lazyload">
+          <img :src="require('@/assets/projects/img/25-page-16.png')"  class="img-responsive lazyload">
       </div>
       </div>
     </div>
   </section>
   <section>
-    <img :data-src="require('@/assets/projects/img/25-page-17.png')" class="img-responsive lazyload" width = "100%">
+    <img :src="require('@/assets/projects/img/25-page-17.png')" class="img-responsive lazyload" width = "100%">
   </section>
   <section class="section-7 smart-website">
     <div class="container-fluid">
@@ -213,10 +213,10 @@
           <p class = "para">RAXO chose design preferences such as large<br> text and color to clearly display information yet <br> still keep it graphically interesting.</p>
           <div class = "circle-25-1 hidden-xs hidden-sm" data-aos="slide-right" data-aos-duration="2000"></div>
         </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/25-page-18.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload" /> </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/25-page-18.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload" /> </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/25-page-19.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload"  /> </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/25-page-19.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload"  /> </div>
         <div class="big-circle col-md-4 hidden-xs hidden-sm">
           <div class = "circle-25-2 hidden-xs hidden-sm" data-aos="slide-left" data-aos-duration="2000"></div>
         </div>
@@ -227,7 +227,7 @@
           <p class = "para">The hotel section of the website shows<br> compelling imagery, allowing the user to easily<br> pick a hotel in their liking quick and seamlessly.</p>
           <div class = "circle-25-3 hidden-xs hidden-sm"  data-aos="slide-right" data-aos-duration="2000"></div>
         </div>
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/25-page-20.png')" class = "head-bar img-responsive lazyload" style = "margin-bottom:20%; width: 100%;" /> </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/25-page-20.png')" class = "head-bar img-responsive lazyload" style = "margin-bottom:20%; width: 100%;" /> </div>
       </div>
     </div>
   </section>
@@ -236,10 +236,10 @@
     <a href = "#" class = "link-1">Content</a>
     </div>
     <div class="row">
-    <img data-aos="fade-up" :data-src="require('@/assets/projects/img/25-page-22.png')"  class = "img-bg-8 img-responsive lazyload" />
+    <img data-aos="fade-up" :src="require('@/assets/projects/img/25-page-22.png')"  class = "img-bg-8 img-responsive lazyload" />
     </div>
   </section>
-  <Footer next="oracle-cloud-hero-marketing-design-web-development"></Footer>
+  <Footer prev="showtime" next="ultra-music-animation-design-web-development"></Footer>
 	</div>
 </template>
 

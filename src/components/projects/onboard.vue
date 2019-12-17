@@ -6,7 +6,7 @@
   <div class="home-page-16-overlay light"></div>
   <div class="center-container">
     <div class="center-block">
-      <h1 class="home-page-title light"> <img data-aos="fade-in" class="lazyload" data-aos-duration="2000" style="max-width:450px; width:60%;" :data-src="require('@/assets/projects/img/16-page-logo.png')"> </h1>
+      <h1 class="home-page-title light"> <img data-aos="fade-in" class="lazyload" data-aos-duration="2000" style="max-width:450px; width:60%;" :src="require('@/assets/projects/img/16-page-logo.png')"> </h1>
         <p class="banner-slogon-text">Design. Web Development.</p>
     </div>
   </div>
@@ -75,7 +75,7 @@
       <p> CONFIGURATION</p>
     </div>
     <center>
-    <img :data-src="require('@/assets/projects/img/16-page-lcd.png')"  class = "img-responsive lazyload" style = "margin-bottom:50px;"/>
+    <img :src="require('@/assets/projects/img/16-page-lcd.png')"  class = "img-responsive lazyload" style = "margin-bottom:50px;"/>
     </center>
   </div>
 </section>
@@ -89,10 +89,10 @@
         <p class = "para">RAXO created a website for Onboard Informatics that makes it easy for the user to navigate APIs and go through data that pertains to their needs.</p>
         <div class = "page-16-circle hidden-xs hidden-sm" data-aos="slide-right" data-aos-duration="2000"></div>
       </div>
-      <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :data-src="require('@/assets/projects/img/16-page-2.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :src="require('@/assets/projects/img/16-page-2.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-9 col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%;" :data-src="require('@/assets/projects/img/16-page-3.png')" class = "head-bar img-responsive lazyload"  /> </div>
+      <div class="col-xs-12 col-sm-9 col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%;" :src="require('@/assets/projects/img/16-page-3.png')" class = "head-bar img-responsive lazyload"  /> </div>
       <div class="big-circle col-md-3 hidden-xs hidden-sm">
         <div class = "page-16-big-circle" data-aos="slide-left" data-aos-duration="2000"></div>
       </div>
@@ -102,7 +102,7 @@
         <h4 class="pro green">AREA API  </h4>
         <div class = "page-16-circle hidden-xs hidden-sm"  data-aos="slide-right" data-aos-duration="2000"></div>
       </div>
-      <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :data-src="require('@/assets/projects/img/16-page-4.png')" class = "head-bar img-responsive lazyload" /> </div>
+      <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img style="width: 100%;" :src="require('@/assets/projects/img/16-page-4.png')" class = "head-bar img-responsive lazyload" /> </div>
     </div>
   </div>
 </section>
@@ -115,7 +115,7 @@
       </div>
     </div>
     <div class = "row">
-      <div class = "col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/16-page-5.png')" class = "img-responsive lazyload" /> </div>
+      <div class = "col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/16-page-5.png')" class = "img-responsive lazyload" /> </div>
       <div class = "col-md-3 col-md-offset-1"  data-aos="fade-left" data-aos-duration="2000">
         <div class = "page-16-hole-circle hidden-xs hidden-sm"></div>
         <div class = "page-16-dot hidden-xs "></div>
@@ -125,10 +125,10 @@
       <div class = "col-md-4" data-aos="fade-right" data-aos-duration="2000">
         <div class ="page-16-circle-3 hidden-xs hidden-sm"> </div>
       </div>
-      <div class = "col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/16-page-6.png')" class = "img-responsive lazyload" /> </div>
+      <div class = "col-md-8" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/16-page-6.png')" class = "img-responsive lazyload" /> </div>
     </div>
     <div class = "row my-row">
-      <div class = "col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/16-page-7.png')" class = "img-responsive lazyload" /> </div>
+      <div class = "col-md-8" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/16-page-7.png')" class = "img-responsive lazyload" /> </div>
       <div class = "col-md-4" data-aos="fade-left" data-aos-duration="2000">
         <div class ="page-16-circle-3 hidden-xs hidden-sm"> </div>
       </div>
@@ -138,11 +138,11 @@
         <div class = "page-16-dot-1 hidden-xs "></div>
         <div class = "page-16-hole-circle-1 hidden-xs hidden-sm"></div>
       </div>
-      <div class = "col-md-8 col-md-offset-1" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/16-page-8.png')" class = "img-responsive lazyload" /> </div>
+      <div class = "col-md-8 col-md-offset-1" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/16-page-8.png')" class = "img-responsive lazyload" /> </div>
     </div>
   </div>
 </section>
-<Footer next="bbc-entertainment-design-animation-tv" ></Footer>	
+<Footer prev="sermo-branding-design-web-development" next="yankees-creative-design" ></Footer>	
 	</div>
 </template>
 

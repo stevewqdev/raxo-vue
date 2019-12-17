@@ -6,7 +6,7 @@
   <div class="home-page-15-overlay light"></div>
   <div class="center-container">
     <div class="center-block">
-      <h1 class="home-page-15-title light"> <img style="width: 500px;" data-aos="fade-in" class="lazyload" data-aos-duration="2000" :data-src="require('@/assets/projects/img/15-page-logo.png')"> </h1>
+      <h1 class="home-page-15-title light"> <img style="width: 500px;" data-aos="fade-in" class="lazyload" data-aos-duration="2000" :src="require('@/assets/projects/img/15-page-logo.png')"> </h1>
       <p class="banner-slogon-text">Design. Animation.</p>
     </div>
   </div>
@@ -74,21 +74,21 @@
 </section>
 <section>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-6"> <img :data-src="require('@/assets/projects/img/15-page-5.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-6"> <img :data-src="require('@/assets/projects/img/15-page-6.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-6"> <img :src="require('@/assets/projects/img/15-page-5.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-6"> <img :src="require('@/assets/projects/img/15-page-6.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-3"> <img :data-src="require('@/assets/projects/img/15-page-7.png')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-9"> <img :data-src="require('@/assets/projects/img/15-page-8.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-3"> <img :src="require('@/assets/projects/img/15-page-7.png')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-9"> <img :src="require('@/assets/projects/img/15-page-8.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-7"> <img :data-src="require('@/assets/projects/img/15-page-9.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-5"> <img :data-src="require('@/assets/projects/img/15-page-10.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-7"> <img :src="require('@/assets/projects/img/15-page-9.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-5"> <img :src="require('@/assets/projects/img/15-page-10.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
-  <div class="row" style = "margin-top:10px;"> <img :data-src="require('@/assets/projects/img/15-page-11.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
-  <div class="row" style = "margin-top:10px;"> <img :data-src="require('@/assets/projects/img/15-page-12.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+  <div class="row" style = "margin-top:10px;"> <img :src="require('@/assets/projects/img/15-page-11.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+  <div class="row" style = "margin-top:10px;"> <img :src="require('@/assets/projects/img/15-page-12.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
 </section>
-<Footer next="fusion-beauty-creative-packaging-design-web" ></Footer>	
+<Footer prev="the-long-way-back-entertainment-design-animation" next="quantgene-is-a-cell-free-platform" ></Footer>	
 	</div>
 </template>
 

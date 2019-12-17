@@ -13,16 +13,18 @@
   </div>
 </template>
 <script>
+import AOS from "aos";
 // @ is an alias to /src
 import CustomCursor from "@/components/cursor.vue";
 import Header from "@/components/header.vue";
 // THIS LOADER BELOW ITS NOT BEING USED //
 import Loader from "@/components/loader/loader";
 // THIS LOADER ABOVE ITS NOT BEING USED //
-//import NewLoader from "@/components/loader/newLoader";
-const NewLoader = () => import("@/components/loader/newLoader");
-//import SweepCourtain from "@/components/loader/sweepCourtain";
-const SweepCourtain = () => import("@/components/loader/sweepCourtain");
+import NewLoader from "@/components/loader/newLoader";
+//const NewLoader = () => import("@/components/loader/newLoader");
+import SweepCourtain from "@/components/loader/sweepCourtain";
+//const SweepCourtain = () => import("@/components/loader/sweepCourtain");
+
 
 export default {
   components: {
@@ -30,23 +32,31 @@ export default {
     Header,
     Loader,
     NewLoader,
-    SweepCourtain,
+    SweepCourtain
   },
   data() {
     return {
-      loadState:  false, 
+      loadState: false,
       componentKey: 0,
-      componentKeyCursor: 100,
+      componentKeyCursor: 1000,
       componentKeyLoader: 200,
       componentKeyCourtain: 300,
     };
   },
   watch:{
-    $route (to, from){
+    $route (){
+       this.forceRerenderCourtain();
+       this.forceRerenderCursor();
+       AOS.init({disable: 'mobile', anchorPlacement: 'top-bottom',});
 
-       setTimeout(function(){ 
-          if(this.$route.path === '/'){}else{
-            document.querySelector('.cursor').classList.remove('its__home');
+       setTimeout(function(){
+         
+          if(this.$route.path != '/'){
+            setTimeout(function(){
+              document.querySelector('.cursor').classList.remove('white-cursor');
+              document.querySelector('.cursor').classList.remove('its__home');
+              
+            }.bind(this), 500);
           }
        }.bind(this), 1000);
 
@@ -57,8 +67,6 @@ export default {
           });
         }, 1000);
 
-        this.forceRerenderCourtain();
-        this.forceRerenderCursor();
         document.body.style.overflow = 'auto';
 
         // Remove animations from sidebar on start
@@ -69,12 +77,14 @@ export default {
         }, 2000);
 
         // Close navbar clicking outside
+        setTimeout(function(){ 
         document.querySelector('.section__wrapper').addEventListener('click', function(){
           if(document.querySelector('.openedDesktop')){
             document.querySelector('.sidenav').classList.remove('openedDesktop');
             document.querySelector('.section__wrapper').classList.remove('active');
           }
         })
+        }, 50);
     }
   }, 
   methods: {
@@ -98,7 +108,7 @@ export default {
     }
   },
   mounted(){
-
+    AOS.init({disable: 'mobile', anchorPlacement: 'top-bottom',});
     // Set menu first Stage
     var menuName = document.querySelector('.menu__icon i');
     document.querySelector('.menu__icon').classList.add('pill__menu');
@@ -256,7 +266,7 @@ input, button, a{
   width: 100%;
   height: 200vh;
   background: #0000004d;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;

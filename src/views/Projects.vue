@@ -60,46 +60,80 @@
 </style>
 
 <script>
-const  Allocate  = () => import("@/components/projects/allocate");
-const  Awake  = () => import("@/components/projects/awake");
-const  SmartCities  = () => import("@/components/projects/smartCities");
-const  Humanified  = () => import("@/components/projects/humanified");
-const  BaseWeb  = () => import("@/components/projects/base");
-const  Ultra  = () => import("@/components/projects/ultra-music");
-const  LondonCalling  = () => import("@/components/projects/londonCalling");
-const  Showtime  = () => import("@/components/projects/showtime");
-const  BbcEntertainment  = () => import("@/components/projects/bbcEntertainment");
-const  Cbeebies = () => import("@/components/projects/cbeebies");
-const  CityCancer = () => import("@/components/projects/cityCancer");
-const  Coloredge = () => import("@/components/projects/coloredge");
-const  Engine = () => import("@/components/projects/engine");
-const  EntertainmentHd = () => import("@/components/projects/entertainmentHD");
-const  EntertainmentMina = () => import("@/components/projects/entertainmentMina");
-const  FirstKey = () => import("@/components/projects/firstKey");
-const  Fusion = () => import("@/components/projects/fusion");
-const  GlobalPress = () => import("@/components/projects/globalPress");
-const  HugoBoss = () => import("@/components/projects/hugoBoss");
-const  Indago = () => import("@/components/projects/indago");
-const  LeCordonBleu = () => import("@/components/projects/leCordonBleu");
-const  Lufthansa = () => import("@/components/projects/lufthansa");
-const  Onboard = () => import("@/components/projects/onboard");
-const  Oracle = () => import("@/components/projects/oracle");
-const  Pluto = () => import("@/components/projects/pluto");
-const  Quantgene = () => import("@/components/projects/quantgene");
-const  RockSummer = () => import("@/components/projects/rockSummer");
-const  Sambazon = () => import("@/components/projects/sambazon");
-const  Sermo = () => import("@/components/projects/sermo");
-const  SimplyIraIralogix = () => import("@/components/projects/simplyIraIralogix");
-const  SteelBridge = () => import("@/components/projects/steelbridge");
-const  theDepartment = () => import("@/components/projects/theDepartment");
-const  theLongWay = () => import("@/components/projects/theLongWay");
-const  Univision = () => import("@/components/projects/univision");
-const  Yankees = () => import("@/components/projects/yankees");
-const  Investigation = () => import("@/components/projects/investigation");
+// const  Allocate  = () => import( /* webpackChunkName: "project1" */ "@/components/projects/allocate");
+// const  Awake  = () => import( /* webpackChunkName: "project2" */ "@/components/projects/awake");
+// const  SmartCities  = () => import( /* webpackChunkName: "project3" */ "@/components/projects/smartCities");
+// const  Humanified  = () => import( /* webpackChunkName: "project4" */ "@/components/projects/humanified");
+// const  BaseWeb  = () => import( /* webpackChunkName: "project5" */ "@/components/projects/base");
+// const  Ultra  = () => import( /* webpackChunkName: "project6" */ "@/components/projects/ultra-music");
+// const  LondonCalling  = () => import( /* webpackChunkName: "project7" */ "@/components/projects/londonCalling");
+// const  Showtime  = () => import( /* webpackChunkName: "project8" */ "@/components/projects/showtime");
+// const  BbcEntertainment  = () => import( /* webpackChunkName: "project9" */ "@/components/projects/bbcEntertainment");
+// const  Cbeebies = () => import( /* webpackChunkName: "project10" */ "@/components/projects/cbeebies");
+// const  CityCancer = () => import( /* webpackChunkName: "project11" */ "@/components/projects/cityCancer");
+// const  Coloredge = () => import( /* webpackChunkName: "project12" */ "@/components/projects/coloredge");
+// const  Engine = () => import( /* webpackChunkName: "project13" */ "@/components/projects/engine");
+// const  EntertainmentHd = () => import( /* webpackChunkName: "project14" */ "@/components/projects/entertainmentHD");
+// const  EntertainmentMina = () => import( /* webpackChunkName: "project15" */ "@/components/projects/entertainmentMina");
+// const  FirstKey = () => import( /* webpackChunkName: "project16" */ "@/components/projects/firstKey");
+// const  Fusion = () => import( /* webpackChunkName: "project17" */ "@/components/projects/fusion");
+// const  GlobalPress = () => import( /* webpackChunkName: "project18" */ "@/components/projects/globalPress");
+// const  HugoBoss = () => import( /* webpackChunkName: "project19" */ "@/components/projects/hugoBoss");
+// const  Indago = () => import( /* webpackChunkName: "project20" */ "@/components/projects/indago");
+// const  LeCordonBleu = () => import( /* webpackChunkName: "project21" */ "@/components/projects/leCordonBleu");
+// const  Lufthansa = () => import( /* webpackChunkName: "project22" */ "@/components/projects/lufthansa");
+// const  Onboard = () => import( /* webpackChunkName: "project23" */ "@/components/projects/onboard");
+// const  Oracle = () => import( /* webpackChunkName: "project24" */ "@/components/projects/oracle");
+// const  Pluto = () => import( /* webpackChunkName: "project25" */ "@/components/projects/pluto");
+// const  Quantgene = () => import( /* webpackChunkName: "project26" */ "@/components/projects/quantgene");
+// const  RockSummer = () => import( /* webpackChunkName: "project27" */ "@/components/projects/rockSummer");
+// const  Sambazon = () => import( /* webpackChunkName: "project28" */ "@/components/projects/sambazon");
+// const  Sermo = () => import( /* webpackChunkName: "project29" */ "@/components/projects/sermo");
+// const  SimplyIraIralogix = () => import( /* webpackChunkName: "project30" */ "@/components/projects/simplyIraIralogix");
+// const  SteelBridge = () => import( /* webpackChunkName: "project31" */ "@/components/projects/steelbridge");
+// const  theDepartment = () => import( /* webpackChunkName: "project32" */ "@/components/projects/theDepartment");
+// const  theLongWay = () => import( /* webpackChunkName: "project33" */ "@/components/projects/theLongWay");
+// const  Univision = () => import( /* webpackChunkName: "project34" */ "@/components/projects/univision");
+// const  Yankees = () => import( /* webpackChunkName: "project35" */ "@/components/projects/yankees");
+// const  Investigation = () => import( /* webpackChunkName: "project36" */ "@/components/projects/investigation");
+import Allocate  from  "@/components/projects/allocate";
+import Awake  from  "@/components/projects/awake";
+import SmartCities  from  "@/components/projects/smartCities";
+import Humanified  from  "@/components/projects/humanified";
+import BaseWeb  from  "@/components/projects/base";
+import Ultra  from  "@/components/projects/ultra-music";
+import LondonCalling  from  "@/components/projects/londonCalling";
+import Showtime  from  "@/components/projects/showtime";
+import BbcEntertainment  from  "@/components/projects/bbcEntertainment";
+import Cbeebies from "@/components/projects/cbeebies";
+import CityCancer from "@/components/projects/cityCancer";
+import Coloredge from "@/components/projects/coloredge";
+import Engine from "@/components/projects/engine";
+import EntertainmentHd from "@/components/projects/entertainmentHD";
+import EntertainmentMina from "@/components/projects/entertainmentMina";
+import FirstKey from "@/components/projects/firstKey";
+import Fusion from "@/components/projects/fusion";
+import GlobalPress from "@/components/projects/globalPress";
+import HugoBoss from "@/components/projects/hugoBoss";
+import Indago from "@/components/projects/indago";
+import LeCordonBleu from "@/components/projects/leCordonBleu";
+import Lufthansa from "@/components/projects/lufthansa";
+import Onboard from "@/components/projects/onboard";
+import Oracle from "@/components/projects/oracle";
+import Pluto from "@/components/projects/pluto";
+import Quantgene from "@/components/projects/quantgene";
+import RockSummer from "@/components/projects/rockSummer";
+import Sambazon from "@/components/projects/sambazon";
+import Sermo from "@/components/projects/sermo";
+import SimplyIraIralogix from "@/components/projects/simplyIraIralogix";
+import SteelBridge from "@/components/projects/steelbridge";
+import theDepartment from "@/components/projects/theDepartment";
+import theLongWay from "@/components/projects/theLongWay";
+import Univision from "@/components/projects/univision";
+import Yankees from "@/components/projects/yankees";
+import Investigation from "@/components/projects/investigation";
+
 import AOS from "aos";
-
-
-
 
 export default {
   name: "Projects"
@@ -200,14 +234,6 @@ export default {
     [...document.querySelectorAll('.logo__white')][0].classList.add('show__logo');
     document.querySelector('.menu__icon').classList.remove('dark__menu');
 
-    // Close navbar clicking outside
-    document.querySelector('.section__wrapper').addEventListener('click', function(){
-      if(document.querySelector('.openedDesktop')){
-        document.querySelector('.sidenav').classList.remove('openedDesktop');
-        document.querySelector('.section__wrapper').classList.remove('active');
-        document.body.style.overflow = 'auto';
-      }
-    })
   },
   updated(){
     setTimeout(function(){ 

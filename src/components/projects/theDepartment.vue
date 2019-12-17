@@ -49,10 +49,10 @@
 <section>
    <div class="row">
       <div class="new-cols-21-1 col-md-6">
-	      <img :data-src="require('@/assets/projects/img/21-page-2.png')" class = "img-responsive lazyload" width= "100%" />
+	      <img :src="require('@/assets/projects/img/21-page-2.png')" class = "img-responsive lazyload" width= "100%" />
 	  </div>
       <div class="new-cols-21-1 col-md-6">
-	      <!--<img :data-src="require('@/assets/projects/img/21-page-3.png')" class = "img-responsive lazyload" width= "100%" />-->
+	      <!--<img :src="require('@/assets/projects/img/21-page-3.png')" class = "img-responsive lazyload" width= "100%" />-->
               
               <video width="100%" height="100%" loop muted autoplay poster="assets/img/21-page-3.png" class="fullscreen-bg__video">
                 <source src="assets/img/department_logo_final.mp4" type="video/mp4">
@@ -67,7 +67,7 @@
 
 
 <section>
-	<img :data-src="require('@/assets/projects/img/21-page-4.jpg')" class = "img-responsive lazyload" width= "100%" />
+	<img :src="require('@/assets/projects/img/21-page-4.jpg')" class = "img-responsive lazyload" width= "100%" />
 </section>
 <section class="blackcrcle">
     <div class="container">
@@ -79,22 +79,22 @@
 	</div>
 </section>
 <section>
-	<img :data-src="require('@/assets/projects/img/21-page-5.jpg')" class = "img-responsive lazyload" width= "100%" height = "100%"/>
+	<img :src="require('@/assets/projects/img/21-page-5.jpg')" class = "img-responsive lazyload" width= "100%" height = "100%"/>
 </section>
 <section class = "new-section-21-1">
    <div class="container">
       <div class="new-row-21-1 row">
 		  <div class="col-md-6">
-		    <h1>Black<br>& White <img style="top: -38px;position: relative; display:inline-block;" :data-src="require('@/assets/projects/img/21-page-bar.png')" class = "img-responsive line1 lazyload" /></h1>
+		    <h1>Black<br>& White <img style="top: -38px;position: relative; display:inline-block;" :src="require('@/assets/projects/img/21-page-bar.png')" class = "img-responsive line1 lazyload" /></h1>
 
 		  </div>
 		  <div class="new-cols-21-3 col-md-6">
-		     <img :data-src="require('@/assets/projects/img/21-page-c.png')" class = "img-responsive pull-right lazyload"/>
+		     <img :src="require('@/assets/projects/img/21-page-c.png')" class = "img-responsive pull-right lazyload"/>
 		  </div>
       </div>
 	  <div class="new-row-21-1 row" id="mobanimation" onmousewheel="toggleClass(this, 'pic_translate')">
 	      <div class="new-cols-21-4 col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-duration="2000">
-		     <img :data-src="require('@/assets/projects/img/21-page-7.png')" class = "img-responsive lazyload" style = "margin:auto;display:block"/>
+		     <img :src="require('@/assets/projects/img/21-page-7.png')" class = "img-responsive lazyload" style = "margin:auto;display:block"/>
 		  </div>
 	  </div>
 	  <div class="new-row-21-1 row">
@@ -108,18 +108,18 @@
 </section>
 <section class = "new-section-21-2">
    <div class="container">
-		<center><img data-aos="fade-up" data-aos-duration="2000" :data-src="require('@/assets/projects/img/21-page-13.png')" class = "img-responsive lazyload"/></center>
+		<center><img data-aos="fade-up" data-aos-duration="2000" :src="require('@/assets/projects/img/21-page-13.png')" class = "img-responsive lazyload"/></center>
    </div>
 </section>
 <section>
-	<img :data-src="require('@/assets/projects/img/21-page-10.jpg')" class = "img-responsive lazyload" width= "100%" />
+	<img :src="require('@/assets/projects/img/21-page-10.jpg')" class = "img-responsive lazyload" width= "100%" />
 </section>
 <section class = "new-section-21-3">
     <div class="container">
 	   <div class="row" style = "margin-top:70px">
 	      <div class="col-md-6">
-		   <img data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" :data-src="require('@/assets/projects/img/21-page-11.png')" class="img-responsive lazyload" width="100%"/>
-		   <img :data-src="require('@/assets/projects/img/21-page-16.png')" class="img-responsive lazyload" width="100%" style="margin-top:50px;margin-bottom:150px;"/>
+		   <img data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" :src="require('@/assets/projects/img/21-page-11.png')" class="img-responsive lazyload" width="100%"/>
+		   <img :src="require('@/assets/projects/img/21-page-16.png')" class="img-responsive lazyload" width="100%" style="margin-top:50px;margin-bottom:150px;"/>
 		  </div>
 	      <div class="col-md-6">
 		     <div class="row">
@@ -128,7 +128,7 @@
 				  <h6 class = "new-text-21-1">RAXO created a fully-functioning website for <br>The Department that truly showcases their <br>work and what they’re all about.</h6>
 			   </div>
 			 </div>
-			 <img data-aos="fade-up" data-aos-duration="2000" :data-src="require('@/assets/projects/img/21-page-11.png')" class = "img-responsive lazyload" width= "100%" style = "margin-top:20%"/>
+			 <img data-aos="fade-up" data-aos-duration="2000" :src="require('@/assets/projects/img/21-page-11.png')" class = "img-responsive lazyload" width= "100%" style = "margin-top:20%"/>
 		  </div>
 	   </div>
 	</div>
@@ -136,11 +136,11 @@
 <section class = "new-section-21-4">
 	<div class="container">
 	   <div class="col-md-8 col-md-offset-2">
-	      <img :data-src="require('@/assets/projects/img/21-page-15.png')" class = "img-responsive lazyload" width= "100%"/>
+	      <img :src="require('@/assets/projects/img/21-page-15.png')" class = "img-responsive lazyload" width= "100%"/>
 	   </div>
 	</div>
 </section>
-<Footer next="engine-shop-branding-design-web-development"></Footer>
+<Footer prev="oracle-cloud-hero-marketing-design-web-development" next="bbc-entertainment-design-animation-tv"></Footer>
 	</div>
 </template>
 

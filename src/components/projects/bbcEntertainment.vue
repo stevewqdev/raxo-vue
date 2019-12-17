@@ -72,33 +72,33 @@ Entertain
 <section class = "section-5" style="background:#000000;">
 <div class="row">
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-2.jpg')" class="lazyload img-group img-responsive" style = "margin-top:10px;"/>
+<img src="require('@/assets/projects/img/image-2.jpg')" class="lazyload img-group img-responsive" style = "margin-top:10px;"/>
 </div>
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-1.png')" class="lazyload img-group img-responsive" style = "margin-top:10px;"/>
+<img src="require('@/assets/projects/img/image-1.png')" class="lazyload img-group img-responsive" style = "margin-top:10px;"/>
 </div>
 </div>
 <div class="row" style="margin-top:10px;">
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-3.jpg')" class="lazyload img-group img-responsive" />
+<img src="require('@/assets/projects/img/image-3.jpg')" class="lazyload img-group img-responsive" />
 </div>
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-4.png')" class="lazyload img-group img-responsive" />
+<img src="require('@/assets/projects/img/image-4.png')" class="lazyload img-group img-responsive" />
 </div>
 </div>
 <div class="row" style="margin-top:10px;">
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-5.png')" class="lazyload img-group img-responsive" />
+<img src="require('@/assets/projects/img/image-5.png')" class="lazyload img-group img-responsive" />
 </div>
 <div class="new-col-12-1 img-col col-md-6">
-<img :data-src="require('@/assets/projects/img/image-6.jpg')" class="lazyload img-group img-responsive" />
+<img src="require('@/assets/projects/img/image-6.jpg')" class="lazyload img-group img-responsive" />
 </div>
 </div>
 </section>
 <section style="padding-top:10px; background:#000000;">
-<img :data-src="require('@/assets/projects/img/last-bg.png')" class = "last-bg img-responsive" />
+<img src="require('@/assets/projects/img/last-bg.png')" class = "last-bg img-responsive" />
 </section>
-<Footer next="oracle-cloud-hero-marketing-design-web-development"></Footer>
+<Footer prev="the-department-design-web-development" next="bbc-entertainment-cbeebies-creative"></Footer>
 	</div>
 </template>
 

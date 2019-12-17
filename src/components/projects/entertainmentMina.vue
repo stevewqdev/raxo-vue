@@ -7,7 +7,7 @@
 	<div class="center-container">
 		<div class="center-block">
 			<h1 class="home-page-24-title light">
-              <img style="max-width:500px; width:70%;" data-aos="fade-in" data-aos-duration="2000" class="lazyload" :data-src="require('@/assets/projects/img/24-page-logo.png')">
+              <img style="max-width:500px; width:70%;" data-aos="fade-in" data-aos-duration="2000" class="lazyload" :src="require('@/assets/projects/img/24-page-logo.png')">
              </h1>
 			<p class="banner-slogon-text">Design. Branding. Animation. Strategy.
 			</p>
@@ -16,7 +16,7 @@
 </div>
 
 
-<section class="parallax-window mina-fondo1 lazyload" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/24-page-1.png">
+<section class="parallax-window mina-fondo1 lazyload" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/24-page-1.png">
   <div class="center-container">
     <div class="center-block">
       <h1 class="paralax">TrueDetectives</h1>
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 </section>
-<section class="parallax-window mina-fondo2" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/24-page-2.png">
+<section class="parallax-window mina-fondo2" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/24-page-2.png">
 <div class="center-container">
     <div class="center-block vidbtn">
 		 <center><a href="javascript:;" class="js-video-button" data-video-id='eU0t-IRw7dM' data-channel="youtube" >
@@ -94,19 +94,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img :data-src="require('@/assets/projects/img/1.jpg')" class="lazyload" alt="Los Angeles">
+      <img :src="require('@/assets/projects/img/1.jpg')" class="lazyload" alt="Los Angeles">
     </div>
 
     <div class="item">
-      <img :data-src="require('@/assets/projects/img/2.jpg')" class="lazyload"  alt="Chicago">
+      <img :src="require('@/assets/projects/img/2.jpg')" class="lazyload"  alt="Chicago">
     </div>
 
     <div class="item">
-      <img :data-src="require('@/assets/projects/img/3.jpg')" class="lazyload" alt="New York">
+      <img :src="require('@/assets/projects/img/3.jpg')" class="lazyload" alt="New York">
     </div>
 
     <div class="item">
-      <img :data-src="require('@/assets/projects/img/4.jpg')" class="lazyload"  alt="New York">
+      <img :src="require('@/assets/projects/img/4.jpg')" class="lazyload"  alt="New York">
     </div>
   </div>
 
@@ -128,21 +128,21 @@
 
 		<div class="row">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/24-page-4.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-4.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/24-page-5.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-5.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px">
-			 <img :data-src="require('@/assets/projects/img/minaandjack.gif')" width = "100%" class = "img-responsive lazyload"/>
+			 <img :src="require('@/assets/projects/img/minaandjack.gif')" width = "100%" class = "img-responsive lazyload"/>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/24-page-7.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-7.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/24-page-8.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-8.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 	<div class="container">
@@ -157,59 +157,59 @@
 
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/24-page-9.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-9.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/24-page-10.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-10.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/24-page-11.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-11.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/24-page-12.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-12.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-7">
-				<img :data-src="require('@/assets/projects/img/24-page-13.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-13.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-5">
-				<img :data-src="require('@/assets/projects/img/24-page-14.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-14.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
-		    <img :data-src="require('@/assets/projects/img/24-page-15.png')" width = "100%" class = "img-responsive lazyload"/>
+		    <img :src="require('@/assets/projects/img/24-page-15.png')" width = "100%" class = "img-responsive lazyload"/>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-5">
-				<img :data-src="require('@/assets/projects/img/24-page-16.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-16.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-2">
-			    <img :data-src="require('@/assets/projects/img/24-page-17.png')" width = "100%" class = "img-responsive lazyload"/>
+			    <img :src="require('@/assets/projects/img/24-page-17.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-5">
-				<img :data-src="require('@/assets/projects/img/24-page-18.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-18.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/24-page-19.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-19.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-4">
-			    <img :data-src="require('@/assets/projects/img/24-page-20.png')" width = "100%" class = "img-responsive lazyload"/>
+			    <img :src="require('@/assets/projects/img/24-page-20.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/24-page-21.png')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/24-page-21.png')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
-		    <img :data-src="require('@/assets/projects/img/24-page-22.png')" width = "100%" class = "img-responsive lazyload"/>
+		    <img :src="require('@/assets/projects/img/24-page-22.png')" width = "100%" class = "img-responsive lazyload"/>
 		</div>
 
 </section>
-<Footer next="allocate" ></Footer>	
+<Footer prev="ultra-music-animation-design-web-development" next="e-cordon-bleu-creative-design-web-development" ></Footer>	
 	</div>
 </template>
 

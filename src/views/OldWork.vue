@@ -291,7 +291,7 @@
                                         </a>
                                     </div>
                                     <div class="row_work">
-                                        <a href="#/creative-work/fusion-beauty-creative-packaging-design-web" class="link_work" data-title="" >
+                                        <a href="#/creative-work/fusion-beauty-creative-packaging" class="link_work" data-title="" >
                                             <div class="work_title">
                                                 <h3 data-content="Fusion Beauty" class="text-link">Fusion Beauty</h3>
                                             </div>
@@ -2756,7 +2756,6 @@ canvas{
     position: fixed;
     top: 180px;
     left: 0;
-    right: 0;
     z-index: 19;
     font-size: 1rem;
 /*            visibility: hidden;*/
@@ -2989,9 +2988,7 @@ import AOS from "aos";
 export default {
    mounted(){
 
-    AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});    AOS.refresh();
-
-
+    AOS.refresh();
 
     document.querySelector('.loader__screen').style.display = 'none';
     
@@ -3028,15 +3025,6 @@ export default {
     [...document.querySelectorAll('.logo__white')][0].classList.add('show__logo');
     document.querySelector('.menu__icon').classList.remove('dark__menu');
 
-    // Close navbar clicking outside
-    document.querySelector('.section__wrapper').addEventListener('click', function(){
-      if(document.querySelector('.openedDesktop')){
-        document.querySelector('.sidenav').classList.remove('openedDesktop');
-        document.querySelector('.section__wrapper').classList.remove('active');
-        document.body.style.overflow = 'auto';
-      }
-    })
-
     setTimeout(function() {
     Scrollbar.init(document.getElementById('smoothie'), {});
     
@@ -3049,16 +3037,14 @@ export default {
     topCenter = x.top, contH = x.height, document.getElementById("lista").addEventListener("mousemove", function(t){
         
         mouse = t.clientY - topCenter;
-        //console.log(mouse + ' :: ' + contH);
         var e = $('.row_work').parent().height() - contH;
         
-        this.transform = -mouse * e / contH, TweenMax.to($('.row_work').parent(), .5, {
+        this.transform = -mouse * e / contH, TweenMax.to($('.row_work').parent(), .1, {
             y: this.transform
         });
     });
     
     $( '.work_list' ).scroll(function() {
-        console.log('here');
         var t = document.getElementById("lista").getBoundingClientRect().height;
         var e = document.getElementById("lista").getElementsByTagName( 'div' )[0].getBoundingClientRect().height;
         var total = document.getElementById("lista").getElementsByTagName( 'div' )[0].children.length;
@@ -3075,7 +3061,6 @@ export default {
             $('.imagenes div.row_hero').eq(hoverSolution).addClass('hero_active');
         }
         
-        console.log('n='+ Math.ceil(n) +' t='+Math.ceil(t) + ' e=' +e + ' scrollTop=' + $('#lista').scrollTop() + ' total='+total);
     });
     
     $("#lista div .row_work")
@@ -3086,7 +3071,6 @@ export default {
         }
         $(this).addClass('work_active');
         $('.imagenes div.row_hero').eq($(this).index()).addClass('hero_active');
-        //console.log($(this).index());
     });
     
     $(".work_title")
@@ -3150,10 +3134,6 @@ export default {
     }.bind(this), 
     1300);
 
-
-
-       
-        
   },
   updated(){
     AOS.refresh();

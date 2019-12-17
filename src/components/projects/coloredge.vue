@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="page-28-bottom-bar">
-    <img :data-src="require('@/assets/projects/img/28-page-block-transparent.png')" alt="">
+    <img :src="require('@/assets/projects/img/28-page-block-transparent.png')" alt="">
   </div>
 </div>
 <section class="section-3">
@@ -61,24 +61,24 @@
         
       </div>
       <div class="col-sm-12 col-md-8 col-lg-8 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-        <img :data-src="require('@/assets/projects/img/28-page-box-1.png')" alt="" class="lazyload website">
+        <img :src="require('@/assets/projects/img/28-page-box-1.png')" alt="" class="lazyload website">
       </div>
     </div>
     <div class="row row-two">
       <div class="col-sm-12 col-md-8 col-lg-8 left aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
-        <img :data-src="require('@/assets/projects/img/28-page-box-2.png')" alt="" class="lazyload website">
+        <img :src="require('@/assets/projects/img/28-page-box-2.png')" alt="" class="lazyload website">
       </div>
       <div class="col-sm-12 col-md-4 col-lg-4 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-        <img :data-src="require('@/assets/projects/img/28-page-box-text-transparent.png')" alt="" class="lazyload transparent-text">
-        <img :data-src="require('@/assets/projects/img/28-bar-2.jpg')" alt="" class="lazyload float-bar">
+        <img :src="require('@/assets/projects/img/28-page-box-text-transparent.png')" alt="" class="lazyload transparent-text">
+        <img :src="require('@/assets/projects/img/28-bar-2.jpg')" alt="" class="lazyload float-bar">
       </div>
     </div>
     <div class="row row-three">
       <div class="col-lg-4 left aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
-        <img :data-src="require('@/assets/projects/img/28-arrow.png')" alt="" class=" lazyload bottom-arrow">
+        <img :src="require('@/assets/projects/img/28-arrow.png')" alt="" class=" lazyload bottom-arrow">
       </div>
       <div class="col-lg-8 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-        <img :data-src="require('@/assets/projects/img/28-page-box-3.png')" alt="" class="lazyload website">
+        <img :src="require('@/assets/projects/img/28-page-box-3.png')" alt="" class="lazyload website">
       </div>
     </div>
   </div>
@@ -96,12 +96,12 @@
 <section class="section-7-page-28">
   <div class="container">
     <div class="row">
-      <img :data-src="require('@/assets/projects/img/28-page-img-7.png')" alt="" class="lazyload img-responsive">
+      <img :src="require('@/assets/projects/img/28-page-img-7.png')" alt="" class="lazyload img-responsive">
     </div>
   </div>
 </section>
 <section class="section-8-page-28">
-  <img :data-src="require('@/assets/projects/img/28-page-bg-5.jpg')" alt="" class="lazyload background">
+  <img :src="require('@/assets/projects/img/28-page-bg-5.jpg')" alt="" class="lazyload background">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 left text-right aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
@@ -116,7 +116,7 @@
 <section class="section-9-page-28">
   <div class="container">
     <div class="row">
-      <img :data-src="require('@/assets/projects/img/28-page-img-7.png')" alt="" class="lazyload img-responsive d-none">
+      <img :src="require('@/assets/projects/img/28-page-img-7.png')" alt="" class="lazyload img-responsive d-none">
     </div>
   </div>
 </section>
@@ -124,7 +124,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-9 d-flex justify-content-center section-10-img">
-          <img :data-src="require('@/assets/projects/img/28-page-block-7-image2.png')" alt="" class="lazyload front-img aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
+          <img :src="require('@/assets/projects/img/28-page-block-7-image2.png')" alt="" class="lazyload front-img aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
       </div>
       <div class="col-sm-12 col-md-3 section-10-info aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
           <h4>INFOGRAPHICS</h4>
@@ -132,7 +132,7 @@
       </div>
     </div>
   </div>
-  <img :data-src="require('@/assets/projects/img/28-page-half-circle.png')" alt="" class="lazyload half-circle-section-10">
+  <img :src="require('@/assets/projects/img/28-page-half-circle.png')" alt="" class="lazyload half-circle-section-10">
 </section>
 <section class="section-11-page-28">
   <div class="container-fluid">
@@ -144,12 +144,12 @@
         <h5 class="subtitle">INSTAGRAM</h5>
       </div>
       <div class="col-md-8 right aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-        <img :data-src="require('@/assets/projects/img/28-page-block-8-image-1.png')" class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/28-page-block-8-image-1.png')" class="lazyload" alt="">
       </div>
     </div>
   </div>
 </section>
-<Footer next="quantgene-is-a-cell-free-platform" prev="city-cancer-challenge"></Footer>	
+<Footer next="humanifed-branding-web-design-app-development" prev="awake"></Footer>	
 	</div>
 </template>
 

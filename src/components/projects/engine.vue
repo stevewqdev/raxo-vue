@@ -6,12 +6,12 @@
   <div class="home-page-3-overlay light"></div>
   <div class="center-container">
     <div class="center-block">
-      <h1 class="home-page-title light"> <img data-aos="fade-in" data-aos-duration="2000" :data-src="require('@/assets/projects/img/logo-2.png')"> </h1>
+      <h1 class="home-page-title light"> <img data-aos="fade-in" data-aos-duration="2000" :src="require('@/assets/projects/img/logo-2.png')"> </h1>
       <p class="banner-slogon-text">Design. Branding. Web Development.</p>
     </div>
   </div>
 </div>
-<section class="parallax-window engine-fondo" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/3-page-bg.jpg" >
+<section class="parallax-window engine-fondo" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/3-page-bg.jpg" >
   <div class="center-container">
     <div class="center-block">
       <h1 class="paralax">Engagement </h1>
@@ -51,12 +51,12 @@
 <section class = "section-4" style="background-color:black;height: 100%;background-size: cover;background-position: center center;">
   <div class="center-container">
     <div class="center-block">
-      <h1 data-aos="slide-up" data-aos-duration="2000" class="logo-head"> <img :data-src="require('@/assets/projects/img/text-logo.png')"></h1>
+      <h1 data-aos="slide-up" data-aos-duration="2000" class="logo-head"> <img :src="require('@/assets/projects/img/text-logo.png')"></h1>
     </div>
   </div>
 </section>
 <div class="clearfix"></div>
-<section class="section-5  parallax-window engine-fondo2"  data-parallax="scroll" style="background: url(@/assets/projects/img/3-page-bg-2.png);" data-image-:data-src="require('@/assets/projects/img/3-page-bg-2.png')"> </section>
+<section class="section-5  parallax-window engine-fondo2"  data-parallax="scroll" style="background: url(@/assets/projects/img/3-page-bg-2.png);" data-image-:src="require('@/assets/projects/img/3-page-bg-2.png')"> </section>
 <div class="clearfix"></div>
 <section class = "new-section-1">
   <div class="container">
@@ -76,7 +76,7 @@
 <section class="new-section-2" style="background:#000000; padding:100px 0;">
   <div class="container" data-aos="fade" data-aos-duration="3000">
     <div class="row">
-      <div class="col-md-8"> <img :data-src="require('@/assets/projects/img/line-bar.png')" / class="lazyload"> </div>
+      <div class="col-md-8"> <img :src="require('@/assets/projects/img/line-bar.png')" / class="lazyload"> </div>
       <div class="new-col-2 col-md-4">
         <div class="pull-left back-curl-icon back-curl-icon-top">
           <h1>Mobile<br>
@@ -92,7 +92,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="mobile-new-box">
           <center>
-            <img data-aos="fade-up" data-aos-duration="2000" :data-src="require('@/assets/projects/img/mobile1.png')" class="lazyload" alt="">
+            <img data-aos="fade-up" data-aos-duration="2000" :src="require('@/assets/projects/img/mobile1.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-right-2 light-text red-crcl back-curl-icon">
             <h2>MENU</h2>
@@ -103,21 +103,21 @@
       <div class="col-md-4 hide-on-mobile">
         <div class="mobile-new-box">
           <center>
-            <img data-aos="fade-up" data-aos-duration="1500" class="show-on-mobile lazyload" :data-src="require('@/assets/projects/img/mobile2.png')"  alt="" style="margin-top: 100px;">
+            <img data-aos="fade-up" data-aos-duration="1500" class="show-on-mobile lazyload" :src="require('@/assets/projects/img/mobile2.png')"  alt="" style="margin-top: 100px;">
           </center>
           <div class="mobile-box-content content-box-top light-text red-crcl">
             <h2>WHAT WE DO</h2>
             <p>RAXO used iconography and imagery to visually display what exactly EngineShop does.</p>
           </div>
           <center>
-            <img data-aos="fade-up" data-aos-duration="2000" class="hide-on-mobile lazyload"  :data-src="require('@/assets/projects/img/mobile2.png')" alt=""  style="margin-top: 100px;">
+            <img data-aos="fade-up" data-aos-duration="2000" class="hide-on-mobile lazyload"  :src="require('@/assets/projects/img/mobile2.png')" alt=""  style="margin-top: 100px;">
           </center>
         </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="mobile-new-box">
           <center>
-            <img data-aos="fade-up" data-aos-duration="3000" :data-src="require('@/assets/projects/img/mobile3.png')" class="lazyload" alt="">
+            <img data-aos="fade-up" data-aos-duration="3000" :src="require('@/assets/projects/img/mobile3.png')" class="lazyload" alt="">
           </center>
           <div class="mobile-box-content bottom-content-left light-text red-crcl back-curl-icon back-curl-icon-slash">
             <h2>CASE STUDIES</h2>
@@ -128,14 +128,14 @@
       <div class="col-md-4 show-on-mobile">
         <div class="mobile-new-box">
           <center>
-            <img class="lazyload show-on-mobile" :data-src="require('@/assets/projects/img/mobile2.png')" alt="" style="margin-top: 20px;">
+            <img class="lazyload show-on-mobile" :src="require('@/assets/projects/img/mobile2.png')" alt="" style="margin-top: 20px;">
           </center>
           <div class="mobile-box-content content-box-top light-text red-crcl">
             <h2>WHAT WE DO</h2>
             <p>RAXO used iconography and imagery to visually display what exactly EngineShop does.</p>
           </div>
           <center>
-            <img class="lazyload hide-on-mobile engine-img2" :data-src="require('@/assets/projects/img/mobile2.png')" alt="" style="margin-top: 100px;">
+            <img class="lazyload hide-on-mobile engine-img2" :src="require('@/assets/projects/img/mobile2.png')" alt="" style="margin-top: 100px;">
           </center>
         </div>
       </div>
@@ -149,15 +149,15 @@
 <section class = "new-section-3">
   <div class="container">
     <h1>Desktop</h1>
-    <img :data-src="require('@/assets/projects/img/lcd.png')" class = "lazyload lcd"/> </div>
+    <img :src="require('@/assets/projects/img/lcd.png')" class = "lazyload lcd"/> </div>
 </section>
-<section class = "new-section-4 parallax-window engine-fondo3"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/3-page-bg-7.png"> </section>
+<section class = "new-section-4 parallax-window engine-fondo3"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/3-page-bg-7.png"> </section>
 <section class 	= "section-7 engine-web">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8" data-aos="fade-right" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/EngineShop-FINAL.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
+          <img :src="require('@/assets/projects/img/EngineShop-FINAL.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
         </center>
       </div>
       <div class="sec-head col-md-3" data-aos="fade-out">
@@ -174,7 +174,7 @@
       </div>
       <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/EngineShop-FINAL-Copy.png')"  style="width:100%"  class = "lazyload head-bar img-responsive"  />
+          <img :src="require('@/assets/projects/img/EngineShop-FINAL-Copy.png')"  style="width:100%"  class = "lazyload head-bar img-responsive"  />
         </center>
       </div>
     </div>
@@ -185,7 +185,7 @@
       </div>
       <div class="col-md-8 hide-on-mobile" data-aos="fade-right" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/EngineShop_FINAL-Copy_two.png')" style="width:100%"  class = "lazyload head-bar img-responsive  " />
+          <img :src="require('@/assets/projects/img/EngineShop_FINAL-Copy_two.png')" style="width:100%"  class = "lazyload head-bar img-responsive  " />
         </center>
       </div>
       <div class="sec-head col-md-3 hidden-sm hidden-xs" data-aos="fade" data-aos-duration="2000">
@@ -194,7 +194,7 @@
       </div>
       <div class="col-md-8 show-on-mobile" data-aos="fade-right" data-aos-duration="2000">
         <center>
-          <img :data-src="require('@/assets/projects/img/EngineShop_FINAL-Copy_two.png')" style="width:100%"  class = "lazyload head-bar img-responsive  " />
+          <img :src="require('@/assets/projects/img/EngineShop_FINAL-Copy_two.png')" style="width:100%"  class = "lazyload head-bar img-responsive  " />
         </center>
       </div>
     </div>
@@ -206,12 +206,12 @@
       </div>
             <div class="col-md-8 hide-on-mobile" data-aos="fade-left" data-aos-duration="2000" style="padding-bottom: 70px; ">
         <center>
-          <img  :data-src="require('@/assets/projects/img/EngineShop_FINAL-Copy_three.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
+          <img  :src="require('@/assets/projects/img/EngineShop_FINAL-Copy_three.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
         </center>
         </div>
       <div class="col-md-8 show-on-mobile" data-aos="fade-left" data-aos-duration="2000" style="padding-bottom: 70px; ">
         <center>
-          <img  :data-src="require('@/assets/projects/img/EngineShop_FINAL-Copy_three.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
+          <img  :src="require('@/assets/projects/img/EngineShop_FINAL-Copy_three.png')" style="width:100%" class = "lazyload head-bar img-responsive" />
         </center>
         </div>
     </div>
@@ -220,7 +220,7 @@
 <section class="section-8 parallax-window engine-fondo4"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/EngineShop-FINAL-bg.png"> </section>
 <div class="clearfix"></div>
 <section class="section-9-1 parallax-window engine-fondo5" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/3-page-last.png"> </section>
-<Footer next="lufthansa-creative-design-web-development" ></Footer>		
+<Footer prev="hugo-boss-design-animation" next="lufthansa-creative-design-web-development" ></Footer>		
 	</div>
 </template>
 <style scoped>

@@ -41,37 +41,37 @@
     </div>
   </div>
 </section>
-<section class = "parallax-window yankees-fondo2"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/13-page-2.png')"> </section>
-<section class = "parallax-window section-3-1 yankees-fondo3"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/13-page-3.png')"> </section>
+<section class = "parallax-window yankees-fondo2"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/13-page-2.png')"> </section>
+<section class = "parallax-window section-3-1 yankees-fondo3"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/13-page-3.png')"> </section>
 <section class = "new-section-13-1">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 no-padding" data-aos="slide-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-4.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
-      <div class="col-md-4 no-padding" data-aos="slide-left" data-aos-duration="2000"><img :data-src="require('@/assets/projects/img/13-page-5.png')" class = "lazyload img-responsive" width = "100%;"/></div>
+      <div class="col-md-4 no-padding" data-aos="slide-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-4.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
+      <div class="col-md-4 no-padding" data-aos="slide-left" data-aos-duration="2000"><img :src="require('@/assets/projects/img/13-page-5.png')" class = "lazyload img-responsive" width = "100%;"/></div>
       <div class="col-md-4" ></div>
     </div>
     <div class="row">
-      <div class="col-md-4 no-padding" data-aos="slide-up" data-aos-duration="2000"><img :data-src="require('@/assets/projects/img/13-page-6.png')" class = "lazyload img-responsive" width = "100%;"/></div>
+      <div class="col-md-4 no-padding" data-aos="slide-up" data-aos-duration="2000"><img :src="require('@/assets/projects/img/13-page-6.png')" class = "lazyload img-responsive" width = "100%;"/></div>
     </div>
   </div>
 </section>
-<section class = "parallax-window new-section-13-1-1 yankees-fondo4 lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/13-page-8.jpg')"> </section>
+<section class = "parallax-window new-section-13-1-1 yankees-fondo4 lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/13-page-8.jpg')"> </section>
 <section class = "new-section-13-2" style="padding:100px 0;">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-10.png')" class=" lazyload img-responsive" width="100%;" style="box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.14)"/> </div>
+    <div class="col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-10.png')" class=" lazyload img-responsive" width="100%;" style="box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.14)"/> </div>
   </div>
 </section>
 <section class = "new-section-13-3" style="padding:100px 0;">
   <div class="container">
-    <div class="col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-12.png')" class="lazyload img-responsive" width="100%;" style="box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.14)"/> </div>
+    <div class="col-md-8 col-md-offset-2" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-12.png')" class="lazyload img-responsive" width="100%;" style="box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.14)"/> </div>
   </div>
 </section>
 <section class = "new-section-13-4 yankees-design">
   <div class="container" style = "margin:10% auto;">
     <div class="row">
-      <div class="col-md-4" data-aos="slide-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-13.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
-      <div class="col-md-4" data-aos="slide-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-14.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
-      <div class="col-md-4" data-aos="slide-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/13-page-15.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
+      <div class="col-md-4" data-aos="slide-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-13.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
+      <div class="col-md-4" data-aos="slide-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-14.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
+      <div class="col-md-4" data-aos="slide-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/13-page-15.png')" class = "lazyload img-responsive" width = "100%;"/> </div>
     </div>
   </div>
   <div class="container-fluid">
@@ -86,8 +86,8 @@
     </div>
   </div>
 </section>
-<section class = "parallax-window new-section-13-4-1 yankees-fondo5 lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/13-page-16.jpg')"> </section>
-<Footer next="sambazon-design-animation"></Footer>
+<section class = "parallax-window new-section-13-4-1 yankees-fondo5 lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/13-page-16.jpg')"> </section>
+<Footer prev="onboard-informatics-design-web-development" next="allocate"></Footer>
 	</div>
 </template>
 

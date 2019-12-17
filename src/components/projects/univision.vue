@@ -69,22 +69,22 @@
 </section>
 <section>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-6"> <img :data-src="require('@/assets/projects/img/12-page-3.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-6"> <img :data-src="require('@/assets/projects/img/12-page-4.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-6"> <img :src="require('@/assets/projects/img/12-page-3.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-6"> <img :src="require('@/assets/projects/img/12-page-4.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-3"> <img :data-src="require('@/assets/projects/img/12-page-5.png')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-9"> <img :data-src="require('@/assets/projects/img/12-page-9.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-3"> <img :src="require('@/assets/projects/img/12-page-5.png')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-9"> <img :src="require('@/assets/projects/img/12-page-9.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
   <div class="row" style = "margin-top:10px;">
-    <div class="new-col-12-1 col-md-7"> <img :data-src="require('@/assets/projects/img/12-page-6.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
-    <div class="new-col-12-2 col-md-5"> <img :data-src="require('@/assets/projects/img/12-page-7.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-1 col-md-7"> <img :src="require('@/assets/projects/img/12-page-6.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
+    <div class="new-col-12-2 col-md-5"> <img :src="require('@/assets/projects/img/12-page-7.jpg')" width = "100%" class = "img-responsive lazyload"/> </div>
   </div>
   <div class="row" style = "margin-top:10px;">
     <img style="width:100%;" src="assets/img/12-page-0.png" alt="">
   </div>
 </section>
-<Footer next="sambazon-design-animation"></Footer>
+<Footer prev="global-press-design" next="rock-summer-is-an-initiative-started"></Footer>
 
 
 	</div>

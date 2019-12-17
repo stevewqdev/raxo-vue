@@ -76,11 +76,11 @@ html {
 }
 .right-layer--2 { 
   background: #d13368;
-  transition-delay: 0.4s!important;
+  transition-delay: 0.3s!important;
 }
 .right-layer--3 {
   background: #d13368;
-  transition-delay: 0.3s!important;
+  transition-delay: 0.2s!important;
 }
 .loader__screen__courtain{
     position: fixed;

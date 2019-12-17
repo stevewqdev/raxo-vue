@@ -46,7 +46,7 @@
 
 
 <section style="margin-bottom: 10px;">
-<img :data-src="require('@/assets/projects/img/11-page-2.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-2.png')" width = "100%"
  class="lazyload img-responsive" />
 </section>
 
@@ -76,54 +76,54 @@
 <section >
 <div class="row" style="margin-bottom: 10px;margin-top: 20px;">
 <div class="new-col-11-1 col-md-6">
-<img :data-src="require('@/assets/projects/img/11-page-4.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-4.png')" width = "100%"
  class="lazyload img-responsive" style="border-right: 10px solid #fff;" />
 </div>
 <div class="new-col-11-1 col-md-6">
-<img :data-src="require('@/assets/projects/img/11-page-5.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-5.png')" width = "100%"
  class="lazyload img-responsive" />
 </div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div class="new-col-11-1 col-md-4">
-<img :data-src="require('@/assets/projects/img/11-page-6.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-6.png')" width = "100%"
  class="lazyload img-responsive" style="border-right: 10px solid #fff;" />
 </div>
 <div class="new-col-11-1 col-md-8">
-<img :data-src="require('@/assets/projects/img/11-page-7.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-7.png')" width = "100%"
  class="lazyload img-responsive" />
 </div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div class="new-col-11-1 col-md-8">
-<img :data-src="require('@/assets/projects/img/11-page-8.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-8.png')" width = "100%"
  class="lazyload img-responsive" style="border-right: 10px solid #fff;" />
 </div>
 <div class="new-col-11-1 col-md-4">
-<img :data-src="require('@/assets/projects/img/11-page-9.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-9.png')" width = "100%"
  class="lazyload img-responsive" />
 </div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
-<img :data-src="require('@/assets/projects/img/11-page-10.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-10.png')" width = "100%"
  class="lazyload img-responsive"  />
 </div>
 <div class="row">
 <div class="new-col-11-1 col-md-6">
-<img :data-src="require('@/assets/projects/img/11-page-11.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-11.png')" width = "100%"
  class="lazyload img-responsive" style="border-right: 10px solid #fff;"/>
 </div>
 <div class=" new-col-11-1 col-md-6">
-<img :data-src="require('@/assets/projects/img/11-page-12.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-12.png')" width = "100%"
  class="lazyload img-responsive" />
 </div>
 </div>
 <div class="row" style="margin-top: 10px;"> 
-<img :data-src="require('@/assets/projects/img/11-page-13.png')" width = "100%"
+<img :src="require('@/assets/projects/img/11-page-13.png')" width = "100%"
  class="lazyload img-responsive" />
 </div>
 </section>
-<Footer next="univision-election-design-animation-tv"></Footer>
+<Footer prev="pluto-tv-is-an-Internet-based-television" next="investigation-13-entertainment-design-animation"></Footer>
 	</div>
 </template>
 

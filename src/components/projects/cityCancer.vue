@@ -7,7 +7,7 @@
       <div class="center-container">
         <div class="center-block">
           <h1 class="home-page-26-title light">
-            <img :data-src="require('@/assets/projects/img/29-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" class="lazyload crisp-logo aos-init aos-animate">
+            <img :src="require('@/assets/projects/img/29-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" class="lazyload crisp-logo aos-init aos-animate">
           </h1>
           <p class="banner-slogon-text">Web Design</p>
         </div>
@@ -16,9 +16,9 @@
     </div>
     <section class="section-2-page-29">
       <div class="background">
-        <img :data-src="require('@/assets/projects/img/29-block-2-bg.jpg')" class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/29-block-2-bg.jpg')" class="lazyload" alt="">
       </div>
-      <img :data-src="require('@/assets/projects/img/29-web-text.png')" alt="" class="lazyload image-text img-responsive web-text aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+      <img :src="require('@/assets/projects/img/29-web-text.png')" alt="" class="lazyload image-text img-responsive web-text aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     <section class="section-3">
       <div class="cont-1 container">
@@ -59,7 +59,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-              <img :data-src="require('@/assets/projects/img/29-mac.png')" alt="" class="lazyload mac-img">
+              <img :src="require('@/assets/projects/img/29-mac.png')" alt="" class="lazyload mac-img">
           </div>
         </div>
     
@@ -88,12 +88,12 @@
             
           </div>
           <div class="col-sm-12 col-md-12 col-lg-9 the_website">
-            <img :data-src="require('@/assets/projects/img/29-web-1.png')" data-aos-duration="2000" data-aos="fade-left')" alt="" class="lazyload website shadow-right aos-init aos-animate">
+            <img :src="require('@/assets/projects/img/29-web-1.png')" data-aos-duration="2000" data-aos="fade-left')" alt="" class="lazyload website shadow-right aos-init aos-animate">
           </div>
         </div>
         <div class="row  section-row second-row">
           <div class="col-sm-12 col-md-12 col-lg-9 the_website">
-            <img :data-src="require('@/assets/projects/img/29-web-2.png')" data-aos-duration="2000" data-aos="fade-right')" alt="" class="lazyload website shadow-left aos-init aos-animate">
+            <img :src="require('@/assets/projects/img/29-web-2.png')" data-aos-duration="2000" data-aos="fade-right')" alt="" class="lazyload website shadow-left aos-init aos-animate">
           </div>
           <div class="col-sm-12 col-md-12 col-lg-3 stats">
             <p class="subtitle-left text-right aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up"><strong>STATS</strong></p>
@@ -106,15 +106,15 @@
     
           </div>
           <div class="col-sm-12 col-md-12 col-lg-9 the_website">
-            <img :data-src="require('@/assets/projects/img/29-web-3.png')" data-aos-duration="2000" data-aos="fade-right')" alt="" class="lazyload website shadow-right aos-init aos-animate">
+            <img :src="require('@/assets/projects/img/29-web-3.png')" data-aos-duration="2000" data-aos="fade-right')" alt="" class="lazyload website shadow-right aos-init aos-animate">
           </div>
         </div>
       </div>
     </section>
     <section class="section-8-page-29">
-      <img :data-src="require('@/assets/projects/img/29-bottom.jpg')" alt="" class="lazyload background">
+      <img :src="require('@/assets/projects/img/29-bottom.jpg')" alt="" class="lazyload background">
     </section>
-    <Footer next="coloredge-is-a-unique-media-company" prev="bbc-entertainment-mina-jack-animation-design-tv"></Footer>
+    <Footer next="pluto-tv-is-an-Internet-based-television" prev="first-key-homes-strategy-design-web-development"></Footer>
 	</div>
 </template>
 

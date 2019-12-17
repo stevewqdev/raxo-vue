@@ -81,7 +81,7 @@
             experience while tuning into BBC HD. See below! <br></p>
         </div>
         <div class="col-md-3">
-            <img :data-src="require('@/assets/projects/img/big-arrow.png')" style="width: 84px;margin-left:30px;" />
+            <img :src="require('@/assets/projects/img/big-arrow.png')" style="width: 84px;margin-left:30px;" />
         </div>    
     </div>
 </div>
@@ -89,7 +89,7 @@
 
 <!--
 <section>
-<img :data-src="require('@/assets/projects/img/15-page-3.png')" width = "100%" class = "img-responsive lazyload"/>
+<img :src="require('@/assets/projects/img/15-page-3.png')" width = "100%" class = "img-responsive lazyload"/>
 </section>
 -->
 
@@ -97,28 +97,28 @@
 	<div class = "container-fluid">
 		<div class="row">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-1.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-1.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-2.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-2.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/bbc-3.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-3.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/bbc-4.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-4.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/bbc-5.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-5.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/bbc-6.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-6.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 	</div>
@@ -135,23 +135,23 @@
     <div class = "new-section-20-2">
 		<div class="row">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/bbc-7.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-7.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/bbc-8.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-8.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-9.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-9.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-10.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-10.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 
 		<div class="row" style = "margin-top:10px;">
-				<img :data-src="require('@/assets/projects/img/bbc-hd.gif')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-hd.gif')" width = "100%" class = "img-responsive lazyload"/>
 		</div>
 	</div>
 </section>
@@ -161,40 +161,40 @@
     <div class = "new-section-20-2">
 		<div class="row">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-11.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-11.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-12.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-12.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/bbc-13.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-13.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/bbc-14.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-14.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>
 		<div class="row" style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-4">
-				<img :data-src="require('@/assets/projects/img/bbc-15.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-15.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-8">
-				<img :data-src="require('@/assets/projects/img/bbc-16.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-16.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>		
 		<div class="row"  style = "margin-top:10px;">
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-17.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-17.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 			<div class="new-col-12-1 img-col col-md-6">
-				<img :data-src="require('@/assets/projects/img/bbc-18.jpg')" width = "100%" class = "img-responsive lazyload"/>
+				<img :src="require('@/assets/projects/img/bbc-18.jpg')" width = "100%" class = "img-responsive lazyload"/>
 			</div>
 		</div>		
      </div>
 
 </section>
-<Footer next="bbc-entertainment-cbeebies-creative"></Footer>	
+<Footer prev="bbc-entertainment-cbeebies-creative" next="sambazon-design-animation"></Footer>	
 	</div>
 </template>
 <style>

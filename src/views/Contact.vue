@@ -261,15 +261,6 @@ export default {
 
         [...document.querySelectorAll('.logo__black')][0].classList.remove('show__logo');
         [...document.querySelectorAll('.logo__white')][0].classList.add('show__logo');
-
-        // Close navbar clicking outside
-        document.querySelector('.section__wrapper').addEventListener('click', function(){
-            if(document.querySelector('.openedDesktop')){
-                document.querySelector('.sidenav').classList.remove('openedDesktop');
-                document.querySelector('.section__wrapper').classList.remove('active');
-                document.body.style.overflow = 'auto';
-            }
-        })
     },
 };
 </script>
@@ -535,7 +526,7 @@ input:focus{
         border: solid 2.3px #ffffff;
     }
     .menu__icon.white-menu:hover i {
-        background: #ffffff;
+        background: transparent;
         transition: 0.3s ease-in;
     }
 </style>

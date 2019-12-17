@@ -1,5 +1,5 @@
 <template>
-    <div class="section__wrapper" >
+    <div class="section__wrapper home" >
 	<title>Raxo - A Design Studio NYC, Motion Graphic and Web Design Company</title>
 	<meta name="description" content="RAXO is a creative design studio in NYC and that specializes in specializing in digital design, motion graphics, web design, branding and animation for startups & entertainment companies. Call today!">
 
@@ -44,7 +44,6 @@ export default {
 		// Second Animation Batch
 		document.querySelector('.loader__screen').classList.remove('start__animation');
 		document.querySelector('.loader__screen').classList.add('end__loader');
-		AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});	
 	}
   },
   mounted(){
@@ -179,14 +178,6 @@ export default {
 	document.querySelector('.cursor p small').innerHTML = 'Click <br> & Drag';
 	webHome();  
 
-	// Close navbar clicking outside
-	document.querySelector('.section__wrapper').addEventListener('click', function(){
-		if(document.querySelector('.openedDesktop')){
-			document.querySelector('.sidenav').classList.remove('openedDesktop');
-			document.querySelector('.section__wrapper').classList.remove('active');
-			document.body.style.overflow = 'auto';
-		}
-	})
 	if (window.screen.width < 768) {
 		(function() {
 			var touchStartHandler,
@@ -238,7 +229,10 @@ export default {
 };
 </script>
 
-<style >
+<style>
+.section__wrapper.home{
+	    background: white;
+}
 .first__loader__gif{
 	animation: show__gif 0.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1);
 	animation-delay: 0s;

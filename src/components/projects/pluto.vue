@@ -7,7 +7,7 @@
   <div class="center-container">
     <div class="center-block">
       <h1 class="home-page-26-title light" data-aos-duration="2000" data-aos="fade-up">
-        <img :data-src="require('@/assets/projects/img/34-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" >
+        <img :src="require('@/assets/projects/img/34-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" >
       </h1>
       <p class="banner-slogon-text">Web Design</p>
     </div>
@@ -48,9 +48,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 section__2__wrapper" >
-        <img :data-src="require('@/assets/projects/img/34-first.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up">
+        <img :src="require('@/assets/projects/img/34-first.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up">
         <div class="divider-one">
-            <img :data-src="require('@/assets/projects/img/34-s-1.jpg')" class="lazyload" alt="">
+            <img :src="require('@/assets/projects/img/34-s-1.jpg')" class="lazyload" alt="">
         </div>
       </div>
     </div>
@@ -67,10 +67,10 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-8 col-lg-8 img-column" >
-        <img :data-src="require('@/assets/projects/img/34-second.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up">
+        <img :src="require('@/assets/projects/img/34-second.png')" alt="" class="lazyload" data-aos-duration="2000" data-aos="fade-up">
       </div>
       <div class="divider-one">
-          <img :data-src="require('@/assets/projects/img/34-s-2.jpg')" class="lazyload" alt="">
+          <img :src="require('@/assets/projects/img/34-s-2.jpg')" class="lazyload" alt="">
       </div>
     </div>
   </div>
@@ -79,7 +79,7 @@
     <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-8 col-lg-8 img-column" data-aos-duration="2000" data-aos="fade-up">
-            <img :data-src="require('@/assets/projects/img/34-third.jpg')" class="lazyload" alt="">
+            <img :src="require('@/assets/projects/img/34-third.jpg')" class="lazyload" alt="">
           </div>
           <div class="col-sm-12 col-md-4 col-lg-4 text-column">
             <!--<div class="wrapper" data-aos-duration="2000" data-aos="fade-up">-->
@@ -92,7 +92,7 @@
             <!--</div>-->
           </div>
           <div class="divider-one">
-              <img :data-src="require('@/assets/projects/img/34-s-3.jpg')" class="lazyload" alt="">
+              <img :src="require('@/assets/projects/img/34-s-3.jpg')" class="lazyload" alt="">
           </div>
         </div>
       </div>
@@ -102,13 +102,13 @@
     <p>info</p>
   </div>
   <div class="divider-one" >
-      <img :data-src="require('@/assets/projects/img/34-s-4.jpg')" class="lazyload" alt="" >
+      <img :src="require('@/assets/projects/img/34-s-4.jpg')" class="lazyload" alt="" >
   </div>
   <div class="section__5__wrapper" >
-      <img :data-src="require('@/assets/projects/img/34-fourth.png')" class="lazyload" alt="" data-aos-duration="2000" data-aos="fade-up">
+      <img :src="require('@/assets/projects/img/34-fourth.png')" class="lazyload" alt="" data-aos-duration="2000" data-aos="fade-up">
   </div>
 </section>
-<Footer next="smart-cities-we-design-development" prev="rock-summer-is-an-initiative-started" ></Footer>	
+<Footer next="city-cancer-challenge" prev="the-long-way-back-entertainment-design-animation" ></Footer>	
 	</div>
 </template>
 

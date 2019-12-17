@@ -8,14 +8,14 @@
       <div class="center-block">
         <h1 class="home-page-7-title light" data-aos="fade-in" data-aos-duration="2000">
           <center>
-            <img :data-src="require('@/assets/projects/img/luthansa-logo.png')" class="img-responsive lazyload" width="50%" alt="">
+            <img :src="require('@/assets/projects/img/luthansa-logo.png')" class="img-responsive lazyload" width="50%" alt="">
           </center>
         </h1>
         <p class="banner-slogon-text">Design. Web Development.</p>
       </div>
     </div>
   </div>
-  <section class="parallax-window lufthansa-fondo1 lazyload" data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/7-page-1.jpg" >
+  <section class="parallax-window lufthansa-fondo1 lazyload" data-parallax="scroll" data-image-:src="require('@/assets/projects/img/7-page-1.jpg" >
     <div class="center-container">
       <div class="center-block">
         <h1 class="paralax-1">Flight</h1>
@@ -67,9 +67,9 @@
       </div>
       <div class="new-cont-7-1 container">
         <div class="row" id="mobanimation" onmousewheel="toggleClass(this, 'pic_translate')">
-          <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-3.png')" class = "img-responsive lazyload" width = "100%" /> </div>
-          <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-4.png')" class = "img-responsive center-img lazyload" width = "100%" /></div>
-          <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" data-aos="fade-up" data-aos-duration="3000"> <img :data-src="require('@/assets/projects/img/7-page-5.png')" class = "img-responsive side-img lazyload " width = "100%" /></div>
+          <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-3.png')" class = "img-responsive lazyload" width = "100%" /> </div>
+          <div class="col-xs-12 col-sm-6 col-md-4" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-4.png')" class = "img-responsive center-img lazyload" width = "100%" /></div>
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" data-aos="fade-up" data-aos-duration="3000"> <img :src="require('@/assets/projects/img/7-page-5.png')" class = "img-responsive side-img lazyload " width = "100%" /></div>
         </div>
       </div>
     </div>
@@ -86,19 +86,19 @@
     </div>
     <div class="new-cont-7-1 container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-6.png')" class="img-responsive lazyload" width="100%" style="margin-top:-10px"/> </div>
-        <div class="col-xs-12 col-sm-6 col-md-6" data-aos="fade-up" data-aos-duration="4000"> <img :data-src="require('@/assets/projects/img/7-page-7.png')" class="img-responsive lazyload" width="100%" /> </div>
+        <div class="col-xs-12 col-sm-6 col-md-6" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-6.png')" class="img-responsive lazyload" width="100%" style="margin-top:-10px"/> </div>
+        <div class="col-xs-12 col-sm-6 col-md-6" data-aos="fade-up" data-aos-duration="4000"> <img :src="require('@/assets/projects/img/7-page-7.png')" class="img-responsive lazyload" width="100%" /> </div>
       </div>
     </div>
     <div class="new-cont-7-1 container">
       <div class="row">
-        <div class="col-md-8" data-aos="fade-up" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-8.png')" class="img-responsive lazyload" width="100%" /> </div>
-        <div class="hidden-xs hidden-sm col-md-3 col-md-offset-1"> <img :data-src="require('@/assets/projects/img/7-page-9.png')" class="img-responsive lazyload" width="100%" style = "margin-top:20%"/> </div>
+        <div class="col-md-8" data-aos="fade-up" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-8.png')" class="img-responsive lazyload" width="100%" /> </div>
+        <div class="hidden-xs hidden-sm col-md-3 col-md-offset-1"> <img :src="require('@/assets/projects/img/7-page-9.png')" class="img-responsive lazyload" width="100%" style = "margin-top:20%"/> </div>
       </div>
     </div>
     <div class="new-cont-7-1 container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-4" data-aos="fade-up" data-aos-duration="3000"> <img :data-src="require('@/assets/projects/img/7-page-10.png')" class="img-responsive lazyload" width="100%" /> </div>
+        <div class="col-md-8 col-md-offset-4" data-aos="fade-up" data-aos-duration="3000"> <img :src="require('@/assets/projects/img/7-page-10.png')" class="img-responsive lazyload" width="100%" /> </div>
       </div>
     </div>
   </section>
@@ -125,24 +125,24 @@
     </div>
     <div class="new-cont-7-3 container-fluid">
       <div class="row">
-        <div class="new-col-7-3 col-xs-12 col-sm-8 col-md-5 col-md-offset-1" data-aos="fade-right" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-12.png')" class = "img-responsive lazyload" width= "100%" /> </div>
+        <div class="new-col-7-3 col-xs-12 col-sm-8 col-md-5 col-md-offset-1" data-aos="fade-right" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-12.png')" class = "img-responsive lazyload" width= "100%" /> </div>
         <div class="new-col-7-4 col-md-6"> </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="col-xs-2 col-sm-2 col-md-3 hide-on-mobile">
         <center>
-          <img :data-src="require('@/assets/projects/img/7-page-line-1.png')" class = "img-responsive lazyload" data-aos="fade-left" data-aos-duration="2000" style = "margin-top:50%"/>
+          <img :src="require('@/assets/projects/img/7-page-line-1.png')" class = "img-responsive lazyload" data-aos="fade-left" data-aos-duration="2000" style = "margin-top:50%"/>
         </center>
       </div>
       <br> <br> <br>
-      <div class="col-xs-12 col-sm-10 col-md-9"> <img :data-src="require('@/assets/projects/img/7-page-13.png')" class = "img-responsive lazyload" data-aos="fade-right" data-aos-duration="2000" width= "100%" /></div>
+      <div class="col-xs-12 col-sm-10 col-md-9"> <img :src="require('@/assets/projects/img/7-page-13.png')" class = "img-responsive lazyload" data-aos="fade-right" data-aos-duration="2000" width= "100%" /></div>
     </div>
     <div class="new-cont-7-4 container-fluid">
-      <div class="col-xs-12 col-sm-10 col-md-9"> <img :data-src="require('@/assets/projects/img/7-page-154.png')" class = "img-responsive lazyload" data-aos="fade-right" data-aos-duration="2000" width= "100%"/></div>
+      <div class="col-xs-12 col-sm-10 col-md-9"> <img :src="require('@/assets/projects/img/7-page-154.png')" class = "img-responsive lazyload" data-aos="fade-right" data-aos-duration="2000" width= "100%"/></div>
       <div class="col-xs-2 col-sm-2 col-md-3 hide-on-mobile">
         <center>
-          <img :data-src="require('@/assets/projects/img/7-page-line-2.png')" class = "img-responsive lazyload" data-aos="fade-left" data-aos-duration="2000" style = "margin-top:30%"/>
+          <img :src="require('@/assets/projects/img/7-page-line-2.png')" class = "img-responsive lazyload" data-aos="fade-left" data-aos-duration="2000" style = "margin-top:30%"/>
         </center>
       </div>
     </div>
@@ -164,7 +164,7 @@
           <h1 class="web section-side-heading" style="color:#f3bd1d; margin-top:50px;">Game</h1>
           <p class = "paragraph-2">EUROWINGS</p>
         </div>
-        <div class="col-xs-12 col-sm-9 col-md-5"> <img :data-src="require('@/assets/projects/img/7-page-lcd.png')" class = "img-responsive lazyload" width= "100%"/> </div>
+        <div class="col-xs-12 col-sm-9 col-md-5"> <img :src="require('@/assets/projects/img/7-page-lcd.png')" class = "img-responsive lazyload" width= "100%"/> </div>
       </div>
     </div>
   </section>
@@ -174,15 +174,15 @@
       <span class="box"></span>
       <p class = "para">RAXO designed a trivia game for the Eurowings<br> part of Lufthansa.  When answered correctly, <br>the user wins badges towards their collection.</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :data-src="require('@/assets/projects/img/7-page-16.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload" /> </div>
-    <div class="col-xs-12 col-sm-8 col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%; padding-bottom:70px;" :data-src="require('@/assets/projects/img/7-page-17.png')" class = "head-bar img-responsive  lazyload"  /> </div>
+    <div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-8 col-md-offset-0" data-aos="fade-left" data-aos-duration="2000"> <img :src="require('@/assets/projects/img/7-page-16.png')"  style="width: 100%;" class = "head-bar img-responsive lazyload" /> </div>
+    <div class="col-xs-12 col-sm-8 col-md-9" data-aos="fade-right" data-aos-duration="2000"> <img style="width: 100%; padding-bottom:70px;" :src="require('@/assets/projects/img/7-page-17.png')" class = "head-bar img-responsive  lazyload"  /> </div>
     <div class="big-circle-last col-md-3 hidden-xs hidden-sm">
       <div class = "circle11" data-aos="slide-left" data-aos-duration="2000"></div>
     </div>
   </section>
   <div class="clearfix" style="background: #000;"></div>
-  <section class = "new-section-7-4 parallax-window lufthansa-fondo2 lazyload"  data-parallax="scroll" data-image-:data-src="require('@/assets/projects/img/7-page-18.jpg"> </section>
-  <Footer next="bbc-entertainment-design-animation-tv" ></Footer>	
+  <section class = "new-section-7-4 parallax-window lufthansa-fondo2 lazyload"  data-parallax="scroll" data-image-:src="require('@/assets/projects/img/7-page-18.jpg"> </section>
+  <Footer prev="engine-shop-branding-design-web-development" next="sermo-branding-design-web-development" ></Footer>	
 	</div>
 </template>
 

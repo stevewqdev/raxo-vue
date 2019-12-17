@@ -37,7 +37,6 @@ export default {
 	},
   },
   mounted(){
-    AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});	
     // hide loading screen
     document.querySelector('.loader__screen').style.display = 'none';
     var logo = [...document.querySelectorAll('.logo')];
@@ -98,15 +97,6 @@ export default {
             cursor.classList.remove('hover-cursor');
         });
     });
-
-    // Close navbar clicking outside
-	document.querySelector('.section__wrapper').addEventListener('click', function(){
-		if(document.querySelector('.openedDesktop')){
-			document.querySelector('.sidenav').classList.remove('openedDesktop');
-            document.querySelector('.section__wrapper').classList.remove('active');
-            document.body.style.overflow = 'auto';
-		}
-	})
   }
 };
 </script>

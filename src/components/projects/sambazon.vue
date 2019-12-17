@@ -71,25 +71,25 @@
 <section class = "new-section-9-2">
 <div class="row" style="margin-bottom: 10px;">
 <div class="new-9-col col-md-6">
-<img :data-src="require('@/assets/projects/img/9-page-3.jpg')"  class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;"  />
+<img :src="require('@/assets/projects/img/9-page-3.jpg')"  class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;"  />
 </div>
 <div class="new-9-col col-md-6">
-<img :data-src="require('@/assets/projects/img/9-page-4.png')" class = "img-responsive lazyload" width="100%"  /></div>
+<img :src="require('@/assets/projects/img/9-page-4.png')" class = "img-responsive lazyload" width="100%"  /></div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div class="new-9-col col-md-4">
-<img :data-src="require('@/assets/projects/img/9-page-5.jpg')" class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;"/>
+<img :src="require('@/assets/projects/img/9-page-5.jpg')" class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;"/>
 </div>
 <div class="new-9-col col-md-8">
-<img :data-src="require('@/assets/projects/img/9-page-6.jpg')" class = "img-responsive lazyload" width="100%"/>
+<img :src="require('@/assets/projects/img/9-page-6.jpg')" class = "img-responsive lazyload" width="100%"/>
 </div>
 </div>
 <div class="row" style="margin-bottom: 10px;">
 <div class="new-9-col col-md-8">
-<img :data-src="require('@/assets/projects/img/9-page-7.jpg')" class = "img-responsive lazyload" width="100%"  style="border-right: 10px solid #fff;"/>
+<img :src="require('@/assets/projects/img/9-page-7.jpg')" class = "img-responsive lazyload" width="100%"  style="border-right: 10px solid #fff;"/>
 </div>
 <div class="new-9-col col-md-4">
-<img :data-src="require('@/assets/projects/img/9-page-12.jpg')" class = "img-responsive lazyload" width="100%"/>
+<img :src="require('@/assets/projects/img/9-page-12.jpg')" class = "img-responsive lazyload" width="100%"/>
 </div>
 </div>
 </section>
@@ -111,17 +111,17 @@
 <section>
 <div class="row">
 <div class="new-9-col col-md-6">
-<img :data-src="require('@/assets/projects/img/9-page-9.jpg')" class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;border-bottom: 10px solid #fff;"/>
+<img :src="require('@/assets/projects/img/9-page-9.jpg')" class = "img-responsive lazyload" width="100%" style="border-right: 10px solid #fff;border-bottom: 10px solid #fff;"/>
 </div>
 <div class="new-9-col col-md-6">
-<img :data-src="require('@/assets/projects/img/9-page-10.jpg')" class = "img-responsive lazyload" width="100%" style="border-bottom: 10px solid #fff;"/>
+<img :src="require('@/assets/projects/img/9-page-10.jpg')" class = "img-responsive lazyload" width="100%" style="border-bottom: 10px solid #fff;"/>
 </div>
 </div>
 <div class="row">
-<img :data-src="require('@/assets/projects/img/smbz_still19.jpg')" class = "img-responsive lazyload" width="100%"/>
+<img :src="require('@/assets/projects/img/smbz_still19.jpg')" class = "img-responsive lazyload" width="100%"/>
 </div>
 </section>
-<Footer next="steelbridge-labs-incubator-branding-web-design" ></Footer>
+<Footer prev="bbc-entertainment-HD-design-animation-tv" next="simply-ira-iralogix-branding-design-web" ></Footer>
 	</div>
 </template>
 

@@ -44,7 +44,7 @@
 </section>
 <section class="section-2-page-29 page-35">
   <div class="background">
-    <img :data-src="require('@/assets/projects/img/RD_still09.jpg')"  class="lazyload" alt="">
+    <img :src="require('@/assets/projects/img/RD_still09.jpg')"  class="lazyload" alt="">
     <h2>Photography</h2>
   </div>
 </section>
@@ -95,13 +95,13 @@
     </div>
   </section>
 <section class="full_width_image">
-  <img :data-src="require('@/assets/projects/img/RayDonovanS6_gif007.gif')" class="lazyload"  alt="">
+  <img :src="require('@/assets/projects/img/RayDonovanS6_gif007.gif')" class="lazyload"  alt="">
   <p class="the__gif__word">
     GIF
   </p>
 </section>
 <section class="full_width_image">
-  <img :data-src="require('@/assets/projects/img/RD_still04.jpg')" class="lazyload"  alt="">
+  <img :src="require('@/assets/projects/img/RD_still04.jpg')" class="lazyload"  alt="">
 </section>
 <section class="full_width_video video-wrapper">
   <video width="100%" height="auto" poster="@/assets/projects/img/35-video-cover.jpg" controls>
@@ -112,19 +112,19 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 multiple__image first">
-        <img :data-src="require('@/assets/projects/img/RD_still08.jpg')" class="lazyload"  alt="">
+        <img :src="require('@/assets/projects/img/RD_still08.jpg')" class="lazyload"  alt="">
       </div>
       <div class="col-lg-12 multiple__image" >
-        <img :data-src="require('@/assets/projects/img/RD_still06.jpg')"  class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/RD_still06.jpg')"  class="lazyload" alt="">
       </div>
       <div class="col-lg-12 multiple__image">
-        <img :data-src="require('@/assets/projects/img/RD_still05.jpg')" class="lazyload"  alt="">
+        <img :src="require('@/assets/projects/img/RD_still05.jpg')" class="lazyload"  alt="">
       </div>
     </div>
   </div>
 </section>
 <section class="full_width_image">
-  <img :data-src="require('@/assets/projects/img/RayDonovanS6_gif001.gif')"  class="lazyload"  alt="">
+  <img :src="require('@/assets/projects/img/RayDonovanS6_gif001.gif')"  class="lazyload"  alt="">
   <p class="the__gif__word">
     GIF
   </p>

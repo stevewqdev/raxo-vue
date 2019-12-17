@@ -7,7 +7,7 @@
       <div class="center-container">
         <div class="center-block">
           <h1 class="home-page-26-title light aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-              <img :data-src="require('@/assets/projects/img/33-logo.png')" class="lazyload" alt="">
+              <img :src="require('@/assets/projects/img/33-logo.png')" class="lazyload" alt="">
           </h1>
           <p class="banner-slogon-text">Branding &amp; Catalog Design</p>
         </div>
@@ -45,9 +45,9 @@
       </section>
     <section class="section-2-page-29">
       <div class="background">
-        <img  :data-src="require('@/assets/projects/img/33-bg-2.jpg')"   class="lazyload" alt="">
+        <img  :src="require('@/assets/projects/img/33-bg-2.jpg')"   class="lazyload" alt="">
       </div>
-      <img :data-src="require('@/assets/projects/img/33-branding2.png')"   alt="" class="lazyload image-text img-responsive aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+      <img :src="require('@/assets/projects/img/33-branding2.png')"   alt="" class="lazyload image-text img-responsive aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     <section class="section-6-page-29 page-33 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
         <div class="container">
@@ -74,7 +74,7 @@
                         
                       </div>
                       <div class="slider-img">
-                        <img :data-src="require('@/assets/projects/img/33-slider-1.jpg')" class="lazyload" alt="">
+                        <img :src="require('@/assets/projects/img/33-slider-1.jpg')" class="lazyload" alt="">
                       </div>
                     </div>
                   </div>
@@ -83,7 +83,7 @@
                       <div class="col-lg-4 left text-left aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
                           <span class="subtitle">
                             <p class="about-us text-left"><strong>COLOR</strong></p>
-                            <img :data-src="require('@/assets/projects/img/33-bottom-line.png')"  class="lazyload" alt="">
+                            <img :src="require('@/assets/projects/img/33-bottom-line.png')"  class="lazyload" alt="">
                           </span>
                           
                         </div>
@@ -99,7 +99,7 @@
                             <h3 style="padding-top: 80px">Brand Book</h3>
                           </div>
                           <div class="slider-img">
-                            <img :data-src="require('@/assets/projects/img/33-slider-2.jpg')" class="lazyload" alt="">
+                            <img :src="require('@/assets/projects/img/33-slider-2.jpg')" class="lazyload" alt="">
                           </div>
                         </div>
                       </div>
@@ -123,7 +123,7 @@
           </div>
     </section>
     <section class="section-15-page-29 page-33" style="position: relative;top: -1px;">
-        <img :data-src="require('@/assets/projects/img/33-awake-bg.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+        <img :src="require('@/assets/projects/img/33-awake-bg.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     <section class="section-15-page-29 page-33 section-15-33" style="position: relative;top: -2px;">
         <div class="container">
@@ -136,10 +136,10 @@
             </div>
           </div>
         </div>
-        <img :data-src="require('@/assets/projects/img/33-bg-3.jpg')"  alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+        <img :src="require('@/assets/projects/img/33-bg-3.jpg')"  alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     <section class="section-15-page-29 page-33" style="position: relative;top: -2px;">
-        <img :data-src="require('@/assets/projects/img/33-bg-4.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+        <img :src="require('@/assets/projects/img/33-bg-4.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     
     <section class="section-15-page-33 page-33" style="position: relative;top: -2px;">
@@ -149,7 +149,7 @@
               <h2 data-aos-duration="2000" data-aos="fade-right" class="aos-init aos-animate">Page Design</h2>
             </div>
             <div class="col-md-12 image-section">
-              <img :data-src="require('@/assets/projects/img/33-section-img.png')"  alt="" data-aos-duration="2000" data-aos="fade-left" class="lazyload aos-init aos-animate">
+              <img :src="require('@/assets/projects/img/33-section-img.png')"  alt="" data-aos-duration="2000" data-aos="fade-left" class="lazyload aos-init aos-animate">
             </div>
             <div class="col-md-12 col-md-6"></div>
             <div class="col-md-12 col-md-6 inf-col aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
@@ -160,10 +160,10 @@
         </div>
     </section>
     <section class="section-15-page-29 page-33" style="position: relative;top: -2px;">
-        <img :data-src="require('@/assets/projects/img/33-bg-5.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="">
+        <img :src="require('@/assets/projects/img/33-bg-5.jpg')" alt="" class="lazyload background aos-init aos-animate" data-aos-duration="2000" data-aos="">
     </section>
     <div class="clearfix"></div>
-    <Footer next="base" prev="allocate"></Footer>
+    <Footer next="coloredge-is-a-unique-media-company" prev="bbc-entertainment-london-calling-design"></Footer>
 	</div>
 </template>
 

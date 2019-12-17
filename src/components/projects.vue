@@ -1,11 +1,12 @@
 <template>
     <div :class="classInfo">
       <router-link :to="'/creative-work/'+url">
+        <!--
         <picture>
           <source :data-src="require('@/assets/project-thumbnails/'+image+'.webp')" :id="'eid-'+eid" class="webp__image" type="image/webp"> 
-          <source :data-src="require('@/assets/project-thumbnails/'+image+'.jpg')" type="image/jpeg"> 
-          <img :data-src="require('@/assets/project-thumbnails/'+image+'.jpg')" :data-webP="image" class="lazyload" />
-        </picture>
+          <source :data-src="require('@/assets/project-thumbnails/'+image+'.jpg')" type="image/jpeg">-->
+          <img :src="require('@/assets/project-thumbnails/'+image+'.jpg')" :data-webP="image"  />
+        <!--</picture>-->
         <div class="content__wrapper">
           <h3 >{{title}}</h3>
           <h5>{{info}}</h5>  
@@ -35,20 +36,19 @@ export default {
     eid: String, 
   },
   methods: {
-    swapForWebp(id) {
-        var theId = id;
-      setTimeout(function(){ 
-        var jpgData = document.querySelector('.webp__image').dataset;
-        var webData = jpgData.src.replace(/jpg/, 'webp'); 
-        document.getElementById(`eid-${theId}`).dataset.src = webData;
-      }, 3000);
-    } 
+    // swapForWebp(id) {
+    //     var theId = id;
+    //   setTimeout(function(){ 
+    //     var jpgData = document.querySelector('.webp__image').dataset;
+    //     var webData = jpgData.src.replace(/jpg/, 'webp'); 
+    //     document.getElementById(`eid-${theId}`).dataset.src = webData;
+    //   }, 3000);
+    // } 
   },
   created(){
     //this.swapForWebp(this.$props.eid);
   },
   mounted(){
-    AOS.init({disable: 'mobile',anchorPlacement: 'top-bottom',});
     
   }
 }

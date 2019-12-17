@@ -7,7 +7,7 @@
       <div class="center-container">
         <div class="center-block">
           <h1 class="home-page-26-title light">
-            <img :data-src="require('@/assets/projects/img/30-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" style="width: 300px;" class="lazyload aos-init aos-animate">
+            <img :src="require('@/assets/projects/img/30-logo.png')" alt="" data-aos-duration="2000" data-aos="fade-up" style="width: 300px;" class="lazyload aos-init aos-animate">
           </h1>
           <p class="banner-slogon-text">Website</p>
         </div>
@@ -16,9 +16,9 @@
     </div>
     <section class="section-2-page-29 page-30">
       <div class="background">
-        <img :data-src="require('@/assets/projects/img/30-box-2-bg.jpg')"  class="lazyload" alt="">
+        <img :src="require('@/assets/projects/img/30-box-2-bg.jpg')"  class="lazyload" alt="">
       </div>
-      <img :data-src="require('@/assets/projects/img/30-box-2-img.png')" alt="" class="lazyload image-text img-responsive aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
+      <img :src="require('@/assets/projects/img/30-box-2-img.png')" alt="" class="lazyload image-text img-responsive aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
     </section>
     <section class="section-3">
       <div class="cont-1 container">
@@ -60,7 +60,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-              <img :data-src="require('@/assets/projects/img/30-mac.png')" alt="" class="lazyload mac-img">
+              <img :src="require('@/assets/projects/img/30-mac.png')" alt="" class="lazyload mac-img">
           </div>
         </div>
     
@@ -69,7 +69,7 @@
     </section>
     <section class="section-2-page-29">
         <div class="background">
-          <img :data-src="require('@/assets/projects/img/30-box-4-bg.jpg')" class="lazyload" alt="">
+          <img :src="require('@/assets/projects/img/30-box-4-bg.jpg')" class="lazyload" alt="">
         </div>
       </section>
     <section class="section-5-page-28 page-30">
@@ -82,15 +82,15 @@
               
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left" style="padding: 0;">
-              <img :data-src="require('@/assets/projects/img/30-web-1.png')" alt="" class="lazyload website">
+              <img :src="require('@/assets/projects/img/30-web-1.png')" alt="" class="lazyload website">
             </div>
           </div>
           <div class="row row-two">
             <div class="col-sm-12 col-md-8 col-lg-8 left aos-init aos-animate" data-aos-duration="2000" data-aos="fade-right">
-              <img :data-src="require('@/assets/projects/img/30-web-2.png')" alt="" class="lazyload website">
+              <img :src="require('@/assets/projects/img/30-web-2.png')" alt="" class="lazyload website">
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-              <img :data-src="require('@/assets/projects/img/30-semicircle.png')" alt="" class="lazyload float-bar">
+              <img :src="require('@/assets/projects/img/30-semicircle.png')" alt="" class="lazyload float-bar">
             </div>
           </div>
           <div class="row row-three">
@@ -98,15 +98,15 @@
     
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-left">
-              <img :data-src="require('@/assets/projects/img/30-web-3.png')" alt="" class="lazyload website">
+              <img :src="require('@/assets/projects/img/30-web-3.png')" alt="" class="lazyload website">
             </div>
           </div>
         </div>
       </section>
     <section class="section-8-page-29 page-30 aos-init aos-animate" data-aos-duration="2000" data-aos="fade-up">
-      <img :data-src="require('@/assets/projects/img/30-box-end-bg.jpg')" alt="" class="lazyload background">
+      <img :src="require('@/assets/projects/img/30-box-end-bg.jpg')" alt="" class="lazyload background">
     </section>
-    <Footer next="rock-summer-is-an-initiative-started" prev="oracle-cloud-hero-marketing-design-web-development" ></Footer>	
+    <Footer next="base-develops-and-manages" prev="investigation-13-entertainment-design-animation" ></Footer>	
     <div class="clearfix"></div>
 	</div>
 </template>
