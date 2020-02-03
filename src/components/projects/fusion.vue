@@ -154,7 +154,7 @@
   </div>
 
 </section>
-<Footer prev="steelbridge-labs-incubator-branding-web-design" next="bbc-entertainment-london-calling-design" ></Footer>	
+<Footer prev="steelbridge-labs-incubator-branding-web-design" next="clearvuze" ></Footer>	
 	</div>
 </template>
 

@@ -22,7 +22,7 @@ export default new Router({
       component: Home,
     },
     {
-      path: "/work2",
+      path: "/work",
       name: "old-work",
       component: OldWork,
       meta: {
@@ -30,7 +30,7 @@ export default new Router({
       }
     },
     {
-      path: "/work",
+      path: "/work2",
       name: "work",
       component: Gallery,
       meta: {
@@ -231,6 +231,16 @@ export default new Router({
     {
       path: "/creative-work/lufthansa-creative-design-web-development",
       name: "lufthansa-creative-design-web-development",
+      component: CreativeWork
+    },
+    {
+      path: "/creative-work/repair-the-world",
+      name: "repair-the-world",
+      component: CreativeWork
+    },
+    {
+      path: "/creative-work/clearvuze",
+      name: "clearvuze",
       component: CreativeWork
     }
     // ================= End of Projects Routes =============== //

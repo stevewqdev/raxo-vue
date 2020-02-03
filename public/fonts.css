@@ -1,15 +1,5 @@
 @font-face {
     font-display: swap; /* or block, swap, fallback, optional */
-    font-family: 'DMarkPro';
-    src: url('fonts/DSLCLUMarkPro.eot')
-    src: url('fonts/DSLCLUMarkPro.eot?#iefix') format('embedded-opentype'),
-        url('fonts/DSLCLUMarkPro.woff') format('woff'),
-        url('fonts/DSLCLUMarkPro.ttf') format('truetype'),
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-display: swap; /* or block, swap, fallback, optional */
     font-family: 'MarkPro';
     src: url('fonts/MarkPro-Black.eot');
     src: url('fonts/MarkPro-Black.eot?#iefix') format('embedded-opentype'),

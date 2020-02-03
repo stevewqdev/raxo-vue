@@ -6,16 +6,16 @@
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="1" title="London Calling" url="bbc-entertainment-london-calling-design" image="london" info="Motion Graphics" classInfo="motion__graphics"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="200" eid="2" url="awake" title="Awake Graphics"  image="awake" info="Branding" classInfo="motion__graphics"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="300" eid="3" url="coloredge-is-a-unique-media-company"  title="Coloredge" image="ce" info="Design" classInfo="web"></Projects>
-            <!--<Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="4" title="Clearvuze" image="clearvuze" info="Web Design" classInfo="web"></Projects>-->
+                <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="4" title="Repair The World" image="RTW20" info="Systems Architecture" classInfo="web" url="repair-the-world"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="400" eid="5" title="Humanified" url="humanifed-branding-web-design-app-development" image="Thumbnails-Images-11" info="Web Design" classInfo="motion__graphics"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="6" title="Ray  Donovan" url="showtime" image="Thumbnails-Images-02" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="200" eid="7" url="smart-cities" title="Smart  Cities" image="Thumbnails-Images-09" info="Motion Graphics" classInfo="motion__graphics"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="300" eid="8" title="Ultra" image="ultra" url="ultra-music-animation-design-web-development" info="Motion Graphics" classInfo="design"></Projects>
+                <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="4" title="Clearvuze" image="clearvuze" info="Branding" classInfo="web" url="clearvuze"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="400" eid="9" title="The Adventures of Mina & Jack" url="bbc-entertainment-mina-jack-animation-design-tv" image="Thumbnails-Images-13" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="10" url="le-cordon-bleu-creative-design-web-development" title="Le Cordon Bleu"  image="Thumbnails-Images-12" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="200" eid="11" url="first-key-homes-strategy-design-web-development"  title="FirstKey" image="Thumbnails-Images-10" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="300" eid="12" title="City Cancer Challenge" url="city-cancer-challenge" image="Thumbnails Images-06" info="Web Design" classInfo="web"></Projects>
-            <!--<Projects class="the__project" data-aos="fade-up" data-aos-delay="400" eid="13" title="Engine Shop" url="engine-shop-branding-design-web-development" image="Thumbnails Images-04" info="Branding" classInfo="branding"></Projects>-->
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="400" eid="14" title="Pluto TV" url="pluto-tv-is-an-Internet-based-television" image="Thumbnails Images-07" info="Web Design" classInfo="web"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="100" eid="15" title="The Long Way Back" url="the-long-way-back-entertainment-design-animation" image="Thumbnails-mages-14" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="200" eid="16" title="Investigation 13" url="investigation-13-entertainment-design-animation" image="Thumbnails Images-15" info="Design" classInfo="design"></Projects>
@@ -41,6 +41,7 @@
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="200" eid="36" title="Allocate Rite" url="allocate" image="Thumbnails Images-35" info="Web Development" classInfo="web_dev"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="300" eid="37" title="Steelbridge Labs" url="steelbridge-labs-incubator-branding-web-design" image="Thumbnails Images-36" info="Design" classInfo="design"></Projects>
                 <Projects class="the__project" data-aos="fade-up" data-aos-delay="400" eid="38" title="Fusion Beauty" url="fusion-beauty-creative-packaging" image="Thumbnails Images-38" info="Strategy" classInfo="strategy"></Projects>
+
 
             </div>
         </section>

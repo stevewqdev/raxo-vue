@@ -8,6 +8,7 @@ module.exports = {
     // remove the prefetch plugin
     config.plugins.delete("prefetch");
   },
+  lintOnSave: false,
   css: {
     sourceMap: true
   },
