@@ -187,5 +187,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("City Cancer Challenge");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

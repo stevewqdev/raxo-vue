@@ -1,7 +1,7 @@
 <template>
   <div class="project__wrapper rtw-project">
-    <title>City Cancer Challenge</title>
-    <meta name="description" content="Our Work Portfolio - City Cancer Challenge. They came to Raxo for Web Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!">
+    <title>Repair the world</title>
+    <meta name="description" content="Our Work Portfolio - Repair the world. They came to Raxo for Web Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!">
     <div class="home-page dark-logo">
       <div class="home-page-29-overlay light"></div>
       <div class="center-container">
@@ -235,5 +235,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Repair the world | Design Strategy Web Development Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

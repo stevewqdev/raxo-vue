@@ -212,5 +212,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Le Cordon Bleu | Design Strategy Web Development Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

@@ -3415,6 +3415,25 @@ export default {
   mounted() {
     setTimeout(
       function() {
+        mixpanel.track("Raxo Professional Design Work Portfolio of Motion Graphics, Animation");
+        mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+            "referrer": document.referrer
+        });
+        // unique for work page
+        mixpanel.track_links("a.link_work", "Clicked project link", {
+          "referrer": document.referrer
+        });
+        mixpanel.track_links(".text-left a", "Clicked Previous project link", {
+            "referrer": document.referrer
+        });
+        mixpanel.track_links(".text-right a", "Clicked Next project link", {
+            "referrer": document.referrer
+        });    
+    }.bind(this),
+      1500
+    );
+    setTimeout(
+      function() {
         Scrollbar.init(document.getElementById("smoothie"), {});
 
         const scrollbar = Scrollbar.get(document.getElementById("smoothie"));

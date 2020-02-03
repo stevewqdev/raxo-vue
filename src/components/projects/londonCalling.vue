@@ -178,5 +178,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("London Calling | Animation Web Development Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

@@ -175,5 +175,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Awake designs and prints high-resolution");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

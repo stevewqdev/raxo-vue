@@ -3344,7 +3344,13 @@ export default {
       company: ""
     };
   },
-  mounted() {}
+  mounted() {
+    mixpanel.track("About Raxo - Web & Digital Design Agency NYC, Motion Graphics Company");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 };
 </script>
 <style scoped>

@@ -149,6 +149,14 @@ export default {
     };
   },
   mounted() {
+    mixpanel.init("1fdbe04a390e097c7f1dd5e21e592665");
+
+    mixpanel.track("Contact Creative Design Studio NYC - Raxo TV");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+
     // Check if form is submitted
     if (this.$route.query.submit) {
       document.querySelector(".step_one").style.display = "none";

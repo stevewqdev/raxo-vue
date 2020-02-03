@@ -288,5 +288,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Ultra Music | Design Animation Web Development Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

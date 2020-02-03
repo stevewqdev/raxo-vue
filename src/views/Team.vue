@@ -608,7 +608,13 @@
 <script>
 import AOS from "aos";
 export default {
-  mounted() {},
+  mounted() {
+    mixpanel.track("Meet Raxo Design Studio Team - Web Design, Development & Animation Experts");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  },
   created() {
     (function(i, s, o, g, r, a, m) {
       i["GoogleAnalyticsObject"] = r;

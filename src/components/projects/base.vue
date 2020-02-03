@@ -227,5 +227,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Base");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

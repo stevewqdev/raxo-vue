@@ -194,5 +194,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("First Key Homes | Design Web Development Strategy Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

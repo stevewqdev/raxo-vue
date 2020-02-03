@@ -133,5 +133,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Hugo Boss | Design Animation Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

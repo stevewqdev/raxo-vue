@@ -1,7 +1,7 @@
 <template>
 	<div class="project__wrapper clearvuze-project">
-    <title>Coloredge is a unique media company</title>
-<meta name="description" content="Our Work Portfolio - Coloredge - a unique media company. They came to Raxo for Branding, Marketing and Web Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!">
+    <title>Clearvuze</title>
+<meta name="description" content="Our Work Portfolio - Clearvuze - a unique media company. They came to Raxo for Branding, Marketing and Web Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!">
 	<div class="home-page dark-logo">
   <div class="home-page-28-overlay light"></div>
   <div class="center-container">
@@ -302,5 +302,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Clearvuze");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

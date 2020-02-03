@@ -40,7 +40,7 @@ export default {
   },
   watch: {
     $route() {
-      if (this.$route.includes("creative-work")) {
+      if (this.$route.name.includes("creative-work")) {
         document
           .getElementById("menuControlOpen")
           .classList.add("fixed__menu__button");

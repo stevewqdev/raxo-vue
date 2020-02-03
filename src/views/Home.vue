@@ -174,10 +174,26 @@ export default {
         }
       })();
     }
+
+    setTimeout(
+      function() {
+        mixpanel.track("Visited Homepage");
+        mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+          referrer: document.referrer
+        });
+        mixpanel.track_links(".white-meta a.slide-more", "Played homepage Reel", {
+          referrer: document.referrer
+        });
+        mixpanel.track_links(".white-meta a.slide-more", "Clicked homepage CS link", {
+          referrer: document.referrer
+        });
+      }.bind(this),
+      1500
+    );
+
   }
 };
 </script>
-
 <style>
 .section__wrapper.home {
   background: white;

@@ -311,6 +311,14 @@ export default {
     }
   },
   mounted() {
+
+    mixpanel.track("Raxo Professional Design Work Portfolio of Motion Graphics, Animation");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+
+
     document.querySelector(".loader__screen").style.display = "none";
 
     var logo = [...document.querySelectorAll(".logo")];

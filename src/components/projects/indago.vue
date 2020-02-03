@@ -122,5 +122,12 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Indago | Design Animation Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 

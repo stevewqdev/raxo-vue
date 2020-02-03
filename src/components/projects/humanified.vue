@@ -197,6 +197,13 @@ export default {
   components: {
     Footer,
   },
+  mounted () {
+    mixpanel.track("Humanified | Design Web Development Branding Strategy Work");
+
+    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+        "referrer": document.referrer
+    });
+  }
 }
 </script> 
 
