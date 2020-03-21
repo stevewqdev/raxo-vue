@@ -1,849 +1,5 @@
 <template>
   <div class="about__page page__component section__wrapper">
-    <title>
-      About Raxo - Web & Digital Design Agency NYC, Motion Graphics Company
-    </title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <meta
-      name="description"
-      content="Raxo is a prominent web & digital design agency in New York with a huge clientele that spreads includes Nationally & Internationally. Call motion graphics creator Call Raxo and get your motion graphics created today at 646-838-4583."
-    />
-    <meta
-      name="keyword"
-      content=" web design agency, creative web design, digital design agency, digital advertising agency, creative digital agency, motion graphics company"
-    />
-    <section class="about-section-1">
-      <div class="container">
-        <div class="about-row-1 row">
-          <div class="col-md-9">
-            <h1
-              style="color: #ffffff;"
-              data-aos="fade-up"
-              data-aos-delay="800"
-              class="about__title"
-            >
-              A small design studio big on culture
-            </h1>
-          </div>
-          <div class="col-md-12">
-            <h3
-              style=""
-              data-aos="fade-up"
-              data-aos-delay="850"
-              class="about__copy"
-            >
-              From New York City to Buenos Aires, our agency's team brings a
-              level of cultural understanding to your brand that you won’t find
-              anywhere else. Whether it’s branding for a startup or an
-              Emmy-worthy creative campaign for primetime TV, we’ve got you. Our
-              agency's expert creatives and strategists will bring your brand to
-              life using the passion and precision we’ve won lots of awards for
-              in design and creative. We know what’s coming, and we’ll take you
-              there. Let’s move the future together.
-            </h3>
-          </div>
-          <!--     <div class="col-md-6">
-                <center>
-                <div class = "about-big-circle"></div>
-                </center>
-            </div>-->
-        </div>
-      </div>
-    </section>
-    <section>
-      <div
-        class="container-fluid fondo1__wrapper"
-        data-aos="fade-up"
-        data-aos-delay="900"
-      >
-        <div class="col-md-12 fondo1 bgs"></div>
-      </div>
-    </section>
-    <section class="about-section-2">
-      <div class="container">
-        <h4 style="color:#fff" data-aos="fade-up" data-aos-delay="100">
-          SERVICES
-        </h4>
-      </div>
-      <div class="container-fluid">
-        <div class="about-row-1 row fondo2 bgs"></div>
-        <div class="about-row-1 row fondo3 bgs"></div>
-        <div class="about-row-1 row fondo4 bgs"></div>
-      </div>
-
-      <div class="container service-cols">
-        <div class="col-xs-12 col-md-4">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="200">Brand Identity</li>
-            <li data-aos="fade-up" data-aos-delay="300">Brand Guidelines</li>
-            <li data-aos="fade-up" data-aos-delay="400">Brand Mesaging</li>
-            <li data-aos="fade-up" data-aos-delay="500">Voice & Tone</li>
-            <li data-aos="fade-up" data-aos-delay="600">UX/UI Design</li>
-            <li data-aos="fade-up" data-aos-delay="700">
-              Mobile & App Development
-            </li>
-            <li data-aos="fade-up" data-aos-delay="800">
-              Web Design & Development
-            </li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="200">Research</li>
-            <li data-aos="fade-up" data-aos-delay="300">
-              Brand Strategy & Positioning
-            </li>
-            <li data-aos="fade-up" data-aos-delay="400">
-              Content Strategy & Creation
-            </li>
-            <li data-aos="fade-up" data-aos-delay="500">Digital Strategy</li>
-            <li data-aos="fade-up" data-aos-delay="600">Email Marketing</li>
-            <li data-aos="fade-up" data-aos-delay="700">SEO / SEM</li>
-            <li data-aos="fade-up" data-aos-delay="800">Social Media</li>
-          </ul>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="200">Motion Graphics</li>
-            <li data-aos="fade-up" data-aos-delay="300">Animation</li>
-            <li data-aos="fade-up" data-aos-delay="400">Title Sequences</li>
-            <li data-aos="fade-up" data-aos-delay="500">Character Design</li>
-            <li data-aos="fade-up" data-aos-delay="600">Ad Campaigns</li>
-            <li data-aos="fade-up" data-aos-delay="700">Copywriting</li>
-            <li data-aos="fade-up" data-aos-delay="800">Art Direction</li>
-            <li data-aos="fade-up" data-aos-delay="900">Video Production</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="container text-new" data-aos="fade-up" data-aos-delay="200">
-        <p>
-          Specializing in design, branding, motion graphics, and animation,
-          we’re a creative agency offering startups and entertainment companies
-          services that integrate design into every layer of your brand.
-        </p>
-      </div>
-    </section>
-    <section class="awards__section">
-      <div class="container awards__container">
-        <h4 class="about-head-text" data-aos="fade-up" data-aos-delay="200">
-          AWARDS
-        </h4>
-        <div class="about-row-2 row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-1">
-                <img
-                  :src="require('@/assets/team/img/darrow.png')"
-                  alt="logo"
-                  class="lazyload img-responsive"
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                />
-              </div>
-              <div
-                class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1"
-              >
-                <h3 data-aos="fade-up" data-aos-delay="300">
-                  Emmy&copy;<br />Awards
-                </h3>
-              </div>
-              <div class="col-md-2 col-xs-3">
-                <h1
-                  class="about-bar"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                >
-                  /
-                </h1>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <h1
-                  class="about-number"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  09
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-1">
-                <img
-                  :src="require('@/assets/team/img/darrow.png')"
-                  alt="logo"
-                  class="lazyload img-responsive"
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                />
-              </div>
-              <div
-                class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1"
-              >
-                <h3 data-aos="fade-up" data-aos-delay="200">Awwwards</h3>
-              </div>
-              <div class="col-md-2 col-xs-3">
-                <h1
-                  class="about-bar"
-                  data-aos="fade-right"
-                  data-aos-delay="200"
-                >
-                  /
-                </h1>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <h1
-                  class="about-number"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  03
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="about-row-3 row">
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-1 ">
-                <img
-                  :src="require('@/assets/team/img/darrow.png')"
-                  alt="logo"
-                  class="lazyload img-responsive"
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                />
-              </div>
-              <div
-                class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1"
-              >
-                <h3 data-aos="fade-up" data-aos-delay="400">
-                  Css Design<br />Awards
-                </h3>
-              </div>
-              <div class="col-md-2 col-xs-3">
-                <h1
-                  class="about-bar"
-                  data-aos="fade-right"
-                  data-aos-delay="300"
-                >
-                  /
-                </h1>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <h1
-                  class="about-number"
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                >
-                  04
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-1">
-                <img
-                  :src="require('@/assets/team/img/darrow.png')"
-                  alt="logo"
-                  class="lazyload img-responsive"
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                />
-              </div>
-              <div
-                class="about-cols-1 col-md-5 col-md-offset-0 col-xs-offset-1"
-              >
-                <h3 data-aos="fade-up" data-aos-delay="200">
-                  Promax<br />
-                  Dba
-                </h3>
-              </div>
-              <div class="col-md-2 col-xs-3">
-                <h1
-                  class="about-bar"
-                  data-aos="fade-right"
-                  data-aos-delay="400"
-                >
-                  /
-                </h1>
-              </div>
-              <div class="col-md-4 col-xs-6">
-                <h1
-                  class="about-number"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  01
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about-section-3">
-      <div class="container">
-        <h4 style="color:#fff" data-aos="fade-up" data-aos-delay="200">
-          SOME OF OUR CLIENTS
-        </h4>
-        <div class="about-row-4 first row">
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/bbc.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/bbc.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  :src="require('@/assets/team/img/bbc.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/hbo.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/hbo.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  :src="require('@/assets/team/img/hbo.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/coloredge.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/coloredge.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  :src="require('@/assets/team/img/coloredge.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/ultramusic.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/ultramusic.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  :src="require('@/assets/team/img/ultramusic.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/hilton.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/hilton.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                  :src="require('@/assets/team/img/hilton.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/starwood.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/starwood.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  :src="require('@/assets/team/img/starwood.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-        </div>
-        <div class="about-row-4 row">
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/cole-haan.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/cole-haan.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  :src="require('@/assets/team/img/cole-haan.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                  style="margin-top:20px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/oracle.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/oracle.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  :src="require('@/assets/team/img/oracle.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                  style="margin-top:15px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/sales-force.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/sales-force.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  :src="require('@/assets/team/img/sales-force.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/smartcities.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/smartcities.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  :src="require('@/assets/team/img/smartcities.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/showtime.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/showtime.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                  :src="require('@/assets/team/img/showtime.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/lecordonbleu.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/lecordonbleu.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  :src="require('@/assets/team/img/lecordonbleu.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-        </div>
-        <div class="about-row-5 row">
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/discovery-channel.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/discovery-channel.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  :src="require('@/assets/team/img/discovery-channel.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/univision.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/univision.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  :src="require('@/assets/team/img/univision.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/epson.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/epson.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  :src="require('@/assets/team/img/epson.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/benq.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/benq.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  :src="require('@/assets/team/img/benq.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/benq.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/benq.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                  :src="require('@/assets/team/img/adata.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/cebeebies.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/cebeebies.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  :src="require('@/assets/team/img/cebeebies.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-        </div>
-        <div class="about-row-5 row" style="margin-bottom: 40px;">
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/the-hal-guys.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/the-hal-guys.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  :src="require('@/assets/team/img/the-hal-guys.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/bbdo.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/bbdo.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  :src="require('@/assets/team/img/bbdo.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/ogi.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/ogi.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                  :src="require('@/assets/team/img/ogi.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/lufthansa.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/lufthansa.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  :src="require('@/assets/team/img/lufthansa.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/humanified.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/humanified.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="500"
-                  :src="require('@/assets/team/img/humanified.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-2">
-            <a href="#">
-              <picture>
-                <source
-                  :src="require('@/assets/team/img/new-york.webp')"
-                  type="image/webp"
-                />
-                <source
-                  :src="require('@/assets/team/img/new-york.png')"
-                  type="image/jpeg"
-                />
-                <img
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                  :src="require('@/assets/team/img/new-york.png')"
-                  alt="logo"
-                  class="lazyload about-logo img-responsive"
-                  width="100px;"
-                />
-              </picture>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-</template>
-<template>
-  <div class="about__page page__component section__wrapper">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -889,7 +45,28 @@
         data-aos="fade-up"
         data-aos-delay="900"
       >
-        <div class="col-md-12 fondo1 bgs" />
+        <picture style="width:100%;max-width: 1300px;">
+          <source
+            style="width:100%;max-width: 1300px;"
+            :src="require('@/assets/team/img/About-capavilities_white.webp')"
+            type="image/webp"
+          />
+          <source
+            style="width:100%;max-width: 1300px;"
+            :src="require('@/assets/team/img/About-capavilities_white.gif')"
+            type="image/gif"
+          />
+          <img
+            style="width:100%;max-width: 1300px;"
+            :src="require('@/assets/team/img/About-capavilities_white.gif')"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            alt="logo"
+            class="lazyload about-logo img-responsive"
+            width="100px;"
+          />
+        </picture>
+        <!--<div class="col-md-12 fondo1 bgs" />-->
       </div>
     </section>
     <section class="about-section-2">
@@ -899,7 +76,28 @@
         </h4>
       </div>
       <div class="container-fluid">
-        <div class="about-row-1 row fondo2 bgs" />
+        <!--<div class="about-row-1 row fondo2 bgs" />-->
+        <picture style="width:100%;max-width: 1300px;">
+          <source
+            style="width:100%;"
+            :src="require('@/assets/team/img/About-3Steps_Loop.webp')"
+            type="image/webp"
+          />
+          <source
+            style="width:100%;max-width: 1300px;"
+            :src="require('@/assets/team/img/About-3Steps_Loop.gif')"
+            type="image/gif"
+          />
+          <img
+            style="width:100%;max-width: 1300px;"
+            :src="require('@/assets/team/img/About-3Steps_Loop.gif')"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            alt="logo"
+            class="lazyload about-logo img-responsive"
+            width="100px;"
+          />
+        </picture>
         <div class="about-row-1 row fondo3 bgs" />
         <div class="about-row-1 row fondo4 bgs" />
       </div>
@@ -2317,10 +1515,10 @@ a.main-navigation-logo-img:hover {
 .main-navigation .main-inner-navigation ul > li > a.active {
   color: rgba(255, 255, 255, 0.55);
 }
-.reduce-height {
+/* .reduce-height {
   /*height: 110px!important; JLMA*/
   /*padding: 0 18px; JLMA*/
-}
+/*} */
 .reduce-height .main-inner-navigation ul li a {
   height: 55px !important;
   line-height: 55px !important;
@@ -2358,8 +1556,8 @@ a.main-navigation-logo-img:hover {
   -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
 }
-.main-inner-navigation ul > li:first-child > a {
-}
+/* .main-inner-navigation ul > li:first-child > a {
+} */
 .main-inner-navigation ul li a:hover,
 .main-inner-navigation ul li a.active {
   color: #fff;
@@ -3337,10 +2535,93 @@ div.caja span {
 }
 </style>
 <!-- start Mixpanel -->
-<script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+<script type="text/javascript">
+(function(c, a) {
+  if (!a.__SV) {
+    var b = window;
+    try {
+      var d,
+        m,
+        j,
+        k = b.location,
+        f = k.hash;
+      d = function(a, b) {
+        return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
+      };
+      f &&
+        d(f, "state") &&
+        ((j = JSON.parse(decodeURIComponent(d(f, "state")))),
+        "mpeditor" === j.action &&
+          (b.sessionStorage.setItem("_mpcehash", f),
+          history.replaceState(
+            j.desiredHash || "",
+            c.title,
+            k.pathname + k.search
+          )));
+    } catch (n) {}
+    var l, h;
+    window.mixpanel = a;
+    a._i = [];
+    a.init = function(b, d, g) {
+      function c(b, i) {
+        var a = i.split(".");
+        2 == a.length && ((b = b[a[0]]), (i = a[1]));
+        b[i] = function() {
+          b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      }
+      var e = a;
+      "undefined" !== typeof g ? (e = a[g] = []) : (g = "mixpanel");
+      e.people = e.people || [];
+      e.toString = function(b) {
+        var a = "mixpanel";
+        "mixpanel" !== g && (a += "." + g);
+        b || (a += " (stub)");
+        return a;
+      };
+      e.people.toString = function() {
+        return e.toString(1) + ".people (stub)";
+      };
+      l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+        " "
+      );
+      for (h = 0; h < l.length; h++) c(e, l[h]);
+      var f = "set set_once union unset remove delete".split(" ");
+      e.get_group = function() {
+        function a(c) {
+          b[c] = function() {
+            call2_args = arguments;
+            call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+            e.push([d, call2]);
+          };
+        }
+        for (
+          var b = {},
+            d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)),
+            c = 0;
+          c < f.length;
+          c++
+        )
+          a(f[c]);
+        return b;
+      };
+      a._i.push([b, d, g]);
+    };
+    a.__SV = 1.2;
+    b = c.createElement("script");
+    b.type = "text/javascript";
+    b.async = !0;
+    b.src =
+      "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+        ? MIXPANEL_CUSTOM_LIB_URL
+        : "file:" === c.location.protocol &&
+          "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+        ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"
+        : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+    d = c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b, d);
+  }
+})(document, window.mixpanel || []);
 mixpanel.init("1fdbe04a390e097c7f1dd5e21e592665");
 </script>
 <!-- end Mixpanel -->
@@ -3355,12 +2636,12 @@ export default {
   mounted() {
     setTimeout(
       function() {
-        mixpanel.track("About Raxo - Web & Digital Design Agency NYC, Motion Graphics Company");
+        mixpanel.track(
+          "About Raxo - Web & Digital Design Agency NYC, Motion Graphics Company"
+        );
         mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
-            "referrer": document.referrer
+          referrer: document.referrer
         });
-
-        
       }.bind(this),
       1500
     );
@@ -5003,6 +4284,7 @@ div.caja span {
   }
   .about-section-2 .container {
     width: 90% !important;
+    margin-top: 10px;
   }
 }
 </style>

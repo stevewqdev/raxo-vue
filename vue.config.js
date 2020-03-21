@@ -1,8 +1,8 @@
-const glob = require("glob-all");
-const path = require("path");
-const PurgecssPlugin = require("purgecss-webpack-plugin");
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const PrerenderSpaPlugin = require("prerender-spa-plugin");
+// const glob = require("glob-all");
+// const path = require("path");
+// const PurgecssPlugin = require("purgecss-webpack-plugin");
+// const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+// const PrerenderSpaPlugin = require("prerender-spa-plugin");
 const SitemapWebpackPlugin = require("sitemap-webpack-plugin").default;
 
 const paths = [
@@ -52,53 +52,60 @@ const paths = [
   "/creative-work/clearvuze"
 ];
 
+// module.exports = {
+//   productionSourceMap: false,
+//   chainWebpack: config => {
+//     // remove the prefetch plugin
+//     config.plugins.delete("prefetch");
+//   },
+//   configureWebpack: {
+// Merged into the final Webpack config
+//     plugins: [
+// new PurgecssPlugin({
+//   paths: glob.sync([
+//     path.join(__dirname, "./../src/index.html"),
+//     path.join(__dirname, "./../**/*.vue"),
+//     path.join(__dirname, "./../src/**/*.js")
+//   ])
+// }),
+//       new SitemapWebpackPlugin("https://raxo.tv", paths, {
+//         fileName: "map.xml",
+//         lastMod: true,
+//         changeFreq: "monthly",
+//         priority: "0.4"
+//       }),
+//       new OptimizeCssAssetsPlugin({
+//         assetNameRegExp: /\.optimize\.css$/g,
+//         cssProcessor: require("cssnano"),
+//         cssProcessorPluginOptions: {
+//           preset: ["default", { discardComments: { removeAll: true } }]
+//         },
+//         canPrint: true
+//       })
+// new PrerenderSpaPlugin(
+//   // Absolute path to compiled SPA
+//   path.join(__dirname, "."),
+//   // List of routes to prerender
+//   [
+//     "/",
+//     "/#/creative-work/bbc-entertainment-london-calling-design",
+//     "#/creative-work/humanifed-branding-web-design-app-development",
+//     "#/creative-work/showtime",
+//     "#/creative-work/coloredge-is-a-unique-media-company"
+//   ]
+// )
+//     ]
+//   },
+//   publicPath: "./"
+// };
+
+// Add this line:
+const CompressionPlugin = require("compression-webpack-plugin");
 module.exports = {
-  chainWebpack: config => {
-    // remove the prefetch plugin
+  chainWebpack(config) {
     config.plugins.delete("prefetch");
-  },
-  lintOnSave: false,
-  css: {
-    sourceMap: true
-  },
-  configureWebpack: {
-    // Merged into the final Webpack config
-    plugins: [
-      new PurgecssPlugin({
-        paths: glob.sync([
-          path.join(__dirname, "./../src/index.html"),
-          path.join(__dirname, "./../**/*.vue"),
-          path.join(__dirname, "./../src/**/*.js")
-        ])
-      }),
-      new SitemapWebpackPlugin("https://raxo.tv", paths, {
-        fileName: "map.xml",
-        lastMod: true,
-        changeFreq: "monthly",
-        priority: "0.4"
-      }),
-      new OptimizeCssAssetsPlugin({
-        assetNameRegExp: /\.optimize\.css$/g,
-        cssProcessor: require("cssnano"),
-        cssProcessorPluginOptions: {
-          preset: ["default", { discardComments: { removeAll: true } }]
-        },
-        canPrint: true
-      }),
-      new PrerenderSpaPlugin(
-        // Absolute path to compiled SPA
-        path.join(__dirname, "."),
-        // List of routes to prerender
-        [
-          "/",
-          "/#/creative-work/bbc-entertainment-london-calling-design",
-          "#/creative-work/humanifed-branding-web-design-app-development",
-          "#/creative-work/showtime",
-          "#/creative-work/coloredge-is-a-unique-media-company"
-        ]
-      )
-    ]
-  },
-  productionSourceMap: false,
-  publicPath: "./"
+
+    // and this line
+    config.plugin("CompressionPlugin").use(CompressionPlugin);
+  }
 };

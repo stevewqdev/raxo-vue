@@ -38,11 +38,21 @@
             data-aos-delay="100"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-1.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-1.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-1.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-1.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class=" team__mobile team-cols-2 col-xs-6 col-md-2"
@@ -50,11 +60,21 @@
             data-aos-delay="200"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-2.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-2.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-2.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-2.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">
@@ -69,11 +89,21 @@
             data-aos-delay="300"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-3.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-3.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-3.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-3.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
@@ -81,11 +111,21 @@
             data-aos-delay="400"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-4.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-4.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-4.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-4.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Oscar <br />Creative Director.</h4>
@@ -97,25 +137,43 @@
             data-aos-delay="500"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-5.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-5.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-5.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-5.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-6.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-6.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-6.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-6.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Joel<br />Art Director.</h4>
@@ -127,11 +185,21 @@
             data-aos-delay="200"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-7.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-7.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-7.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-7.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
@@ -139,11 +207,21 @@
             data-aos-delay="300"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-8.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-8.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-8.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-8.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">
@@ -158,11 +236,21 @@
             data-aos-delay="400"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-9.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-9.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-9.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-9.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
@@ -170,39 +258,67 @@
             data-aos-delay="500"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              :src="require('@/assets/team/img/team-10.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-10.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-10.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-10.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Suren<br />Account Director.</h4>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-1"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-11.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-11.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-11.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-11.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-12.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-12.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-12.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-12.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">
@@ -216,22 +332,42 @@
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-13.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-13.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-13.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-13.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-14.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-14.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-14.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-14.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Kayla <br />Producer.</h4>
@@ -242,25 +378,42 @@
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-15.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-15.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-15.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-15.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-16.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
-
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-16.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-16.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-16.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
             <div class="team-overlay">
               <h4 class="team-text-1">Marie<br />Content Manager.</h4>
             </div>
@@ -270,22 +423,42 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-17.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-17.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-17.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-17.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-18.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-18.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-18.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-18.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Kristi<br />Marketing Manager.</h4>
@@ -296,50 +469,88 @@
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-19.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-19.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-19.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-19.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-20.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-20.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-20.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-20.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Victoria<br />Content Manager.</h4>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-1"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-21.png')"
-              class="img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-21.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-21.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-21.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-22.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-22.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-22.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-22.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">
@@ -353,23 +564,42 @@
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-23.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-23.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-23.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-23.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-24.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
-
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-24.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-24.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-24.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
             <div class="team-overlay">
               <h4 class="team-text-1">Sarahi <br />Senior Designer.</h4>
             </div>
@@ -379,24 +609,42 @@
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-25.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-25.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-25.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-25.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-26.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-26.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-26.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-26.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Leo<br />Animator.</h4>
@@ -407,22 +655,42 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-27.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-27.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-27.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-27.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-28.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-28.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-28.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-28.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Maria Eugenia<br />Designer.</h4>
@@ -433,50 +701,88 @@
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-29.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-29.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-29.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-29.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-30.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-30.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-30.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-30.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Valentina<br />Designer.</h4>
             </div>
           </div>
-        </div>
-        <div class="row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-1"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-31.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-31.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-31.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-31.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-32.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-32.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-32.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-32.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">
@@ -490,22 +796,42 @@
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-33.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-33.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-33.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-33.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile team-cols-2 col-xs-6 col-md-2"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-34.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-34.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-34.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-34.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Carmen <br />Strategist.</h4>
@@ -516,24 +842,42 @@
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-35.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-35.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-35.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-35.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
-        </div>
-        <div class="row team-last-row">
           <div
             class="team__mobile col-xs-6 col-md-2 col-md-offset-1 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <img
-              :src="require('@/assets/team/img/team-36.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-36.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-36.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-36.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Dikla<br />Intern.</h4>
@@ -544,11 +888,21 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              :src="require('@/assets/team/img/team-37.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-37.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-37.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-37.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Victoria<br />Intern.</h4>
@@ -559,22 +913,42 @@
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img
-              :src="require('@/assets/team/img/team-38.png')"
-              class=" img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-38.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-38.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-38.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
           </div>
           <div
             class="team__mobile col-xs-6 col-md-2 team-cols-2"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <img
-              :src="require('@/assets/team/img/team-39.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-39.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-39.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-39.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Aurora<br />Copywriter.</h4>
@@ -585,16 +959,29 @@
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <img
-              :src="require('@/assets/team/img/team-40.png')"
-              class="team-img img-responsive"
-              alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
-            />
+            <picture>
+              <source
+                :src="require('@/assets/team/img/team-40.webp')"
+                type="image/webp"
+              />
+              <source
+                :src="require('@/assets/team/img/team-40.png')"
+                type="image/png"
+              />
+              <img
+                :src="require('@/assets/team/img/team-40.png')"
+                class="lazyload team-img img-responsive"
+                alt="Raxo Design Studio Team - Web Design, Development & Animation Experts"
+              />
+            </picture>
 
             <div class="team-overlay">
               <h4 class="team-text-1">Kevin<br />Intern.</h4>
             </div>
           </div>
+        
+      
+      
         </div>
       </div>
     </section>
@@ -606,10 +993,93 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.0.1/dist/bootstrap-vue.common.min.js"></script>
 <!-- start Mixpanel -->
-<script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
-0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+<script type="text/javascript">
+(function(c, a) {
+  if (!a.__SV) {
+    var b = window;
+    try {
+      var d,
+        m,
+        j,
+        k = b.location,
+        f = k.hash;
+      d = function(a, b) {
+        return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null;
+      };
+      f &&
+        d(f, "state") &&
+        ((j = JSON.parse(decodeURIComponent(d(f, "state")))),
+        "mpeditor" === j.action &&
+          (b.sessionStorage.setItem("_mpcehash", f),
+          history.replaceState(
+            j.desiredHash || "",
+            c.title,
+            k.pathname + k.search
+          )));
+    } catch (n) {}
+    var l, h;
+    window.mixpanel = a;
+    a._i = [];
+    a.init = function(b, d, g) {
+      function c(b, i) {
+        var a = i.split(".");
+        2 == a.length && ((b = b[a[0]]), (i = a[1]));
+        b[i] = function() {
+          b.push([i].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      }
+      var e = a;
+      "undefined" !== typeof g ? (e = a[g] = []) : (g = "mixpanel");
+      e.people = e.people || [];
+      e.toString = function(b) {
+        var a = "mixpanel";
+        "mixpanel" !== g && (a += "." + g);
+        b || (a += " (stub)");
+        return a;
+      };
+      e.people.toString = function() {
+        return e.toString(1) + ".people (stub)";
+      };
+      l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+        " "
+      );
+      for (h = 0; h < l.length; h++) c(e, l[h]);
+      var f = "set set_once union unset remove delete".split(" ");
+      e.get_group = function() {
+        function a(c) {
+          b[c] = function() {
+            call2_args = arguments;
+            call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+            e.push([d, call2]);
+          };
+        }
+        for (
+          var b = {},
+            d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)),
+            c = 0;
+          c < f.length;
+          c++
+        )
+          a(f[c]);
+        return b;
+      };
+      a._i.push([b, d, g]);
+    };
+    a.__SV = 1.2;
+    b = c.createElement("script");
+    b.type = "text/javascript";
+    b.async = !0;
+    b.src =
+      "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+        ? MIXPANEL_CUSTOM_LIB_URL
+        : "file:" === c.location.protocol &&
+          "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+        ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"
+        : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+    d = c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b, d);
+  }
+})(document, window.mixpanel || []);
 mixpanel.init("1fdbe04a390e097c7f1dd5e21e592665");
 </script>
 <!-- end Mixpanel -->
@@ -617,14 +1087,16 @@ mixpanel.init("1fdbe04a390e097c7f1dd5e21e592665");
 import AOS from "aos";
 export default {
   mounted() {
-            setTimeout(
+    setTimeout(
       function() {
-    mixpanel.track("Meet Raxo Design Studio Team - Web Design, Development & Animation Experts");
+        mixpanel.track(
+          "Meet Raxo Design Studio Team - Web Design, Development & Animation Experts"
+        );
 
-    mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
-        "referrer": document.referrer
-    });
-        }.bind(this),
+        mixpanel.track_links("#mySidenav a", "Clicked main menu link", {
+          referrer: document.referrer
+        });
+      }.bind(this),
       1500
     );
   },
