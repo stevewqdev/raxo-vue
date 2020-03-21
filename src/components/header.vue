@@ -26,7 +26,7 @@
         </div>
       </div>
 
-      <Sidenav :key="componentKey" />
+      <Sidenav />
     </div>
   </div>
 </template>

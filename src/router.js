@@ -11,22 +11,23 @@ import NotFound from "./views/NotFound.vue";
 //Import Projects
 import CreativeWork from "./views/Projects.vue";
 Vue.use(Router);
+import VueRouter from "vue-router";
 
-export default new Router({
+export default new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     { path: "*", component: NotFound },
     {
       path: "/",
       name: "home",
-      component: Home,
+      component: Home
     },
     {
       path: "/work",
       name: "old-work",
       component: OldWork,
       meta: {
-        title: "Raxo | Our Projects",
+        title: "Raxo | Our Projects"
       }
     },
     {
@@ -34,23 +35,23 @@ export default new Router({
       name: "work",
       component: Gallery,
       meta: {
-        title: "Raxo | Our Projects",
+        title: "Raxo | Our Projects"
       }
     },
     {
       path: "/contact",
       name: "contact",
-      component: Contact,
+      component: Contact
     },
     {
       path: "/team",
       name: "team",
-      component: Team,
+      component: Team
     },
     {
       path: "/about",
       name: "about",
-      component: About, 
+      component: About
     },
     // ================= Projects Routes =============== //
     {
@@ -243,6 +244,5 @@ export default new Router({
       name: "clearvuze",
       component: CreativeWork
     }
-    // ================= End of Projects Routes =============== //
   ]
 });

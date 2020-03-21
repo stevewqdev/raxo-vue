@@ -9,6 +9,11 @@
     <CustomCursor :key="componentKeyCursor" />
   </div>
 </template>
+
+<!-- Global site tag (gtag.js) - Google Ads: 667386387 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-667386387"></script> 
+<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-667386387'); </script>
+
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";

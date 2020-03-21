@@ -5,8 +5,6 @@ import axios from "axios";
 import VueAxios from "vue-axios";
 import "./registerServiceWorker";
 
-import AOS from "aos/dist/aos.css";
-
 Vue.use(VueAxios, axios);
 
 new Vue({

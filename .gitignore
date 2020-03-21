@@ -1,25 +1,7 @@
 .DS_Store
 node_modules
 /dist
-*.jpg
-*.gif
-*.webp
-*.png
-*.svg
-*.ico
-*.wmv
-*.mpg
-*.mpeg
-*.mp4
-*.mov
-*.flv
-*.avi
-*.ogv
-*.ogg
-*.webm
-*.wav
-*.mp3
-*.wma
+
 # local env files
 .env.local
 .env.*.local
