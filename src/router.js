@@ -1,13 +1,13 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Gallery from "./views/Gallery.vue";
+//import Gallery from "./views/Gallery.vue";
 import OldWork from "./views/OldWork.vue";
 import Contact from "./views/Contact.vue";
 import Home from "./views/Home.vue";
 import Team from "./views/Team.vue";
 import About from "./views/About.vue";
 import NotFound from "./views/NotFound.vue";
-import CreativeWork from "./views/Projects.vue";
+//import CreativeWork from "./views/Projects.vue";
 
 // const Gallery = () => import('./views/Gallery.vue')
 // const OldWork = () => import('./views/OldWork.vue')
@@ -16,7 +16,7 @@ import CreativeWork from "./views/Projects.vue";
 // const Team = () => import('./views/Team.vue')
 // const About = () => import('./views/About.vue')
 // const NotFound = () => import('./views/NotFound.vue')
-// const CreativeWork = () => import('./views/Projects.vue')
+const CreativeWork = () => import("./views/Projects.vue");
 
 Vue.use(Router);
 import VueRouter from "vue-router";
@@ -38,14 +38,14 @@ export default new VueRouter({
         title: "Raxo | Our Projects"
       }
     },
-    {
-      path: "/work2",
-      name: "work",
-      component: Gallery,
-      meta: {
-        title: "Raxo | Our Projects"
-      }
-    },
+    // {
+    //   path: "/work2",
+    //   name: "work",
+    //   component: Gallery,
+    //   meta: {
+    //     title: "Raxo | Our Projects"
+    //   }
+    // },
     {
       path: "/contact",
       name: "contact",
