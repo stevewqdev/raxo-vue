@@ -1,22 +1,22 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Gallery from "./views/Gallery.vue";
-import OldWork from "./views/OldWork.vue";
-import Contact from "./views/Contact.vue";
-import Home from "./views/Home.vue";
-import Team from "./views/Team.vue";
-import About from "./views/About.vue";
-import NotFound from "./views/NotFound.vue";
+// import Gallery from "./views/Gallery.vue";
+// import OldWork from "./views/OldWork.vue";
+// import Contact from "./views/Contact.vue";
+// import Home from "./views/Home.vue";
+// import Team from "./views/Team.vue";
+// import About from "./views/About.vue";
+// import NotFound from "./views/NotFound.vue";
 
 //Import Projects
-import CreativeWork from "./views/Projects.vue";
+// import CreativeWork from "./views/Projects.vue";
 
 Vue.use(Router);
 function lazyLoad(view) {
   return () => import(`@/views/${view}.vue`);
 }
 
-export default new VueRouter({
+export default new Router({
   base: process.env.BASE_URL,
   routes: [
     { path: "*", component: lazyLoad("NotFound") },
