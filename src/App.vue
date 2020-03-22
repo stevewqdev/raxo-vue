@@ -289,6 +289,8 @@ export default {
 </script>
 
 <style>
+
+
 @font-face {
   font-display: swap; /* or block, swap, fallback, optional */
   font-family: "MarkPro";

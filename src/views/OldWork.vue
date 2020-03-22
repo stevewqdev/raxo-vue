@@ -3368,23 +3368,24 @@ canvas {
 @media (max-width: 500px) {
   .work_list {
     padding: 30px;
-    top: 12.5vh;
+    top: 10.5vh;
+  }
+  #smoothie{
+    min-height: 100vh;
+    overflow: hidden;
   }
   .work_title {
     font-size: 20px;
   }
-  .scroll-content {
-    overflow: hidden;
-  }
+
+.work_title h3[data-v-1cce288e], .work_title span[data-v-1cce288e] {
+    font-size: 21px;
+    line-height: 2.375em;
+}
   .our__work__title {
     display: none;
   }
-  .work_list > div {
-    overflow: hidden;
-  }
-  .main {
-    overflow: hidden;
-  }
+
 }
 </style>
 
@@ -3458,11 +3459,116 @@ export default {
         mixpanel.track_links(".text-right a", "Clicked Next project link", {
             "referrer": document.referrer
         });    
+
+        if (window.innerWidth < 780) {
+           document.getElementsByClassName('floating-shadow')[0]
+        }
+        
     }.bind(this),
       1500
     );
     setTimeout(
       function() {
+        if (window.innerWidth < 780) {
+        Scrollbar.init(document.getElementById("smoothie"), {});
+
+        const scrollbar = Scrollbar.get(document.getElementById("smoothie"));
+
+        let topCenter = 0;
+        let mouse = 0;
+        let hoverSolution = 0;
+        let contH = 0;
+
+        const x = document.getElementById("lista").getBoundingClientRect();
+        (topCenter = x.top),
+          (contH = x.height),
+          document
+            .getElementById("lista")
+            .addEventListener("mousemove", function(t) {
+              mouse = t.clientY - topCenter;
+              const e =
+                $(".row_work")
+                  .parent()
+                  .height() - contH;
+
+              (this.transform = (-mouse * e) / contH),
+                TweenMax.to($(".row_work").parent(), 0.1, {
+                  y: 0
+                });
+            });
+
+        $(".work_list").scroll(function() {
+          const t = document.getElementById("lista").getBoundingClientRect()
+            .height;
+          const e = document
+            .getElementById("lista")
+            .getElementsByTagName("div")[0]
+            .getBoundingClientRect().height;
+          const total = document
+            .getElementById("lista")
+            .getElementsByTagName("div")[0].children.length;
+          const n =
+            ($(this).scrollTop() * ((t + window.innerHeight) / total)) / e;
+          hoverSolution = Math.ceil(n+4);
+          if (hoverSolution < total) {
+            $(".row_work")
+              .eq(hoverSolution)
+              .addClass("work_active");
+            if ($(".row_work").hasClass("work_active")) {
+              $(".row_work").removeClass("work_active");
+              $(".imagenes div").removeClass("hero_active");
+            }
+            // $(this).addClass('work_active');
+            $(".row_work")
+              .eq(hoverSolution)
+              .addClass("work_active");
+            $(".imagenes div.row_hero")
+              .eq(hoverSolution)
+              .addClass("hero_active");
+          }
+        });
+
+        $("#lista div .row_work").mouseenter(function() {
+          if ($(".row_work").hasClass("work_active")) {
+            $(".row_work").removeClass("work_active");
+            $(".imagenes div").removeClass("hero_active");
+          }
+          $(this).addClass("work_active");
+          $(".imagenes div.row_hero")
+            .eq($(this).index())
+            .addClass("hero_active");
+        });
+
+        // pointer_on
+        window.addEventListener("pageshow", function(event) {
+          const historyTraversal =
+            event.persisted ||
+            (typeof window.performance !== "undefined" &&
+              window.performance.navigation.type === 2);
+          if (historyTraversal) {
+            // Handle page restore.
+            window.location.reload();
+          }
+        });
+
+        $(".herobg").each(function(index, el) {
+          new Image().src = $(this)
+            .css("background-image")
+            .replace(/^url\(['"](.+)['"]\)/, "$1");
+        });
+
+        $(window).on("load", function() {
+          const tl = new TimelineMax({
+            // repeat: -1,
+            delay: 1
+          });
+        });
+
+        $(document).on("touch", ".link_work", function(e) {
+          e.preventDefault();
+        });
+        }
+        else{
         Scrollbar.init(document.getElementById("smoothie"), {});
 
         const scrollbar = Scrollbar.get(document.getElementById("smoothie"));
@@ -3623,6 +3729,8 @@ export default {
               "start"
             );
         });
+        }
+        
         function redirect(redirect) {
           location.href = redirect;
           //window.location.replace(redirect);
