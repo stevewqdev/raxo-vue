@@ -534,7 +534,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/LondonCalling.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/LondonCalling.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/LondonCalling.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -550,7 +559,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/33-media.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/33-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/33-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -565,7 +583,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/28-media.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/28-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/28-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -580,7 +607,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/RTW.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/RTW.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/RTW.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -595,7 +631,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Humanified.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Humanified.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Humanified.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -610,7 +655,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/35-media.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/35-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/35-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -625,7 +679,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/SmartCities.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SmartCities.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SmartCities.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -640,7 +703,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Ultra.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Ultra.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Ultra.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -655,7 +727,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/CVZ.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/CVZ.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/CVZ.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -671,7 +752,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/32-media.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/32-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/32-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -686,53 +776,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/29-media.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/30-media.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/31-media.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/creative-work/assets/img/34-media.png);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/29-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/29-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -748,7 +801,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Oracle.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/30-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/30-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -763,7 +825,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/HugoBoss.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/31-media.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/31-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -778,82 +849,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/FirstKeyHomes.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/TheDepartment.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/EngineShop.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Lufthansa.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/BBCEntertainment.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Yankees.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/34-media.png') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/34-media.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -869,7 +874,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/SERMO.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Oracle.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Oracle.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -884,7 +898,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Mina_Jack.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/HugoBoss.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/HugoBoss.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -899,7 +922,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/BBCHD.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/FirstKeyHomes.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/FirstKeyHomes.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -914,7 +946,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Cbeebies.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/TheDepartment.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/TheDepartment.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -929,7 +970,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/AllocateRite.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/EngineShop.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/EngineShop.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -944,7 +994,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/LCB.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Lufthansa.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Lufthansa.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -959,7 +1018,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/OnboardInformatics.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/BBCEntertainment.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/BBCEntertainment.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -974,112 +1042,16 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/TheLongWayBack.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Univision.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Sambazon.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/SteelbridgeLabs.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Simplyira.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/GlobalPress.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/INDAGO.jpg);"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row_hero">
-                <div class="amhero">
-                  <div data-slide="" class="hero_slide" style="">
-                    <div data-blu="" data-container="" class="hero_container">
-                      <div class="boxhero">
-                        <div
-                          data-image=""
-                          class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/Investigation13.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Yankees.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Yankees.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -1095,7 +1067,377 @@
                         <div
                           data-image=""
                           class="herobg"
-                          style="background-image: url(https://raxo.tv/assets/media-work/FusionBeauty.jpg);"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SERMO.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SERMO.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Mina_Jack.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Mina_Jack.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/BBCHD.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/BBCHD.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Cbeebies.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Cbeebies.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/AllocateRite.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/AllocateRite.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/LCB.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/LCB.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/OnboardInformatics.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/OnboardInformatics.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/TheLongWayBack.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/TheLongWayBack.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Univision.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Univision.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Sambazon.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Sambazon.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SteelbridgeLabs.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/SteelbridgeLabs.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Simplyira.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Simplyira.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/GlobalPress.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/GlobalPress.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/INDAGO.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/INDAGO.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Investigation13.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/Investigation13.webp') +
+                              ')'
+                          }"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row_hero">
+                <div class="amhero">
+                  <div data-slide="" class="hero_slide" style="">
+                    <div data-blu="" data-container="" class="hero_container">
+                      <div class="boxhero">
+                        <div
+                          data-image=""
+                          class="herobg"
+                          :style="{
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/FusionBeauty.jpg') +
+                              ')',
+                            backgroundImage:
+                              'url(' +
+                              require('@/assets/projects/project-old/img/FusionBeauty.webp') +
+                              ')'
+                          }"
                         ></div>
                       </div>
                     </div>
@@ -1144,11 +1486,11 @@ main {
   padding: 0 10px;
 }
 
-@media (min-width: 62em) {
+/* @media (min-width: 62em) {
   main {
-    /*padding: 0 80px JLMA*/
+    padding: 0 80px JLMA
   }
-}
+} */
 
 .wrapper {
   position: relative;
@@ -1521,10 +1863,10 @@ main {
   }
 }
 
-.work_title h3 {
-  /*    -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
-        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%) JLMA*/
-}
+/* .work_title h3 {
+     -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%) JLMA
+} */
 
 .no-cssclippathpolygon .work_title span {
   font-size: 0;
@@ -1547,13 +1889,13 @@ main {
   /*    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
         clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%) JLMA*/
 }
-
+/* 
 @media (min-width: 62em) {
   .work_title span {
-    /*        -webkit-transform: translate3d(5px, 0, 0);
-                transform: translate3d(5px, 0, 0) JLMA*/
+           -webkit-transform: translate3d(5px, 0, 0);
+                transform: translate3d(5px, 0, 0) JLMA
   }
-}
+} */
 
 ._3NJCeDaHsNcd5rm5g5_8EM_0 span {
   -webkit-transform: translateZ(0);
@@ -1888,7 +2230,7 @@ body {
   font-family: "BergenText-Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smooth: always;
+  /* font-smooth: always; */
 }
 
 a {
@@ -2315,7 +2657,7 @@ a.main-navigation-logo-img:hover {
 .main-inner-navigation {
   position: relative;
   display: inline-block;
-  float: right;
+  /* float: right; */
   margin-right: 25px;
 }
 .main-inner-navigation ul {
@@ -2346,8 +2688,8 @@ a.main-navigation-logo-img:hover {
   -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
   transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
 }
-.main-inner-navigation ul > li:first-child > a {
-}
+/* .main-inner-navigation ul > li:first-child > a {
+} */
 .main-inner-navigation ul li a:hover,
 .main-inner-navigation ul li a.active {
   color: #fff;
@@ -2405,8 +2747,8 @@ a.menu-link:active {
   z-index: 0;
 }
 .slide__image_lineal.two {
-  /*left: 50vw;*/
-  /*transform: translate(100%,70%)*/
+  left: 50vw;
+  transform: translate(100%, 70%);
 }
 .slide__image_donut {
   margin-top: 14vh;
@@ -2564,9 +2906,9 @@ a.menu-link:active {
   z-index: 1;
 }
 
-.swiper-container {
-  /*background-color: #fff;*/
-}
+/* .swiper-container {
+  background-color: #fff;
+} */
 .white {
   background-color: #fff;
 }

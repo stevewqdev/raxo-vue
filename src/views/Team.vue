@@ -979,9 +979,6 @@
               <h4 class="team-text-1">Kevin<br />Intern.</h4>
             </div>
           </div>
-        
-      
-      
         </div>
       </div>
     </section>
