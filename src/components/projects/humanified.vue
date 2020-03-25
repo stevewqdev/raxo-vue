@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Humanified | Design Web Development Branding Strategy Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Humanified | Design Web Development Branding Strategy Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Humanified. They came to Raxo for Design, Branding, Strategy and Web Development. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -360,12 +362,13 @@
 }
 </style>
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Humanified",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track(

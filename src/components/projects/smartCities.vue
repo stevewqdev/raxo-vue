@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Smart Cities | Design Web Development Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Smart Cities | Design Web Development Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Smart Cities. They came to Raxo for Design and Web Development. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -513,12 +515,13 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "SmartCities",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Smart Cities | Design Strategy Web Development Work");

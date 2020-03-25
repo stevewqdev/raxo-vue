@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Lufthansa | Design Web Development Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Lufthansa | Design Web Development Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Lufthansa - Largest German/European Airline. They came to Raxo for Design, Branding and Strategy. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -403,12 +405,13 @@
 </template>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Lufthansa",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Lufthansa | Design Web Development Work");

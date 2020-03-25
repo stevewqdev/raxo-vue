@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Pluto TV</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Pluto TV</title>
     <meta
       name="description"
       content="Our Work Portfolio - Pluto - Internet-based television platform. They came to Raxo for Web Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -236,12 +238,13 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Pluto",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Pluto TV | Design Strategy Web Development Work");

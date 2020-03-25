@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Oracle | Design Strategy Web Development Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Oracle | Design Strategy Web Development Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Oracle - American multinational computer technology corporation. They came to Raxo for Design, Strategy, and Web Development. We fulfilled their requirements within  a specific timeline. Contact us today at 646-838-4583!"
@@ -268,12 +270,13 @@
 </template>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Oracle",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Oracle | Design Strategy Web Development Work");

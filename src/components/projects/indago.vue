@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Indago | Design Animation Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Indago | Design Animation Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Indago. They came to Raxo for Design and Animation. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -189,12 +191,13 @@
 </template>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "HugoBoss",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Indago | Design Animation Work");

@@ -1,5 +1,8 @@
 <template>
-  <div class="project__wrapper">
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />
     <title>Steelbridge Labs | Design Branding Work</title>
     <meta
       name="description"
@@ -230,12 +233,13 @@
 </template>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "SteelBridge",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Steelbridge Labs | Design Strategy Web Development Work");

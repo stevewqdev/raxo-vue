@@ -1,5 +1,8 @@
 <template>
-  <div class="project__wrapper">
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />
     <title>Simply IRA | Design Branding Web Development Strategy Work</title>
     <meta
       name="description"
@@ -325,12 +328,13 @@ video#bgvid {
 ></script>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "SimplyIraIralogix",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Simply IRA | Design Strategy Web Development Work");

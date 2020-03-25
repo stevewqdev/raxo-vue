@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Quantgene</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Quantgene</title>
     <meta
       name="description"
       content="Our Work Portfolio - Quantgene. They came to Raxo for a Website. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -277,12 +279,13 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Quantgene",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Quantgene | Design Strategy Web Development Work");

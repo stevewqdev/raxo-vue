@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Rock Summer</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Rock Summer</title>
     <meta
       name="description"
       content="Our Work Portfolio - Rock Summer initiated by Rockefeller Center. They came to Raxo for Design. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -248,12 +250,13 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "RockSummer",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Rock Summer | Design Strategy Web Development Work");

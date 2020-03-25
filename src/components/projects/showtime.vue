@@ -1,6 +1,8 @@
 <template>
-	<div class="project__wrapper">
-    <title>Showtime</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Showtime</title>
 <meta name="description" content="Our Work Portfolio - Showtime. They came to Raxo for Photography. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!">
 		<div class="home-page dark-logo">
   <div class="home-page-29-overlay page-35 light"></div>
@@ -197,12 +199,13 @@
 </style>
 
 <script>
-import Footer from '../projects/template-parts/footer'
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "Showtime",
   components: {
     Footer,
+    Header
   },
   mounted () {
     mixpanel.track("Showtime | Design Strategy Web Development Work");

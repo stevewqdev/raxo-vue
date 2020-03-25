@@ -1,22 +1,52 @@
 import Vue from "vue";
 import Router from "vue-router";
-//import Gallery from "./views/Gallery.vue";
 import OldWork from "./views/OldWork.vue";
 import Contact from "./views/Contact.vue";
 import Home from "./views/Home.vue";
 import Team from "./views/Team.vue";
 import About from "./views/About.vue";
 import NotFound from "./views/NotFound.vue";
-//import CreativeWork from "./views/Projects.vue";
-
-// const Gallery = () => import('./views/Gallery.vue')
-// const OldWork = () => import('./views/OldWork.vue')
-// const Contact = () => import('./views/Contact.vue')
-// const Home = () => import('./views/Home.vue')
-// const Team = () => import('./views/Team.vue')
-// const About = () => import('./views/About.vue')
-// const NotFound = () => import('./views/NotFound.vue')
-const CreativeWork = () => import("./views/Projects.vue");
+// Projects Routes Called Async
+const Allocate = () => import("@/components/projects/allocate");
+const Awake = () => import("@/components/projects/awake");
+const SmartCities = () => import("@/components/projects/smartCities");
+const Humanified = () => import("@/components/projects/humanified");
+const Base = () => import("@/components/projects/base");
+const Ultra = () => import("@/components/projects/ultra-music");
+const LondonCalling = () => import("@/components/projects/londonCalling");
+const Showtime = () => import("@/components/projects/showtime");
+const BbcEntertainment = () => import("@/components/projects/bbcEntertainment");
+const Cbeebies = () => import("@/components/projects/cbeebies");
+const CityCancer = () => import("@/components/projects/cityCancer");
+const Coloredge = () => import("@/components/projects/coloredge");
+const Engine = () => import("@/components/projects/engine");
+const EntertainmentHd = () => import("@/components/projects/entertainmentHD");
+const EntertainmentMina = () =>
+  import("@/components/projects/entertainmentMina");
+const FirstKey = () => import("@/components/projects/firstKey");
+const Fusion = () => import("@/components/projects/fusion");
+const GlobalPress = () => import("@/components/projects/globalPress");
+const HugoBoss = () => import("@/components/projects/hugoBoss");
+const Indago = () => import("@/components/projects/indago");
+const LeCordonBleu = () => import("@/components/projects/leCordonBleu");
+const Lufthansa = () => import("@/components/projects/lufthansa");
+const Onboard = () => import("@/components/projects/onboard");
+const Oracle = () => import("@/components/projects/oracle");
+const Pluto = () => import("@/components/projects/pluto");
+const Quantgene = () => import("@/components/projects/quantgene");
+const RockSummer = () => import("@/components/projects/rockSummer");
+const Sambazon = () => import("@/components/projects/sambazon");
+const Sermo = () => import("@/components/projects/sermo");
+const SimplyIraIralogix = () =>
+  import("@/components/projects/simplyIraIralogix");
+const SteelBridge = () => import("@/components/projects/steelbridge");
+const theDepartment = () => import("@/components/projects/theDepartment");
+const theLongWay = () => import("@/components/projects/theLongWay");
+const Univision = () => import("@/components/projects/univision");
+const Yankees = () => import("@/components/projects/yankees");
+const Investigation = () => import("@/components/projects/investigation");
+const RTW = () => import("@/components/projects/repairTheWorld");
+const Clearvuze = () => import("@/components/projects/clearvuze");
 
 Vue.use(Router);
 import VueRouter from "vue-router";
@@ -65,192 +95,192 @@ export default new VueRouter({
     {
       path: "/creative-work/allocate",
       name: "allocate",
-      component: CreativeWork
+      component: Allocate
     },
     {
       path: "/creative-work/awake",
       name: "awake",
-      component: CreativeWork
+      component: Awake
     },
     {
       path: "/creative-work/smart-cities",
       name: "smart-cities",
-      component: CreativeWork
+      component: SmartCities
     },
     {
       path: "/creative-work/humanifed-branding-web-design-app-development",
       name: "humanifed-branding-web-design-app-development",
-      component: CreativeWork
+      component: Humanified
     },
     {
       path: "/creative-work/ultra-music-animation-design-web-development",
       name: "ultra-music-animation-design-web-development",
-      component: CreativeWork
+      component: Ultra
     },
     {
       path: "/creative-work/bbc-entertainment-london-calling-design",
       name: "bbc-entertainment-london-calling-design",
-      component: CreativeWork
+      component: LondonCalling
     },
     {
       path: "/creative-work/showtime",
       name: "showtime",
-      component: CreativeWork
+      component: Showtime
     },
     {
       path: "/creative-work/base-develops-and-manages",
       name: "base-develops-and-manages",
-      component: CreativeWork
+      component: Base
     },
     {
       path: "/creative-work/coloredge-is-a-unique-media-company",
       name: "coloredge-is-a-unique-media-company",
-      component: CreativeWork
+      component: Coloredge
     },
     {
       path: "/creative-work/city-cancer-challenge",
       name: "city-cancer-challenge",
-      component: CreativeWork
+      component: CityCancer
     },
     {
       path: "/creative-work/rock-summer-is-an-initiative-started",
       name: "rock-summer-is-an-initiative-started",
-      component: CreativeWork
+      component: RockSummer
     },
     {
       path: "/creative-work/pluto-tv-is-an-Internet-based-television",
       name: "pluto-tv-is-an-Internet-based-television",
-      component: CreativeWork
+      component: Pluto
     },
     {
       path: "/creative-work/oracle-cloud-hero-marketing-design-web-development",
       name: "oracle-cloud-hero-marketing-design-web-development",
-      component: CreativeWork
+      component: Oracle
     },
     {
       path: "/creative-work/hugo-boss-design-animation",
       name: "hugo-boss-design-animation",
-      component: CreativeWork
+      component: HugoBoss
     },
     {
       path: "/creative-work/first-key-homes-strategy-design-web-development",
       name: "first-key-homes-strategy-design-web-development",
-      component: CreativeWork
+      component: FirstKey
     },
     {
       path: "/creative-work/the-department-design-web-development",
       name: "the-department-design-web-development",
-      component: CreativeWork
+      component: theDepartment
     },
     {
       path: "/creative-work/engine-shop-branding-design-web-development",
       name: "engine-shop-branding-design-web-development",
-      component: CreativeWork
+      component: Engine
     },
     {
       path: "/creative-work/bbc-entertainment-design-animation-tv",
       name: "bbc-entertainment-design-animation-tv",
-      component: CreativeWork
+      component: BbcEntertainment
     },
     {
       path: "/creative-work/yankees-creative-design",
       name: "yankees-creative-design",
-      component: CreativeWork
+      component: Yankees
     },
     {
       path: "/creative-work/sermo-branding-design-web-development",
       name: "sermo-branding-design-web-development",
-      component: CreativeWork
+      component: Sermo
     },
     {
       path: "/creative-work/bbc-entertainment-mina-jack-animation-design-tv",
       name: "bbc-entertainment-mina-jack-animation-design-tv",
-      component: CreativeWork
+      component: EntertainmentMina
     },
     {
       path: "/creative-work/bbc-entertainment-HD-design-animation-tv",
       name: "bbc-entertainment-HD-design-animation-tv",
-      component: CreativeWork
+      component: EntertainmentHd
     },
     {
       path: "/creative-work/bbc-entertainment-cbeebies-creative",
       name: "bbc-entertainment-cbeebies-creative",
-      component: CreativeWork
+      component: Cbeebies
     },
     {
       path: "/creative-work/le-cordon-bleu-creative-design-web-development",
       name: "le-cordon-bleu-creative-design-web-development",
-      component: CreativeWork
+      component: LeCordonBleu
     },
     {
       path: "/creative-work/onboard-informatics-design-web-development",
       name: "onboard-informatics-design-web-development",
-      component: CreativeWork
+      component: Onboard
     },
     {
       path: "/creative-work/the-long-way-back-entertainment-design-animation",
       name: "the-long-way-back-entertainment-design-animation",
-      component: CreativeWork
+      component: theLongWay
     },
     {
       path: "/creative-work/univision-election-design-animation-tv",
       name: "univision-election-design-animation-tv",
-      component: CreativeWork
+      component: Univision
     },
     {
       path: "/creative-work/sambazon-design-animation",
       name: "sambazon-design-animation",
-      component: CreativeWork
+      component: Sambazon
     },
     {
       path: "/creative-work/steelbridge-labs-incubator-branding-web-design",
       name: "steelbridge-labs-incubator-branding-web-design",
-      component: CreativeWork
+      component: SteelBridge
     },
     {
       path: "/creative-work/simply-ira-iralogix-branding-design-web",
       name: "simply-ira-iralogix-branding-design-web",
-      component: CreativeWork
+      component: SimplyIraIralogix
     },
     {
       path: "/creative-work/global-press-design",
       name: "global-press-design",
-      component: CreativeWork
+      component: GlobalPress
     },
     {
       path: "/creative-work/indago-design-animation",
       name: "indago-design-animation",
-      component: CreativeWork
+      component: Indago
     },
     {
       path: "/creative-work/investigation-13-entertainment-design-animation",
       name: "investigation-13-entertainment-design-animation",
-      component: CreativeWork
+      component: Investigation
     },
     {
       path: "/creative-work/fusion-beauty-creative-packaging",
       name: "fusion-beauty-creative-packaging",
-      component: CreativeWork
+      component: Fusion
     },
     {
       path: "/creative-work/quantgene-is-a-cell-free-platform",
       name: "quantgene-is-a-cell-free-platform",
-      component: CreativeWork
+      component: Quantgene
     },
     {
       path: "/creative-work/lufthansa-creative-design-web-development",
       name: "lufthansa-creative-design-web-development",
-      component: CreativeWork
+      component: Lufthansa
     },
     {
       path: "/creative-work/repair-the-world",
       name: "repair-the-world",
-      component: CreativeWork
+      component: RTW
     },
     {
       path: "/creative-work/clearvuze",
       name: "clearvuze",
-      component: CreativeWork
+      component: Clearvuze
     }
   ]
 });

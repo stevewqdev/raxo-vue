@@ -1,5 +1,8 @@
 <template>
-  <div class="project__wrapper">
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />
     <title>Coloredge is a unique media company</title>
     <meta
       name="description"
@@ -349,12 +352,14 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 
 export default {
   name: "Coloredge",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Coloredge is a unique media company");

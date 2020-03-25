@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>First Key Homes | Design Web Development Strategy Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>First Key Homes | Design Web Development Strategy Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - First Key Homes. They came to Raxo for Design, Web Development and Strategy. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -354,12 +356,13 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "FirstKey",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("First Key Homes | Design Web Development Strategy Work");

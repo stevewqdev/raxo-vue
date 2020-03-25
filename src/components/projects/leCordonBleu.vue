@@ -1,6 +1,8 @@
 <template>
-  <div class="project__wrapper">
-    <title>Le Cordon Bleu | Design Strategy Web Development Work</title>
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />    <title>Le Cordon Bleu | Design Strategy Web Development Work</title>
     <meta
       name="description"
       content="Our Work Portfolio - Le Cordon Bleu. They came to Raxo for Design, Web Development and Strategy. We fulfilled their requirements within a specific timeline. Contact us today at 646-838-4583!"
@@ -515,12 +517,13 @@
 </template>
 
 <script>
-import Footer from "../projects/template-parts/footer";
-
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 export default {
   name: "LeCordonBleu",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("Le Cordon Bleu | Design Strategy Web Development Work");

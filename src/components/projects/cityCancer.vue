@@ -1,5 +1,8 @@
 <template>
-  <div class="project__wrapper">
+  <div
+    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+  >
+    <Header />
     <title>City Cancer Challenge</title>
     <meta
       name="description"
@@ -285,12 +288,14 @@
 </style>
 
 <script>
-import Footer from "../projects/template-parts/footer";
+const Footer = () => import("../projects/template-parts/footer");
+const Header = () => import("../projects/template-parts/header");
 
 export default {
   name: "CityCancer",
   components: {
-    Footer
+    Footer,
+    Header
   },
   mounted() {
     mixpanel.track("City Cancer Challenge");
