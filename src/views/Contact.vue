@@ -122,6 +122,11 @@
           <a href="mailto:hello@raxo.tv" class="title"
             ><h4 data-aos="fade-up" data-aos-delay="200">hello@raxo.tv</h4></a
           >
+          <a href="tel:(646)230-8013" class="title">
+            <h4 data-aos="fade-up" data-aos-delay="300">
+              (646) 230-8013
+            </h4>
+          </a>
           <br />
           <br />
           <p class="title" data-aos="fade-up" data-aos-delay="400">

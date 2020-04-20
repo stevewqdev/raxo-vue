@@ -1,6 +1,6 @@
 <template>
   <div
-    class="project__wrapper project__block project__component section__wrapper project__internal__page"
+    class="clearvuze-project project__wrapper project__block project__component section__wrapper project__internal__page"
   >
     <Header />
     <title>Clearvuze</title>
@@ -288,7 +288,7 @@
   z-index: 99;
 }
 .clearvuze-project .home-page-28-overlay {
-  background-image: unset;
+  background-image: unset!important;
   background-color: #3303f8;
 }
 .clearvuze-project .section-7-page-28 {
@@ -331,6 +331,9 @@
 .cv-new-section-two .col-lg-6 img {
   object-fit: cover;
   width: 100%;
+}
+.cv-new-section img{
+  height: 100%;
 }
 .clearvuze-project .two.section-8-page-28 h1 {
   color: #3303f8;
