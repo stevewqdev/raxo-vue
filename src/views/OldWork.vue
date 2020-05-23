@@ -538,10 +538,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/LondonCalling.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/LondonCalling.webp') +
                               ')'
                           }"
                         ></div>
@@ -563,10 +559,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/33-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/33-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -587,10 +579,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/28-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/28-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -611,10 +599,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/RTW.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/RTW.webp') +
                               ')'
                           }"
                         ></div>
@@ -635,10 +619,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Humanified.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Humanified.webp') +
                               ')'
                           }"
                         ></div>
@@ -659,10 +639,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/35-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/35-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -683,10 +659,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/SmartCities.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/SmartCities.webp') +
                               ')'
                           }"
                         ></div>
@@ -707,10 +679,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Ultra.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Ultra.webp') +
                               ')'
                           }"
                         ></div>
@@ -731,10 +699,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/CVZ.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/CVZ.webp') +
                               ')'
                           }"
                         ></div>
@@ -756,10 +720,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/32-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/32-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -780,10 +740,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/29-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/29-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -805,10 +761,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/30-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/30-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -829,10 +781,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/31-media.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/31-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -853,10 +801,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/34-media.png') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/34-media.webp') +
                               ')'
                           }"
                         ></div>
@@ -878,10 +822,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Oracle.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Oracle.webp') +
                               ')'
                           }"
                         ></div>
@@ -902,10 +842,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/HugoBoss.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/HugoBoss.webp') +
                               ')'
                           }"
                         ></div>
@@ -926,10 +862,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/FirstKeyHomes.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/FirstKeyHomes.webp') +
                               ')'
                           }"
                         ></div>
@@ -950,10 +882,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/TheDepartment.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/TheDepartment.webp') +
                               ')'
                           }"
                         ></div>
@@ -974,10 +902,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/EngineShop.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/EngineShop.webp') +
                               ')'
                           }"
                         ></div>
@@ -998,10 +922,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Lufthansa.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Lufthansa.webp') +
                               ')'
                           }"
                         ></div>
@@ -1022,10 +942,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/BBCEntertainment.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/BBCEntertainment.webp') +
                               ')'
                           }"
                         ></div>
@@ -1046,10 +962,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Yankees.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Yankees.webp') +
                               ')'
                           }"
                         ></div>
@@ -1071,10 +983,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/SERMO.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/SERMO.webp') +
                               ')'
                           }"
                         ></div>
@@ -1095,10 +1003,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Mina_Jack.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Mina_Jack.webp') +
                               ')'
                           }"
                         ></div>
@@ -1119,10 +1023,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/BBCHD.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/BBCHD.webp') +
                               ')'
                           }"
                         ></div>
@@ -1143,10 +1043,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Cbeebies.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Cbeebies.webp') +
                               ')'
                           }"
                         ></div>
@@ -1167,10 +1063,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/AllocateRite.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/AllocateRite.webp') +
                               ')'
                           }"
                         ></div>
@@ -1191,10 +1083,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/LCB.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/LCB.webp') +
                               ')'
                           }"
                         ></div>
@@ -1215,10 +1103,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/OnboardInformatics.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/OnboardInformatics.webp') +
                               ')'
                           }"
                         ></div>
@@ -1239,10 +1123,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/TheLongWayBack.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/TheLongWayBack.webp') +
                               ')'
                           }"
                         ></div>
@@ -1263,10 +1143,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Univision.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Univision.webp') +
                               ')'
                           }"
                         ></div>
@@ -1287,10 +1163,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Sambazon.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Sambazon.webp') +
                               ')'
                           }"
                         ></div>
@@ -1311,10 +1183,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/SteelbridgeLabs.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/SteelbridgeLabs.webp') +
                               ')'
                           }"
                         ></div>
@@ -1335,10 +1203,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Simplyira.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Simplyira.webp') +
                               ')'
                           }"
                         ></div>
@@ -1359,10 +1223,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/GlobalPress.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/GlobalPress.webp') +
                               ')'
                           }"
                         ></div>
@@ -1383,10 +1243,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/INDAGO.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/INDAGO.webp') +
                               ')'
                           }"
                         ></div>
@@ -1407,10 +1263,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/Investigation13.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/Investigation13.webp') +
                               ')'
                           }"
                         ></div>
@@ -1432,10 +1284,6 @@
                             backgroundImage:
                               'url(' +
                               require('@/assets/projects/project-old/img/FusionBeauty.jpg') +
-                              ')',
-                            backgroundImage:
-                              'url(' +
-                              require('@/assets/projects/project-old/img/FusionBeauty.webp') +
                               ')'
                           }"
                         ></div>
